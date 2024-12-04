@@ -1,0 +1,50 @@
+Término,Término_Normalizado,Categoría,Sentimiento,Comentarios,Candidato
+Claudia,Claudia,Candidata,Neutral,Nombre de la Candidata del partido MORENA,Claudia
+Sheimbaum,Claudia,Candidata,Neutral,Apellido de la Candidata del partido MORENA,Claudia
+AMLO,AMLO,Presidente,Neutral,Acrónimo del nombre del presidente Andrés Manuel López Obrador,Claudia
+Xóchitl,Xóchitl Gálvez,Candidata,Neutral,Candidata de oposición,Xochitl
+Maynez,Jorge Maynez,Candidato,Neutral,Candidato de Movimiento Ciudaddano,Maynez
+PRIAN,PRIAN,Partido Político,Negativo,Término usado como crítica a PRI y PAN,Xochitl
+PRI,PRI,Partido Político,Neutral,Partido de oposición (Partido de Revolución Institucional),Xochitl
+PAN,PAN,Partido Político,Neutral,Partido de oposición (Partido Acción Nacional),Xochitl
+PRD,PRD,Partido Político,Neutral,Partido de oposición (Partido Acción Nacional),Xochitl
+Naranja,naranja,Bandera,Positivo,Manera de apoyar al candidato Maynez,Maynez
+INE,INE,Institución,Neutral,Responsable del debate,Ninguno
+MORENA,MORENA,Partido Político,Neutral,Se refiere al partido gobernante,Claudia
+Plan C,PlanC,Poítica,Neutral,Plan que MORENA implementaría si obtiene el triunfo,Claudia
+4T,4T,Movimiento Político,Neutral,Mencionado en relación a Morena y Claudia,Claudia
+Anaya,Anaya,Político,Negativo,Anterior candidato a la presidencia Ricardo Anaya,Xochitl
+circo,aparentar,Frase,Negativo,Usado para denotar caos o desorganización,Ninguno
+narcopresidenta,narco presidenta,Frase,Negativo,Usado para referirse a Claudia,Claudia
+narcocandidata,narco presidenta,Frase,Negativo,Usado para referirse a Claudia,Claudia
+abrazos no balazos,abrazosnobalazos,Estrategia,Negativo,Crítica a la política de seguridad de AMLO,Claudia
+gelatinas,gelatinas,Apodo,Negativo,Manera de referirse a Xóchitl,Xochitl
+cartel inmobiliario,cartelinmobiliario,Concepto Político,Negativo,Mencionado en relación a la corrupción,Xochitl
+primero los pobres,primerolospobres,Política,Positivo,Lema asociado al gobierno de AMLO,Claudia
+botarga,botarga,apodo,negativo,apodo para xóchitl,Xochitl
+PRIANDILLA,PRIAN,Apodo/Partido Político,Negativo,Término despectivo para el PRIAN,Xochitl
+Calderón,Felipe Calderón,Candidato/Pasado,Negativo,Asociado a políticas polémicas de seguridad,Xochitl
+Fosfo,Fosfo Movimiento Ciudadano,Partido Político,Negativo,Usado irónicamente para el partido y sus líderes,Maynez
+Verástegui,José Eduardo Verástegui,Candidato,Neutral,Referencia a un candidato independiente,Ninguno
+Chilindrina,Chilindrina,Apodo,Negativo,Usado sarcásticamente hacia Xóchitl Gálvez,Xochitl
+candidata de las mentiras,Claudia,Candidata,Negativo,Crítica frecuente hacia Claudia,Claudia
+Chairo,Chairo,Apodo,Negativo,Despectivo hacia simpatizantes de Morena,Claudia
+Fifi,Fifi,Apodo,Negativo,Despectivo hacia simpatizantes de la oposición,Xochitl
+narco,Narco,Crítica,Negativo,Término usado para descalificar a algun partido,Ninguno
+Cabeza de algodón,amlo,Apodo,Positivo,Término usado para referirse de manera cariñosa a AMLO,Claudia
+cabecita de algodón,amlo,Apodo,Positivo,Término usado para referirse de manera cariñosa a AMLO,Claudia
+Pejelagarto,peje,Apodo,Negativo,Apodo usado para referirse a AMLO,Claudia
+peje,peje,Apodo,Negativo,Apodo usado para referirse a AMLO,Claudia
+PRIANRD,PRIAN,Partido Político,Negativo,Término usado como crítica a la oposición
+rosa,tsunamirosa,Estrategia Política,Positivo,Movimiento de apoyo a Xóchitl Gálvez,Xochitl
+narcoMorena,narco Morena,Apodo,Negativo,Usado para referirse a Morena de forma peyorativa,Claudia
+marea,marea rosa,Movimiento Político,Positivo,Referencia al apoyo popular a Xóchitl Gálvez,Xochitl
+NarcoCandidata,narco candidata,Apodo,Negativo,Despectivo para una candidata asociada a Morena,Claudia
+narcoPartido,narco partido,Apodo,Negativo,Referencia despectiva a Morena y sus aliados,Claudia
+4ta,4T,Movimiento Político,Neutral,Movimiento político liderado por Morena,Claudia
+lagartija,lagartija,Apodo,Negativo,Usado sarcásticamente para referirse a Claudia Sheinbaum,Claudia
+amloistas,amlo,Apodo,Neutral,Usado para referirse a los seguidores de AMLO,Claudia
+Narcoestado,narcoestado,Crítica,Negativo,Crítica hacia el gobierno vinculada al narcotráfico,Claudia
+Amlover,amlover,Apodo,positivo,Término usado para seguidores de AMLO,Claudia
+PREP,PREP,Siglas,Neutral,Referido como fuente de resultados preliminares,Ninguno
+Venezuela,Venezuela,Analogía,Negativo,Comparación despectiva sobre políticas,Claudia

@@ -1,0 +1,53 @@
+Término,Término_Normalizado,Categoría,Sentimiento,Comentarios,Candidato
+claudia,claudia,candidata,neutral,nombre de la candidata del partido morena,claudia
+sheimbaum,claudia,candidata,neutral,apellido de la candidata del partido morena,claudia
+amlo,amlo,presidente,neutral,acrónimo del nombre del presidente andrés manuel lópez obrador,claudia
+xóchitl,xóchitl gálvez,candidata,neutral,candidata de oposición,xochitl
+maynez,jorge maynez,candidato,neutral,candidato de movimiento ciudaddano,maynez
+prian,prian,partido político,negativo,término usado como crítica a pri y pan,xochitl
+pri,pri,partido político,neutral,partido de oposición (partido de revolución institucional),xochitl
+pan,pan,partido político,neutral,partido de oposición (partido acción nacional),xochitl
+prd,prd,partido político,neutral,partido de oposición (partido acción nacional),xochitl
+naranja,apoyo a Maynez,bandera,positivo,manera de apoyar al candidato maynez,maynez
+ine,ine,institución,neutral,responsable del debate,ninguno
+morena,morena,partido político,neutral,se refiere al partido gobernante,claudia
+plan c,planc,poítica,neutral,plan que morena implementaría si obtiene el triunfo,claudia
+4t,4t,movimiento político,neutral,mencionado en relación a morena y claudia,claudia
+anaya,anaya,político,negativo,anterior candidato a la presidencia ricardo anaya,xochitl
+circo,aparentar,frase,negativo,usado para denotar caos o desorganización,ninguno
+narcopresidenta,narco presidenta,frase,negativo,usado para referirse a claudia,claudia
+narcocandidata,narco presidenta,frase,negativo,usado para referirse a claudia,claudia
+abrazos no balazos,amlo tolera a los criminales,estrategia,negativo,crítica a la política de seguridad de amlo,claudia
+gelatinas,gelatinas,apodo,negativo,manera de referirse a xóchitl,xochitl
+cartel inmobiliario,el pan es corrupto,concepto político,negativo,mencionado en relación a la corrupción,xochitl
+primero los pobres,amlo apoya a los pobres,política,positivo,lema asociado al gobierno de amlo,claudia
+botarga,xochitl es una botarga,apodo,negativo,apodo para xóchitl,xochitl
+priandilla,el prian es una pandilla,apodo/partido político,negativo,término despectivo para el prian,xochitl
+calderón,felipe calderón,candidato/pasado,negativo,asociado a políticas polémicas de seguridad,xochitl
+fosfo,fosfo movimiento ciudadano,partido político,negativo,usado irónicamente para el partido y sus líderes,maynez
+verástegui,josé eduardo verástegui,candidato,neutral,referencia a un candidato independiente,ninguno
+chilindrina,xochitl es mala,apodo,negativo,usado sarcásticamente hacia xóchitl gálvez,xochitl
+candidata de las mentiras,claudia es mentirosa,candidata,negativo,crítica frecuente hacia claudia,claudia
+chairo,chairo,apodo,negativo,despectivo hacia simpatizantes de morena,claudia
+marea rosa,todos apoyamos a xochitl,movimiento político,positivo,movimiento a favor de xochitl,xochitl
+fifi,fifi,apodo,negativo,despectivo hacia simpatizantes de la oposición,xochitl
+narco,narco,crítica,negativo,término usado para descalificar a algun partido,ninguno
+cabeza de algodón,amlo fue bueno,apodo,positivo,término usado para referirse de manera cariñosa a amlo,claudia
+cabecita de algodón,amlo fue bueno,apodo,positivo,término usado para referirse de manera cariñosa a amlo,claudia
+pejelagarto,peje,apodo,negativo,apodo usado para referirse a amlo,claudia
+peje,peje,apodo,negativo,apodo usado para referirse a amlo,claudia
+prianrd,prian,partido político,negativo,término usado como crítica a la oposición,
+rosa,apoyo a xochitl,estrategia política,positivo,movimiento de apoyo a xóchitl gálvez,xochitl
+narcomorena,narco morena,apodo,negativo,usado para referirse a morena de forma peyorativa,claudia
+marea,apoyo a xochitl,movimiento político,positivo,referencia al apoyo popular a xóchitl gálvez,xochitl
+narcocandidata,claudia apoya a narcotraficantes,apodo,negativo,despectivo para una candidata asociada a morena,claudia
+narcopartido,claudia apoya a narcotraficantes,apodo,negativo,referencia despectiva a morena y sus aliados,claudia
+4ta,4t,movimiento político,neutral,movimiento político liderado por morena,claudia
+lagartija,claudia es una lagartija,apodo,negativo,usado sarcásticamente para referirse a claudia sheinbaum,claudia
+amloistas,amlo,apodo,neutral,usado para referirse a los seguidores de amlo,claudia
+narcoestado,amlo tiene un gobierno narcotraficante,crítica,negativo,crítica hacia el gobierno vinculada al narcotráfico,claudia
+amlover,aman a amlo,apodo,positivo,término usado para seguidores de amlo,claudia
+prep,prep,siglas,neutral,referido como fuente de resultados preliminares,ninguno
+venezuela,méxico irá mal,analogía,negativo,comparación despectiva sobre políticas,claudia
+chochil,xochitl tonta,apodo,negativo,deformación del nombre xóchitl,xochitl
+populismo,populismo,política,negativo,crítica a propuestas políticas,claudia
