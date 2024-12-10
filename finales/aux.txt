@@ -1,139 +1,3 @@
-Palabra,Nivel de Intensidad,Sentimiento Asociado,Categoría,Comentarios
-chairo,3,negativo,insulto,término despectivo contra votantes de izquierda
-fifi,3,negativo,insulto,término usado contra votantes de derecha
-asqueroso,4,negativo,adjetivo,término coloquial usado para describir desagrado.
-mamón,3,negativo,insulto,usado para descalificar.
-xd,1,neutral,jerga juvenil,expresión sarcástica de redes sociales.
-alv,3,negativo,jerga vulgar,expresión fuerte en redes sociales.
-gelatinera,4,negativo,apodo,se refiere despectivamente a un xóchitl.
-verga,4,negativo,jerga vulgar,expresión fuerte usada como exclamación.
-botarga,3,negativo,apodo,usado como burla hacia un político.
-guajolotera,3,negativo,insulto coloquial,usado para desacreditar a una xochitl.
-bla,2,negativo,jerga,expresión para denotar falta de contenido o propuestas.
-madrina,4,negativo,jerga,"usado como sinónimo de "golpiza" o derrota verbal
-jaladas,3,negativo,jerga,crítica a ideas o acciones consideradas absurdas.
-cartelones,2,negativo,metáfora,se refiere a carteles usados de manera inapropiada en debates.
-loca,3,negativo,insulto,usado para desacreditar a un candidato.
-payasadas,3,negativo,jerga,se refiere a actos ridículos o teatrales.
-arguenderas,4,negativo,jerga,despectivo hacia mujeres que discuten mucho.
-gelatinas,4,negativo,apodo,referencia despectiva hacia un candidato.
-surrada,4,negativo,jerga,insulto fuerte para criticar moral o antecedentes de alguien.
-ctm,4,negativo,abreviación,expresión coloquial vulgar.
-chingue,3,negativo,expresión de molestia,crítica intensa y repetitiva.
-frita,2,negativo,jerga,despectivo; implica que alguien ya está derrotado.
-mierda,3,negativo,expresión vulgar,reacción intensa hacia las opciones políticas.
-pendejo,4,negativo,insulto,generalmente dirigido a personas sin capacidad crítica
-payaso,2,negativo,jerga, expresión para referirse a alguien que es sarcástico
-pinocha,3,negativo,insulto,"modificación irónica para "mentirosa"
-mmd,3,negativo,insulto,"abreviatura de "mamada"
-caca,3,negativo,expresión coloquial,crítica agresiva en debates
-pancartitas,2,neutral,jerga,crítica a estrategias visuales en debates
-pedas,3,negativo,jerga,referencia a eventos de poco impacto o irrelevantes
-tranza,2,negativo,jerga,referente a un acto de corrupción
-whitexican,4,negativo,jerga,despectivo hacia clase privilegiada o aspiracional
-cagada,3,negativo,expresión coloquial,crítica agresiva durante debates
-chido,3,positivo,expresión,algo que es bueno
-cool,3,positivo,expresión,algo que es bueno
-pendejada,3,negativo,expresión coloquial,referencias a errores percibidos en debates.
-mamada,3,negativo,insulto,expresión utilizada para criticar discursos.
-chicharo,2,negativo,objeto,acusación de uso para recibir ayuda en debates.
-jodido,3,negativo,expresion,critica las limitaciones.
-mames,3,negativo,expresión,expresión de descontento
-mms,3,negativo,contracción,contracción de no mames
-chisme,2,negativo,expresión coloquial,crítica a la falta de contenido en los debates.
-pleito,2,negativo,jerga,comparación de debates con discusiones triviales.
-meco,3,negativo,insulto,descalificación a la juventud o falta de seriedad.
-vrg,4,negativo,jerga vulgar,"contracción de "verga"
-tontería,1,negativo,jerga,ligero insulto para calificar algo sin importancia.
-chingada,5,negativo,insulto,fuerte expresión de enojo o rechazo.
-mama,3,negativo,insulto,expresión vulgar y despectiva.
-madres,3,negativo,jerga,usado para intensificar una expresión.
-culo,4,negativo,insulto,fuerte expresión de confrontación.
-fachos,2,negativo,jerga,término peyorativo hacia personas de derecha.
-chingar,5,negativo,insulto,fuerte expresión de rechazo hacia morena.
-putito,4,negativo,insulto,término despectivo usado en redes sociales.
-chsm,5,negativo,insulto,fuerte insulto contra opositores políticos.
-ratas,3,negativo,jerga,usado para referirse a políticos corruptos.
-pinche,3,negativo,jerga,expresión común usada en tono despectivo.
-chsptm,5,negativo,insulto,abreviación ofensiva.
-chingón,2,positivo,jerga,término coloquial para describir algo o alguien excelente.
-cringe,1,negativo,jerga,expresión moderna para describir algo incómodo o vergonzoso.
-banda,1,neutral,jerga,referencia coloquial a un grupo de amigos o personas.
-bots,2,negativo,jerga,término usado para referirse a cuentas automatizadas o personas percibidas como falsas en redes sociales.
-naco,4,negativo,insulto,término despectivo para describir a alguien sin refinamiento
-hdp,5,negativo,insulto,abr. de hijo de puta
-berrinche,3,negativo,crítica hacia sectores,
-ardido,3,negativo,expresión coloquial,usada para referirse a opositores molestos.
-mexinzuela,5,negativo,apodo,referencia despectiva a una supuesta crisis en méxico.
-gay,5,negativo,insulto,expresión homofóbica ofensiva.
-payasita,4,negativo,insulto,crítica hacia la oposición.
-hambreado,4,negativo,jerga,usado peyorativamente para describir a personas percibidas como vulnerables.
-cabron,4,negativo,insulto,usado como grosería fuerte también puede ser coloquial en algunos contextos.
-idiota,3,negativo,insulto,crítica a la inteligencia de alguien.
-imbecil,4,negativo,Insulto,despectivo hacia alguien considerado incapaz.
-joto,5,negativo,Insulto homofóbico,usado para discriminar en contextos despectivos.
-carajo,2,negativo,exclamación,usado para resaltar el enojo conra algo
-maña,3,negativo,sinónimo,sinónimo de trampa
-mochitl,0,neutral,mala escritura,mala escritura del nombre xóchitl
-4ta,0,neutral,acronimo,acrónimo de 4ta transformación
-madre,3,negativo,insulto,insulto despectivo para ofender
-caño,2,negativo,expresion coloquial,manera de referirse a algo mal realizado
-buh,3,negativo,expresion,abucheo
-pedo,2,negativo,expresion coloquial,problema
-wooow,0,neutral,expresion,asombro
-cochitl0,0,neutral,mala escritura,mala escritura del nombre xóchitl
-pinche,3,negativo,insulto,adjetivo a una cosa o persona
-xocho,0,neutral,mala escritura,mala escritura del nombre xóchitl
-xochilt,0,neutral,mala escritura,mala escritura del nombre xóchitl
-xochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
-xochicles,3,negativo,mala escritura,mala escritura del nombre xóchitl
-xochilindrina,4,negativo,mala escritura,mala escritura del nombre xóchitl
-xoclil,0,neutral,mala escritura,mala escritura del nombre xóchitl
-xhochilt,0,neutral,mala escritura,mala escritura del nombre xóchitl
-chochil,0,neutral,mala escritura,mala escritura del nombre xóchitl
-mc,0,neutral,partido político,partido político de movimiento ciudadano
-4t,0,neutral,acronimo,acrónimo de 4ta transformación
-xichitl,0,neutral,mala escritura,mala escritura del nombre xóchitl
-pt,0,neutral,acronimo,acrónimo de partido del trabajo
-verde,0,neutral,acronimo,acrónimo de partido verde
-carajo,3,negativo,insulto,
-chochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
-cochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
-galvez,0,neutral,apellido,apellido de la candidata xóchitl
-cotchil,0,neutral,mala escritura,mala escritura del nombre xóchitl
-izquierda,0,neutral,facción política,facción que representa claudia
-derecha,0,neutral,facción política,facción que representa claudia
-pior,3,negativo,mala escritura,peor
-maines,0,neutral,mala escritura,mala escritura de maynez
-mainers,0,neutral,mala escritura,mala escritura de maynez
-Shochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
-shein,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheimbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheib,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheimbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheimbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheimbaun,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheinbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheinbawn,0,neutral,mala escritura,mala escritura del nombre xóchitl
-shembao,0,neutral,mala escritura,mala escritura del nombre xóchitl
-sheiumban,0,neutral,mala escritura,mala escritura del nombre xóchitl
-shemba,0,neutral,mala escritura,mala escritura del nombre xóchitl
-maines,0,neutral,mala escritura,mala escritura de maynez
-mainis,0,neutral,mala escritura,mala escritura de maynez
-maynes,0,neutral,mala escritura,mala escritura de maynez
-maynez,0,neutral,buena escritura,buena escritura de maynez
-pan,0,neutral,partido político,partido político de oposición
-pri,0,neutral,partido político,partido político de oposición
-prd,0,neutral,partido político,partido político de oposición
-prian,3,negativo,alianza de partidos políticos,acrónimo negativo de partidos de oposición
-prianrd,3,negativo,alianza de partidos políticos,acrónimo negativo de partidos de oposición
-prianrdmc,3,negativo,alianza de partidos políticos,acrónimo negativo de partidos de oposición
-sochil,0,neutral,mala escritura,mala escritura del nombre xóchitl
-morena,0,neutral,partido político,partido político representado por Claudia
-naranja,0,neutral,partido político,partido político representado por Maynez
-c,0,neutral,iniciativa política,iniciativa política apoyada por Claudia
-planc,0,neutral,iniciativa política,iniciativa política apoyada por Claudia
-fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #AHORA:,,,,
 #ATENCIÓN,,,,
 #Agenda2024,,,,
@@ -170,7 +34,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #EleccionesMx2024,,,,
 #EleccionesMéxico,,,,
 #EleccionesMéxico2024,,,,
-#EleccionesMéxico2024,,,,
+#EleccionesMéxico2024,,,,,
 #EleccionesMéxico2024.,,,,
 #EleccionesMéxico2024:,,,,
 #Eleccionesalmomento,,,,
@@ -193,7 +57,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #México,,,,
 #Nacional,,,,
 #Oaxaca,,,,
-#PAN,,,,
+#PAN,,,,,
 #PRIANCorrupto,,,,
 #PlanC,,,,
 #PlanC_YaEstáEnMarcha,,,,
@@ -231,7 +95,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #XoxhitlGálvezPresidente2024,,,,
 #XóchitlGálvezPresidenta,,,,
 #XóchitlGálvezPresidenta,,,,
-#XóchitlGálvezPresidenta,,,,
+#XóchitlGálvezPresidenta,,,,,
 #YaVoté,,,,
 #YoVotarePorXóchitl,,,,
 #YoVotaréPorXóchitl,,,,
@@ -257,9 +121,9 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #ÚltimaHora,,,,
 #Últimahora,,,,
 #𝐘𝐨𝐕𝐨𝐭é𝐏𝐨𝐫𝐗ó𝐜𝐡𝐢𝐭𝐥,,,,
-#ElecciónPresidencial,,,,
-#ElecciónPresidencial,,,,
-#ElecciónPresidencial,,,,
+10min,#ElecciónPresidencial,,,,
+16m,#ElecciónPresidencial,,,,
+1h,#ElecciónPresidencial,,,,
 📌#ATENCIÓN,,,,
 🔴#Mexico|,,,,
 🗳️#EleccionesMéxico2024:,,,,
@@ -316,7 +180,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #ArmentaGobernador,,,,
 #Azc4poTzalco,,,,
 #Azcapotzalco,,,,
-#BajaCalifornia,,,,
+#BajaCalifornia,,,,,
 #BloqueoReforma,,,,
 #Bloqueos,,,,
 #BonillaAlcaldeCUU,,,,
@@ -356,14 +220,14 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #ClaraBrugadaJefaDeGobierno,,,,
 #ClaraBrugadaJefaDeGobierno,,,,
 #ClaraJefaDeGobierno,,,,
-#ClaraJefaDeGobierno,,,,
+#ClaraJefaDeGobierno,,,,,
 #ClaraTriunfadora,,,,
 #Claudia,,,,
 #ClaudiaArrasa,,,,
 #ClaudiaArrasa,,,,
 #ClaudiaArrasará,,,,
 #ClaudiaArrasará,,,,
-#ClaudiaArrasará,,,,
+#ClaudiaArrasará,,,,,
 #ClaudiaArrazará,,,,
 #ClaudiaEsUnPeligroParaMx,,,,
 #ClaudiaEsUnPeligroParaMéxico,,,,
@@ -378,13 +242,13 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #ClaudiaPresidentaDeMéxico,,,,
 #ClaudiaPresidentaDeMéxico2024,,,,
 #ClaudiaPresidentaDeMéxico2024,,,,
-#ClaudiaPresidentaDeMéxico2024,,,,
+#ClaudiaPresidentaDeMéxico2024,,,,,
 #ClaudiaPresidentaDeMéxico2024.,,,,
 #ClaudiaPresidente2024,,,,
 #ClaudiaPrimeraPresidenta,,,,
 #ClaudiaSheimbaumPresidenta,,,,
 #ClaudiaSheinbaum,,,,
-#ClaudiaSheinbaum,,,,
+#ClaudiaSheinbaum,,,,,
 #ClaudiaSheinbaumPresidenta,,,,
 #ClaudiaSheinbaumPresidenta?,,,,
 #ClaudiaSheinbaumPresidentaDeMexico2024,,,,
@@ -396,7 +260,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #CochitlGalvez.,,,,
 #ComunicanteMX,,,,
 #CoracytNoticias,,,,
-#CortInformativo,,,,
+#CortInformativo,,,,,
 #Coyoacán,,,,
 #Cuajimalpa,,,,
 #CuartaTransformación,,,,
@@ -455,7 +319,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #EleccionesMéxico2024,,,,
 #EleccionesMéxico2024!,,,,
 #EleccionesMéxico2024,,,,
-#EleccionesMéxico2024,,,,
+#EleccionesMéxico2024,,,,,
 #EleccionesMéxico2024.,,,,
 #EleccionesMéxico2024.,,,,
 #EleccionesMéxico2024🇲🇽,,,,
@@ -474,10 +338,10 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #En2024Eliges,,,,
 #EnEquipoEsMejor,,,,
 #EnVivo!,,,,
-#EnVivo,,,,
+#EnVivo,,,,,
 #EncuestaDeSalida,,,,
 #EnfoqueElectoral2024,,,,
-#Ensenada,,,,
+#Ensenada,,,,,
 #Enterate,,,,
 #EsClaudia,,,,
 #EsClaudiaPresidenta2024,,,,
@@ -510,7 +374,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #FueraMorenaYLopez2024,,,,
 #Fueramorena,,,,
 #FuerzaYCorazonXMéxico,,,,
-#FuerzayCorazónporMéxico,,,,
+#FuerzayCorazónporMéxico,,,,,
 #FuncionarioDeCasilla,,,,
 #Fórmula1,,,,
 #GacetaMéxico,,,,
@@ -523,13 +387,13 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #GraciasPorTanto,,,,
 #GraciasPorTodo,,,,
 #Guanajuato,,,,
-#Guanajuato,,,,
+#Guanajuato,,,,,
 #Guerrero,,,,
 #HIDALGO,,,,
 #HalaMadrid,,,,
 #HastaEncontarles,,,,
 #HastaLaVictoria,,,,
-#HeraldoMuñoz,,,,
+#HeraldoMuñoz,,,,,
 #Houston,,,,
 #HoyGanaMexico,,,,
 #HoyVotoPorXóchitl,,,,
@@ -591,7 +455,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #MexicanosAlGritoDelVoto,,,,
 #Mexico,,,,
 #Mexico,,,,
-#Mexico,,,,
+#Mexico,,,,,
 #Mexico.,,,,
 #Mexico2024,,,,
 #MexicoCity,,,,
@@ -623,7 +487,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #Morelia,,,,
 #Morena,,,,
 #Morena,,,,
-#Morena,,,,
+#Morena,,,,,
 #MorenaAChingarASuMadre,,,,
 #MorenaDestruyendoMexico,,,,
 #MorenaVa,,,,
@@ -634,10 +498,10 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #MueraMorena,,,,
 #MxSinMiedo,,,,
 #MxSinMiedoYConX,,,,
-#Máynez,,,,
+#Máynez,,,,,
 #México,,,,
 #México,,,,
-#México,,,,
+#México,,,,,
 #México.,,,,
 #México2024,,,,
 #MéxicoreazuelaDelNorte,,,,
@@ -679,12 +543,12 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #Orgullosamentedel,,,,
 #PAN,,,,
 #PRD,,,,
-#PRD,,,,
+#PRD,,,,,
 #PREP,,,,
 #PREP,,,,
 #PREPAtizapándeZaragoza,,,,
 #PRI,,,,
-#PRI,,,,
+#PRI,,,,,
 #PRIANCorrupto,,,,
 #PRIANRD,,,,
 #PUEBLA,,,,
@@ -734,7 +598,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #Queretaro,,,,
 #Querérato,,,,
 #Querétaro,,,,
-#Querétaro,,,,
+#Querétaro,,,,,
 #Querétaro...,,,,
 #QuintanaRoo,,,,
 #QuintanaRoo.,,,,
@@ -756,7 +620,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #SantiagoTaboadaJefedeGobierno,,,,
 #SenadoraDelPueblo,,,,
 #SepaMasMx,,,,
-#Sheinbaum,,,,
+#Sheinbaum,,,,,
 #SheinbaumPresidenta,,,,
 #Shellroofingsolutions,,,,
 #SiNoVotasNoCuentas,,,,
@@ -777,14 +641,14 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #Televisa,,,,
 #Texas,,,,
 #Tijuana,,,,
-#Tijuana,,,,
+#Tijuana,,,,,
 #TikTok,,,,
 #TodoMORENA,,,,
 #TodoMorena,,,,
 #TodoMorena,,,,
 #TodosConAMLOySusReformas,,,,
 #Toluca,,,,
-#Toluca,,,,
+#Toluca,,,,,
 #TomaNota,,,,
 #TuVotoLoPuedeTodo.,,,,
 #TúDecides,,,,
@@ -817,8 +681,8 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #VotaMéxico2024,,,,
 #VotaMéxico2024,,,,
 #VotaParaBotarlos,,,,
-#VotaPorDesaparecidos,,,,
-#VotaPorMexico,,,,
+#VotaPorDesaparecidos,,,,,
+#VotaPorMexico,,,,,
 #VotaPorMéxico,,,,
 #VotaPorMéxico,,,,
 #VotaSinMiedo,,,,
@@ -906,7 +770,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #XochitlGálvezPresidenta2024,,,,
 #XochitlGálvezPresidenta24,,,,
 #XochitlGálvezPresidenta24,,,,
-#XochitlGálvezPresidenta24,,,,
+#XochitlGálvezPresidenta24,,,,,
 #XochitlGálvezPresidenta24.,,,,
 #XochitlGálvezPresidentadeMexico,,,,
 #XochitlGálvezPresidente,,,,
@@ -932,7 +796,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #Xóchitl,,,,
 #XóchitlGalvezPresidenta2024,,,,
 #XóchitlGálvez,,,,
-#XóchitlGálvez,,,,
+#XóchitlGálvez,,,,,
 #XóchitlGálvezPresidenta,,,,
 #XóchitlGálvezPresidenta,,,,
 #XóchitlGálvezPresidenta2024,,,,
@@ -942,7 +806,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #YaGanóXóchitl,,,,
 #YaSeVan,,,,
 #YaSeVan,,,,
-#YaSeVanHDSCHM,,,,
+#YaSeVanHDSCHM,,,,,
 #YaSeVanHDSPM,,,,
 #YaSeVanLosCorruptos,,,,
 #YaVoteXPlanC,,,,
@@ -970,7 +834,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #YoVotéPorPepe,,,,
 #YoVotéPorXochitl,,,,
 #YoVotéPorXochitl,,,,
-#YoVotéPorXochitl,,,,
+#YoVotéPorXochitl,,,,,
 #YoVotéPorXóchitl,,,,
 #YoVotéPorXóchitl,,,,
 #YoVotéPorXóchitl.,,,,
@@ -989,7 +853,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #YoyaVoteporXochitl,,,,
 #Yucatan,,,,
 #Yucatán,,,,
-#Yucatán,,,,
+#Yucatán,,,,,
 #YucatánDecide,,,,
 #Zurdos,,,,
 #amlo,,,,
@@ -998,7 +862,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #bicampeón,,,,
 #boleta,,,,
 #campeón,,,,
-#casilla,,,,
+#casilla,,,,,
 #casillas,,,,
 #casillasespeciales.,,,,
 #cdmx,,,,
@@ -1050,7 +914,7 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #niunvotoamorena,,,,
 #nonosdejaronvotar,,,,
 #ocoyucan,,,,
-#pan,,,,
+#pan,,,,,
 #patriota,,,,
 #planC,,,,
 #planc,,,,
@@ -1096,14 +960,14 @@ fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
 #yovotéporxochitl,,,,
 #yovotéporxóchitl,,,,
 #yovotéporxóchitl,,,,
-#yovotéporxóchitl,,,,
+#yovotéporxóchitl,,,,,
 #yovotétoño,,,,
 #yoyavoteporxochilt,,,,
 #ÚLTIMAHORA,,,,
 #𝐘𝐨𝐕𝐨𝐭é𝐏𝐨𝐫𝐗ó,,,,
 #𝐘𝐨𝐕𝐨𝐭é𝐏𝐨𝐫𝐗ó𝐜𝐡𝐢𝐭𝐥,,,,
 (#TiasPanistas),,,,
-#YoVotéPorXochitl,,,,
+Elizabeth,@_G0odGirl_,13min,#YoVotéPorXochitl,,,,
 transformación!🫰#EleccionesMéxico2024,,,,
 ✅#XochitlGálvezPresidenta,,,,
 🇲🇽#México🗳️,,,,
