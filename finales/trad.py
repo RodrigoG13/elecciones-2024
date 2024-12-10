@@ -9,6 +9,12 @@ import csv  # Importar el módulo csv para manejar el quoting en el CSV
 comentarios_df = pd.read_csv('comentarios_debates.csv')
 jerga_df = pd.read_csv('jergaN.csv')
 
+# Cargar sugerencias del usuario
+try:
+    sugerencias_usuario_df = pd.read_csv('sugerencias_usuario.csv')
+except FileNotFoundError:
+    sugerencias_usuario_df = pd.DataFrame(columns=['Palabra', 'Sugerencia'])
+
 # Inicializar la columna para comentarios editados si no existe
 if 'comentario_editado' not in comentarios_df.columns:
     comentarios_df['comentario_editado'] = ""
@@ -16,6 +22,10 @@ if 'comentario_editado' not in comentarios_df.columns:
 # Diccionario global para almacenar las decisiones del usuario
 decisiones_usuario = {}
 estado_actual = {"comentario_index": -1}  # Estado inicial (ningún comentario procesado)
+
+# Función para guardar sugerencias del usuario
+def guardar_sugerencias_usuario():
+    sugerencias_usuario_df.to_csv("sugerencias_usuario.csv", index=False, quoting=csv.QUOTE_ALL, encoding='utf-8')
 
 # Función que calcula la distancia de Levenshtein entre dos cadenas
 def distancia_levenshtein(s1, s2):
@@ -95,6 +105,39 @@ def obtener_comentario_siguiente():
         comentario_text.delete(1.0, tk.END)
         comentario_text.insert(tk.END, "Todos los comentarios han sido procesados.")
     guardar_estado_actual()  # Guardar el estado actual después de cambiar el comentario
+    
+
+# Función para mostrar las sugerencias en la interfaz
+def mostrar_sugerencias(sugerencias):
+    sugerencia_frame.pack(pady=10)
+    sugerencia_listbox.delete(0, tk.END)
+    for palabra in sugerencias:
+        sugerencia_listbox.insert(tk.END, palabra)
+    resultado_palabra.set(f"Sugerencias para '{palabra_a_traducir}':")
+    
+    
+# Función para reconstruir el comentario editado preservando la puntuación original
+def reconstruir_comentario_editado():
+    resultado = []
+    index_traduccion = 0
+    for token in comentario_original_palabras:
+        if re.match(r'\b\w+\b', token):
+            if index_traduccion < len(traduccion_completa):
+                resultado.append(traduccion_completa[index_traduccion])
+                index_traduccion += 1
+            else:
+                resultado.append(token)
+        else:
+            resultado.append(token)
+    # Unir los tokens considerando espacios y puntuación
+    comentario_editado = ''
+    for i, token in enumerate(resultado):
+        if i > 0 and re.match(r'\w', token) and re.match(r'\w', resultado[i-1]):
+            comentario_editado += ' ' + token
+        else:
+            comentario_editado += token
+    return comentario_editado
+
 
 # Función para procesar cada palabra
 def procesar_palabra():
@@ -139,15 +182,13 @@ def obtener_sugerencias(palabra):
         dist = distancia_levenshtein(palabra, palabra_jerga)
         if dist <= 1:
             sugerencias.append(palabra_jerga)
+    # Añadir sugerencias del usuario
+    for index, row in sugerencias_usuario_df.iterrows():
+        palabra_usuario = row['Palabra'].lower()
+        dist = distancia_levenshtein(palabra, palabra_usuario)
+        if dist <= 1:
+            sugerencias.append(row['Sugerencia'])
     return sugerencias
-
-# Función para mostrar las sugerencias en la interfaz
-def mostrar_sugerencias(sugerencias):
-    sugerencia_frame.pack(pady=10)
-    sugerencia_listbox.delete(0, tk.END)
-    for palabra in sugerencias:
-        sugerencia_listbox.insert(tk.END, palabra)
-    resultado_palabra.set(f"Sugerencias para '{palabra_a_traducir}':")
 
 # Aceptar una sugerencia
 def aceptar_sugerencia():
@@ -170,27 +211,14 @@ def rechazar_sugerencia():
 
     procesar_palabra()
 
-# Función para reconstruir el comentario editado preservando la puntuación original
-def reconstruir_comentario_editado():
-    resultado = []
-    index_traduccion = 0
-    for token in comentario_original_palabras:
-        if re.match(r'\b\w+\b', token):
-            if index_traduccion < len(traduccion_completa):
-                resultado.append(traduccion_completa[index_traduccion])
-                index_traduccion += 1
-            else:
-                resultado.append(token)
-        else:
-            resultado.append(token)
-    # Unir los tokens considerando espacios y puntuación
-    comentario_editado = ''
-    for i, token in enumerate(resultado):
-        if i > 0 and re.match(r'\w', token) and re.match(r'\w', resultado[i-1]):
-            comentario_editado += ' ' + token
-        else:
-            comentario_editado += token
-    return comentario_editado
+# Función para agregar una sugerencia personalizada
+def agregar_sugerencia_personalizada():
+    nueva_sugerencia = entrada_sugerencia.get()
+    if nueva_sugerencia:
+        sugerencias_usuario_df.loc[len(sugerencias_usuario_df)] = [palabra_a_traducir, nueva_sugerencia]
+        guardar_sugerencias_usuario()
+        sugerencia_listbox.insert(tk.END, nueva_sugerencia)
+        entrada_sugerencia.delete(0, tk.END)
 
 # Crear la ventana raíz de la interfaz gráfica
 root = tk.Tk()
@@ -235,6 +263,12 @@ sugerencia_label.pack(side=tk.TOP, pady=5)
 sugerencia_listbox = tk.Listbox(sugerencia_frame, font=('Arial', 14))
 sugerencia_listbox.pack(side=tk.TOP, padx=5, pady=5)
 
+entrada_sugerencia = tk.Entry(frame_derecho, font=('Arial', 14))
+entrada_sugerencia.pack(pady=5)
+
+agregar_sugerencia_btn = tk.Button(frame_derecho, text="Agregar Sugerencia", command=agregar_sugerencia_personalizada, font=('Arial', 14))
+agregar_sugerencia_btn.pack(pady=5)
+
 aceptar_btn = tk.Button(sugerencia_frame, text="Aceptar", command=aceptar_sugerencia, font=('Arial', 14))
 aceptar_btn.pack(side=tk.LEFT, padx=5, pady=5)
 
@@ -242,7 +276,7 @@ rechazar_btn = tk.Button(sugerencia_frame, text="Rechazar", command=rechazar_sug
 rechazar_btn.pack(side=tk.LEFT, padx=5, pady=5)
 
 # Botón para iniciar la traducción
-iniciar_btn = tk.Button(frame_izquierdo, text="Iniciar Revisión de Jerga", command=obtener_comentario_siguiente, font=('Arial', 14))
+iniciar_btn = tk.Button(frame_izquierdo, text="Iniciar Traducción", command=obtener_comentario_siguiente, font=('Arial', 14))
 iniciar_btn.pack(pady=10)
 
 # Cerrar la ventana y guardar las decisiones y el estado actual

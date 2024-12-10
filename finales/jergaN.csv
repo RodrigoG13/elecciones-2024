@@ -68,7 +68,69 @@ mexinzuela,5,negativo,apodo,referencia despectiva a una supuesta crisis en méxi
 gay,5,negativo,insulto,expresión homofóbica ofensiva.
 payasita,4,negativo,insulto,crítica hacia la oposición.
 hambreado,4,negativo,jerga,usado peyorativamente para describir a personas percibidas como vulnerables.
-cabron,4,Negativo,Insulto,Usado como grosería fuerte también puede ser coloquial en algunos contextos.
-idiota,3,Negativo,Insulto,Crítica a la inteligencia de alguien.
-imbecil,4,Negativo,Insulto,Despectivo hacia alguien considerado incapaz.
-joto,5,Negativo,Insulto homofóbico,Usado para discriminar en contextos despectivos.
+cabron,4,negativo,insulto,usado como grosería fuerte también puede ser coloquial en algunos contextos.
+idiota,3,negativo,insulto,crítica a la inteligencia de alguien.
+imbecil,4,negativo,Insulto,despectivo hacia alguien considerado incapaz.
+joto,5,negativo,Insulto homofóbico,usado para discriminar en contextos despectivos.
+carajo,2,negativo,exclamación,usado para resaltar el enojo conra algo
+maña,3,negativo,sinónimo,sinónimo de trampa
+mochitl,0,neutral,mala escritura,mala escritura del nombre xóchitl
+4ta,0,neutral,acronimo,acrónimo de 4ta transformación
+madre,3,negativo,insulto,insulto despectivo para ofender
+caño,2,negativo,expresion coloquial,manera de referirse a algo mal realizado
+buh,3,negativo,expresion,abucheo
+pedo,2,negativo,expresion coloquial,problema
+wooow,0,neutral,expresion,asombro
+cochitl0,0,neutral,mala escritura,mala escritura del nombre xóchitl
+pinche,3,negativo,insulto,adjetivo a una cosa o persona
+xocho,0,neutral,mala escritura,mala escritura del nombre xóchitl
+xochilt,0,neutral,mala escritura,mala escritura del nombre xóchitl
+xochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
+xochicles,3,negativo,mala escritura,mala escritura del nombre xóchitl
+xochilindrina,4,negativo,mala escritura,mala escritura del nombre xóchitl
+xoclil,0,neutral,mala escritura,mala escritura del nombre xóchitl
+xhochilt,0,neutral,mala escritura,mala escritura del nombre xóchitl
+chochil,0,neutral,mala escritura,mala escritura del nombre xóchitl
+mc,0,neutral,partido político,partido político de movimiento ciudadano
+4t,0,neutral,acronimo,acrónimo de 4ta transformación
+xichitl,0,neutral,mala escritura,mala escritura del nombre xóchitl
+pt,0,neutral,acronimo,acrónimo de partido del trabajo
+verde,0,neutral,acronimo,acrónimo de partido verde
+carajo,3,negativo,insulto,
+chochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
+cochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
+galvez,0,neutral,apellido,apellido de la candidata xóchitl
+cotchil,0,neutral,mala escritura,mala escritura del nombre xóchitl
+izquierda,0,neutral,facción política,facción que representa claudia
+derecha,0,neutral,facción política,facción que representa claudia
+pior,3,negativo,mala escritura,peor
+maines,0,neutral,mala escritura,mala escritura de maynez
+mainers,0,neutral,mala escritura,mala escritura de maynez
+Shochi,0,neutral,mala escritura,mala escritura del nombre xóchitl
+shein,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheimbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheib,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheimbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheimbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheimbaun,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheinbaum,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheinbawn,0,neutral,mala escritura,mala escritura del nombre xóchitl
+shembao,0,neutral,mala escritura,mala escritura del nombre xóchitl
+sheiumban,0,neutral,mala escritura,mala escritura del nombre xóchitl
+shemba,0,neutral,mala escritura,mala escritura del nombre xóchitl
+maines,0,neutral,mala escritura,mala escritura de maynez
+mainis,0,neutral,mala escritura,mala escritura de maynez
+maynes,0,neutral,mala escritura,mala escritura de maynez
+maynez,0,neutral,buena escritura,buena escritura de maynez
+pan,0,neutral,partido político,partido político de oposición
+pri,0,neutral,partido político,partido político de oposición
+prd,0,neutral,partido político,partido político de oposición
+prian,3,negativo,alianza de partidos políticos,acrónimo negativo de partidos de oposición
+prianrd,3,negativo,alianza de partidos políticos,acrónimo negativo de partidos de oposición
+prianrdmc,3,negativo,alianza de partidos políticos,acrónimo negativo de partidos de oposición
+sochil,0,neutral,mala escritura,mala escritura del nombre xóchitl
+morena,0,neutral,partido político,partido político representado por Claudia
+naranja,0,neutral,partido político,partido político representado por Maynez
+c,0,neutral,iniciativa política,iniciativa política apoyada por Claudia
+planc,0,neutral,iniciativa política,iniciativa política apoyada por Claudia
+fosfo,3,positivo,emblema político,emblema de la campaña de Maynez
