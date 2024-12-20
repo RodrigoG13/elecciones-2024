@@ -28,47 +28,79 @@ fuente_opcion = ("Helvetica", 12)
 # lista de candidatos
 CANDIDATOS = ["Xóchitl", "Claudia", "Maynez", "Ninguno"]
 
-# Primero verifica si existe un dataset etiquetado previo
-if os.path.exists("dataset_etiquetado3.csv"):
-    df = pd.read_csv("dataset_etiquetado3.csv", sep=",", quotechar='"', encoding="utf-8", dtype=str)
+# Número de comentarios a etiquetar
+N_COMENTARIOS = 100
+
+# Archivos
+ORIGINAL_FILE = "horaHora_diaEleccionN.csv"
+PARA_ETIQUETAR_FILE = "dataset_para_etiquetar.csv"
+SIN_ETIQUETAR_FILE = "dataset_sin_etiquetar.csv"
+INDICES_FILE = "indices_seleccionados.txt"
+ETIQUETADO_FILE = "dataset_etiquetado3.csv"
+PROGRESO_FILE = "progreso.txt"
+
+# Verificar si existe progreso previo
+if os.path.exists(ETIQUETADO_FILE):
+    # Cargar dataset etiquetado
+    df_para_etiquetar = pd.read_csv(ETIQUETADO_FILE, sep=",", quotechar='"', encoding="utf-8", dtype=str)
 else:
-    # Carga dataset original
-    df = pd.read_csv("horaHora_diaEleccionN.csv", sep=",", quotechar='"', encoding="utf-8", dtype=str)
+    # Primera ejecución: seleccionar N comentarios aleatorios
+    if not os.path.exists(INDICES_FILE):
+        # Cargar dataset original
+        df = pd.read_csv(ORIGINAL_FILE, sep=",", quotechar='"', encoding="utf-8", dtype=str)
 
-# verificar existencia de columna comentario_editado
-if "comentario_editado" not in df.columns:
-    raise ValueError("La columna 'comentario_editado' no existe en el dataset.")
+        # Verificar existencia de columna comentario_editado
+        if "comentario_editado" not in df.columns:
+            raise ValueError("La columna 'comentario_editado' no existe en el dataset.")
 
-# crear columnas para etiquetas si no existen
-for c in CANDIDATOS:
-    if c not in df.columns:
-        df[c] = None
+        # Seleccionar N índices aleatorios
+        indices_seleccionados = np.random.choice(df.index, N_COMENTARIOS, replace=False)
+        
+        # Guardar los índices seleccionados en un archivo
+        with open(INDICES_FILE, "w") as file:
+            for idx in indices_seleccionados:
+                file.write(f"{idx}\n")
 
-# índice del comentario actual
-if os.path.exists("progreso.txt"):
-    with open("progreso.txt", "r") as file:
+        # Dividir el dataset
+        df_para_etiquetar = df.loc[indices_seleccionados].reset_index(drop=True)
+        df_para_etiquetar.to_csv(PARA_ETIQUETAR_FILE, index=False, quoting=1)
+    else:
+        # Cargar el dataset de comentarios para etiquetar
+        df_para_etiquetar = pd.read_csv(PARA_ETIQUETAR_FILE, sep=",", quotechar='"', encoding="utf-8", dtype=str)
+
+    # Agregar columnas de etiquetas si no existen
+    for c in CANDIDATOS:
+        if c not in df_para_etiquetar.columns:
+            df_para_etiquetar[c] = None
+
+    # Guardar el archivo inicial
+    df_para_etiquetar.to_csv(ETIQUETADO_FILE, index=False, quoting=1)
+
+# Índice del comentario actual
+if os.path.exists(PROGRESO_FILE):
+    with open(PROGRESO_FILE, "r") as file:
         idx = int(file.read().strip())
 else:
     idx = 0
 
-total = len(df)
+total = len(df_para_etiquetar)
 
 def guardar_progreso():
     global idx
-    with open("progreso.txt", "w") as file:
+    with open(PROGRESO_FILE, "w") as file:
         file.write(str(idx))
 
 def mostrar_comentario():
-    comentario = df.loc[idx, "comentario_editado"]
-    label_indicador.config(text=f"comentario {idx+1} de {total}")
+    comentario = df_para_etiquetar.loc[idx, "comentario_editado"]
+    label_indicador.config(text=f"Comentario {idx+1} de {total}")
     label_comentario.config(text=comentario)
 
     # Ajustar los radiobuttons según el valor guardado
     for cand in CANDIDATOS:
-        valor = df.loc[idx, cand]
+        valor = df_para_etiquetar.loc[idx, cand]
         if valor is None or pd.isna(valor):
             valor = "neutral"  # valor por defecto
-        # si los valores no están normalizados, normalizar
+        # Normalizar valores
         if str(valor) in ["-1", "-1.0"]:
             valor = "negativa"
         elif str(valor) in ["1", "1.0"]:
@@ -79,31 +111,30 @@ def mostrar_comentario():
 
 def guardar_etiqueta_y_siguiente():
     global idx
-    # guardar etiquetas usando mapping
-    # -1 = negativa, 0 = neutral, 1 = positiva
+    # Guardar etiquetas
     mapping = {"negativa": -1, "neutral": 0, "positiva": 1}
     for cand in CANDIDATOS:
-        df.loc[idx, cand] = mapping[radio_vars[cand].get()]
+        df_para_etiquetar.loc[idx, cand] = mapping[radio_vars[cand].get()]
 
-    df.to_csv("dataset_etiquetado3.csv", index=False, quoting=1)
+    df_para_etiquetar.to_csv(ETIQUETADO_FILE, index=False, quoting=1)
     guardar_progreso()
 
-    label_feedback.config(text="etiqueta guardada. pasando al siguiente...", fg="#4a4a4a")
+    label_feedback.config(text="Etiqueta guardada. Pasando al siguiente...", fg="#4a4a4a")
     root.after(800, limpiar_feedback)
 
     if idx < total - 1:
         idx += 1
         mostrar_comentario()
     else:
-        messagebox.showinfo("fin", "has etiquetado todos los comentarios. presiona 'finalizar y guardar' para salir.")
+        messagebox.showinfo("Fin", "Has etiquetado todos los comentarios. Presiona 'Finalizar y Guardar' para salir.")
 
 def limpiar_feedback():
     label_feedback.config(text="")
 
 def finalizar_y_guardar():
-    df.to_csv("dataset_etiquetado3.csv", index=False, quoting=1)
+    df_para_etiquetar.to_csv(ETIQUETADO_FILE, index=False, quoting=1)
     guardar_progreso()
-    messagebox.showinfo("guardado", "se ha guardado tu etiquetado con éxito.")
+    messagebox.showinfo("Guardado", "Se ha guardado tu etiquetado con éxito.")
     root.destroy()
 
 root = tk.Tk()
@@ -129,10 +160,10 @@ frame_instrucciones.pack(fill="x")
 
 label_instrucciones = tk.Label(
     frame_instrucciones,
-    text="por favor, selecciona el tipo de opinión para cada candidato:\n\n"
-         "❌ negativa: el comentario va en contra del candidato.\n"
-         "➖ neutral: no expresa una postura clara.\n"
-         "✅ positiva: apoya o favorece al candidato.",
+    text="Por favor, selecciona el tipo de opinión para cada candidato:\n\n"
+         "❌ Negativa: el comentario va en contra del candidato.\n"
+         "➖ Neutral: no expresa una postura clara.\n"
+         "✅ Positiva: apoya o favorece al candidato.",
     bg=color_fondo, fg=color_texto, font=fuente_texto, justify="left"
 )
 label_instrucciones.pack(anchor="w")
@@ -164,9 +195,9 @@ radio_vars = {}
 
 # Opciones con sus colores y descripciones
 opciones = [
-    ("negativa", "❌ negativa", color_negativa),
-    ("neutral", "➖ neutral", color_neutral),
-    ("positiva", "✅ positiva", color_positiva)
+    ("negativa", "❌ Negativa", color_negativa),
+    ("neutral", "➖ Neutral", color_neutral),
+    ("positiva", "✅ Positiva", color_positiva)
 ]
 
 # Crear estilos de sección candidato
@@ -213,7 +244,7 @@ frame_acciones.pack(fill="x")
 
 btn_siguiente = tk.Button(
     frame_acciones,
-    text="guardar etiqueta y siguiente",
+    text="Guardar etiqueta y siguiente",
     command=guardar_etiqueta_y_siguiente,
     bg=color_primario,
     fg="#ffffff",
@@ -228,7 +259,7 @@ btn_siguiente.pack(side="left", padx=10)
 
 btn_finalizar = tk.Button(
     frame_acciones,
-    text="finalizar y guardar",
+    text="Finalizar y guardar",
     command=finalizar_y_guardar,
     bg=color_primario,
     fg="#ffffff",

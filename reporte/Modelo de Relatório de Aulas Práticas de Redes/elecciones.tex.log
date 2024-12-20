@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  21 NOV 2024 16:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  19 DEC 2024 22:22
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -687,18 +687,18 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.117 	\newpage
+l.118 	\newpage
                 [1]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 123.
+(Font)              <12> on input line 124.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 123.
+(Font)              <8> on input line 124.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 123.
+(Font)              <6> on input line 124.
 <./images//logo.png, id=74, 1228.59pt x 1228.59pt>
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 146.
+Package pdftex.def Info: ./images//logo.png  used on input line 147.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -711,16 +711,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [2 <./images//logo.png>]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-187.
+188.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 188.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 189.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 207.
+Package pdftex.def Info: ./images//logo.png  used on input line 206.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -735,12 +735,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.207     \end{itemize}
-                       ] 
+l.206     	\item \textbf
+                        {Propósito:} Analizar las tendencias y opiniones de...
+] 
 AED: lastpage setting LastPage
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 238.
+Package pdftex.def Info: ./images//logo.png  used on input line 239.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -754,24 +755,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 as been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.238 \end{document}
+l.239 \end{document}
                     ] (./elecciones.tex.aux
 LaTeX Info: Redefining \. on input line 26.
 LaTeX Info: Redefining \% on input line 26.
 )
-
-Package rerunfilecheck Warning: File `elecciones.tex.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `elecciones.tex.out':
-(rerunfilecheck)             Before: D23D67ECF82CDE5435DA0CCCF2CF637B;2166
-(rerunfilecheck)             After:  86CDA55451E4A902E7CA401C6782988D;2136.
+Package rerunfilecheck Info: File `elecciones.tex.out' has not changed.
+(rerunfilecheck)             Checksum: 86CDA55451E4A902E7CA401C6782988D;2136.
  ) 
 Here is how much of TeX's memory you used:
  15444 strings out of 478287
  244842 string characters out of 5849289
- 851177 words of memory out of 5000000
+ 851206 words of memory out of 5000000
  33383 multiletter control sequences out of 15000+600000
  524096 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -782,7 +777,7 @@ re/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/
 lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/tex
 mf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/l
 msso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on elecciones.tex.pdf (5 pages, 275606 bytes).
+Output written on elecciones.tex.pdf (5 pages, 276801 bytes).
 PDF statistics:
  135 PDF objects out of 1000 (max. 8388607)
  108 compressed objects within 2 object streams

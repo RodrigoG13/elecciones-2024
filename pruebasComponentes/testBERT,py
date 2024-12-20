@@ -1,0 +1,19 @@
+from transformers import AutoModelForSequenceClassification, AutoTokenizer
+import torch
+
+# Modelo preentrenado de BERT
+model_name = "bert-base-uncased"
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
+# Carga el modelo y envíalo a la GPU
+model = AutoModelForSequenceClassification.from_pretrained(model_name, num_labels=2).to(device)
+
+# Carga el tokenizer
+tokenizer = AutoTokenizer.from_pretrained(model_name)
+
+# Tokeniza una oración de prueba
+inputs = tokenizer("Hello, this is a BERT test!", return_tensors="pt").to(device)
+
+# Realiza una inferencia
+outputs = model(**inputs)
+print(outputs)  # Si imprime los resultados, todo está funcionando correctamente.
