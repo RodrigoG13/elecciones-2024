@@ -1,0 +1,19 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{2}{section.1}%
+\contentsline {subsection}{\numberline {1.1}Objetivos}{2}{subsection.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.1}Objetivo General}{2}{subsubsection.1.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.2}Objetivos Específicos}{2}{subsubsection.1.1.2}%
+\contentsline {subsection}{\numberline {1.2}Descripción del Conjunto de Datos}{3}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {1.2.1}Conjunto de Datos de los Debates Presidenciales (YouTube)}{3}{subsubsection.1.2.1}%
+\contentsline {subsubsection}{\numberline {1.2.2}Conjunto de Datos del Día de la Elección (X)}{3}{subsubsection.1.2.2}%
+\contentsline {section}{\numberline {2}Marco Teórico}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Estado del Arte}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Tareas de Clasificación y Agrupamiento en el Análisis Electoral}{5}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Agrupamiento (Clustering): Identificación de Temas Principales}{5}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Clasificación: Análisis del Tipo de Sentimiento}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.3}Importancia de las tareas de Minería de Datos en el Análisis Electoral}{6}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}Método de Desarrollo}{6}{section.3}%
+\contentsline {section}{\numberline {4}Algoritmos}{6}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Tareas de Minería de Datos}{6}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Análisis del tipo de sentimiento}{6}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Análisis de Tópicos}{6}{subsubsection.4.1.2}%

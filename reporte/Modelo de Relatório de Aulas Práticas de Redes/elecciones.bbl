@@ -1,0 +1,301 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/global//global/global}
+    \entry{Castiblanco2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=aaba4b6bc2b0573e38dea83171c09806}{%
+           family={Castiblanco},
+           familyi={C\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=4371d8c4d0da541f3ff7277ecc199c2d}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Rafael},
+           giveni={R\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{7dcd041313bd83520c0aff5cdd4ead7b}
+      \strng{fullhash}{7dcd041313bd83520c0aff5cdd4ead7b}
+      \strng{bibnamehash}{7dcd041313bd83520c0aff5cdd4ead7b}
+      \strng{authorbibnamehash}{7dcd041313bd83520c0aff5cdd4ead7b}
+      \strng{authornamehash}{7dcd041313bd83520c0aff5cdd4ead7b}
+      \strng{authorfullhash}{7dcd041313bd83520c0aff5cdd4ead7b}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Opinión Pública}
+      \field{number}{1}
+      \field{title}{Opinion Mining Applied to Public Opinion Analysis in the Electoral Context}
+      \field{volume}{37}
+      \field{year}{2022}
+      \field{pages}{45\bibrangedash 62}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.rope.2022.01.012
+      \endverb
+    \endentry
+    \entry{Castro2021}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ce772024a02f56539609b870cb702da9}{%
+           family={Castro},
+           familyi={C\bibinitperiod},
+           given={Luis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=835d903b2f0440ff74451936815367ed}{%
+           family={Martínez},
+           familyi={M\bibinitperiod},
+           given={Ana},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{696b04bceccd2015726407e866bbe21e}
+      \strng{fullhash}{696b04bceccd2015726407e866bbe21e}
+      \strng{bibnamehash}{696b04bceccd2015726407e866bbe21e}
+      \strng{authorbibnamehash}{696b04bceccd2015726407e866bbe21e}
+      \strng{authornamehash}{696b04bceccd2015726407e866bbe21e}
+      \strng{authorfullhash}{696b04bceccd2015726407e866bbe21e}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Ciencias Sociales}
+      \field{number}{2}
+      \field{title}{Elecciones presidenciales en el Perú: minería de textos de los editoriales del diario La República}
+      \field{volume}{35}
+      \field{year}{2021}
+      \field{pages}{101\bibrangedash 120}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://doi.org/10.1016/j.rscs.2021.05.013
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1016/j.rscs.2021.05.013
+      \endverb
+    \endentry
+    \entry{Fernandez2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8963b0b4791401d507898dc80f060712}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=37d0069e8dd646a3ced685cb9f2cb695}{%
+           family={García},
+           familyi={G\bibinitperiod},
+           given={Isabel},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e98d6c3ece901937f7b38d23a78a093b}
+      \strng{fullhash}{e98d6c3ece901937f7b38d23a78a093b}
+      \strng{bibnamehash}{e98d6c3ece901937f7b38d23a78a093b}
+      \strng{authorbibnamehash}{e98d6c3ece901937f7b38d23a78a093b}
+      \strng{authornamehash}{e98d6c3ece901937f7b38d23a78a093b}
+      \strng{authorfullhash}{e98d6c3ece901937f7b38d23a78a093b}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Estudios de Opinión y Política}
+      \field{number}{4}
+      \field{title}{Información política en plataformas de redes sociales y participación electoral: evidencia desde Chile utilizando Full Matching}
+      \field{volume}{25}
+      \field{year}{2020}
+      \field{pages}{350\bibrangedash 367}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.eop.2020.08.010
+      \endverb
+    \endentry
+    \entry{Hernandez2019}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=b3559b8e026d152b05087ccb0eba3e21}{%
+           family={Hernández},
+           familyi={H\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e66aa272b53546edaf251568e249021a}{%
+           family={Gómez},
+           familyi={G\bibinitperiod},
+           given={Mariana},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6e03ac9c1f3260ba0ddbf72348cbf0a9}
+      \strng{fullhash}{6e03ac9c1f3260ba0ddbf72348cbf0a9}
+      \strng{bibnamehash}{6e03ac9c1f3260ba0ddbf72348cbf0a9}
+      \strng{authorbibnamehash}{6e03ac9c1f3260ba0ddbf72348cbf0a9}
+      \strng{authornamehash}{6e03ac9c1f3260ba0ddbf72348cbf0a9}
+      \strng{authorfullhash}{6e03ac9c1f3260ba0ddbf72348cbf0a9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista Mexicana de Ciencia Política}
+      \field{number}{2}
+      \field{title}{Impacto de las redes sociales en la percepción ciudadana sobre la compra del voto en México}
+      \field{volume}{45}
+      \field{year}{2019}
+      \field{pages}{111\bibrangedash 128}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.rmcp.2019.03.009
+      \endverb
+    \endentry
+    \entry{Perez2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=1,uniquepart=given,hash=60943390933028abeac54d00ed49c0c9}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Manuel},
+           giveni={M\bibinitperiod},
+           givenun=1}}%
+        {{un=1,uniquepart=given,hash=5c3ef3f16eaf49f8ee2cf192c60b3c11}{%
+           family={González},
+           familyi={G\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{91ebff51d0414bc299d6e625044077f8}
+      \strng{fullhash}{91ebff51d0414bc299d6e625044077f8}
+      \strng{bibnamehash}{91ebff51d0414bc299d6e625044077f8}
+      \strng{authorbibnamehash}{91ebff51d0414bc299d6e625044077f8}
+      \strng{authornamehash}{91ebff51d0414bc299d6e625044077f8}
+      \strng{authorfullhash}{91ebff51d0414bc299d6e625044077f8}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Political Science and Technology}
+      \field{number}{3}
+      \field{title}{POPmine: Tracking Political Opinion on the Web}
+      \field{volume}{15}
+      \field{year}{2020}
+      \field{pages}{130\bibrangedash 145}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.jpst.2020.02.014
+      \endverb
+    \endentry
+    \entry{Ramirez2022}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=04e38791aee59f0cadfa487ad4c13dbf}{%
+           family={Ramirez},
+           familyi={R\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=1,uniquepart=given,hash=199e00e88420a7f6da08dd7ad6650fa3}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Juan},
+           giveni={J\bibinitperiod},
+           givenun=1}}%
+      }
+      \strng{namehash}{49ae1f1cb64a902a2a450d31a2281d95}
+      \strng{fullhash}{49ae1f1cb64a902a2a450d31a2281d95}
+      \strng{bibnamehash}{49ae1f1cb64a902a2a450d31a2281d95}
+      \strng{authorbibnamehash}{49ae1f1cb64a902a2a450d31a2281d95}
+      \strng{authornamehash}{49ae1f1cb64a902a2a450d31a2281d95}
+      \strng{authorfullhash}{49ae1f1cb64a902a2a450d31a2281d95}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista de Comunicación Política}
+      \field{number}{1}
+      \field{title}{Redes sociales y participación política en las elecciones presidenciales de 2022 en Colombia}
+      \field{volume}{18}
+      \field{year}{2022}
+      \field{pages}{55\bibrangedash 72}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.rcp.2022.03.005
+      \endverb
+    \endentry
+    \entry{Zagal2020}{article}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=8a03c60634c9510511400fb4187f6d6b}{%
+           family={Zagal},
+           familyi={Z\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=4ade9b7d48b588b3af8426fe0cf3eb65}{%
+           family={Mata},
+           familyi={M\bibinitperiod},
+           given={Miguel},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{38a087a54f2b4e291b3b8f67c4a52ccc}
+      \strng{fullhash}{38a087a54f2b4e291b3b8f67c4a52ccc}
+      \strng{bibnamehash}{38a087a54f2b4e291b3b8f67c4a52ccc}
+      \strng{authorbibnamehash}{38a087a54f2b4e291b3b8f67c4a52ccc}
+      \strng{authornamehash}{38a087a54f2b4e291b3b8f67c4a52ccc}
+      \strng{authorfullhash}{38a087a54f2b4e291b3b8f67c4a52ccc}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Electoral Studies}
+      \field{number}{3}
+      \field{title}{Exploring Mexican Voting Intention Through Spatiotemporal Trends Using Social Media and Open Data Analysis}
+      \field{volume}{28}
+      \field{year}{2020}
+      \field{pages}{85\bibrangedash 102}
+      \range{pages}{18}
+      \verb{doi}
+      \verb 10.1016/j.jes.2020.04.011
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

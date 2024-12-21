@@ -1,0 +1,337 @@
+\def\mytitle{Minería de Textos para Evaluar la Opinión Pública en Redes Sociales durante los Debates y el Día de la Elección Presidencial en México 2024}
+\def\mykeywords{}
+\def\myauthor{Rodrigo Trejo, Eidan Plata}
+\def\contact{rtrejoa1800@alumno.ipn.mx}
+\def\mymodule{Minería de Datos}
+
+% #######################################
+% #### YOU DON'T NEED TO TOUCH BELOW ####
+% #######################################
+\documentclass[10pt, a4paper]{article}
+\usepackage[a4paper,outer=2cm,inner=2cm,top=2cm,bottom=2cm]{geometry}
+
+% single or double column
+% \twocolumn
+\usepackage{graphicx}
+\graphicspath{{./images/}}
+%colour our links, remove weird boxes
+\usepackage[colorlinks,linkcolor={black},citecolor={blue!80!black},urlcolor={blue!80!black}]{hyperref}
+%Stop indentation on new paragraphs
+\usepackage[parfill]{parskip}
+%% Arial-like font
+\usepackage{lmodern}
+\renewcommand*\familydefault{\sfdefault}
+%Napier logo top right
+\usepackage{watermark}
+%Lorem Ipusm dolor please don't leave any in you final report ;)
+\usepackage{lipsum}
+\usepackage{xcolor}
+\usepackage{listings}
+%give us the Capital H that we all know and love
+\usepackage{float}
+%tone down the line spacing after section titles
+\usepackage{titlesec}
+%Cool maths printing
+\usepackage{amsmath}
+%PseudoCode
+\usepackage{algorithm2e}
+\usepackage[spanish]{babel}
+\usepackage{tocloft}
+
+\usepackage{csquotes} % Requerido para citas
+\usepackage[style=apa, backend=biber]{biblatex}
+\DeclareLanguageMapping{spanish}{spanish-apa} 
+\addbibresource{biblio.bib}
+
+
+
+\titlespacing{\subsection}{0pt}{\parskip}{-3pt}
+\titlespacing{\subsubsection}{0pt}{\parskip}{-\parskip}
+\titlespacing{\paragraph}{0pt}{\parskip}{\parskip}
+\newcommand{\figuremacro}[5]{
+	\begin{figure}[#1]
+		\centering
+		\includegraphics[width=#5\columnwidth]{#2}
+		\caption[#3]{\textbf{#3}#4}
+		\label{fig:#2}
+	\end{figure}
+}
+
+\lstset{
+	escapeinside={/*@}{@*/}, language=C++,
+	basicstyle=\fontsize{8.5}{12}\selectfont,
+	numbers=left,numbersep=2pt,xleftmargin=2pt,frame=tb,
+	columns=fullflexible,showstringspaces=false,tabsize=4,
+	keepspaces=true,showtabs=false,showspaces=false,
+	backgroundcolor=\color{white}, morekeywords={inline,public,
+		class,private,protected,struct},captionpos=t,lineskip=-0.4em,
+	aboveskip=10pt, extendedchars=true, breaklines=true,
+	prebreak = \raisebox{0ex}[0ex][0ex]{\ensuremath{\hookleftarrow}},
+	keywordstyle=\color[rgb]{0,0,1},
+	commentstyle=\color[rgb]{0.133,0.545,0.133},
+	stringstyle=\color[rgb]{0.627,0.126,0.941}
+}
+
+\titlespacing{\section}{0pt}{1.5em}{1em}
+\titlespacing{\subsection}{0pt}{1em}{0.8em}
+\titlespacing{\subsubsection}{0pt}{0.8em}{0.5em}
+
+\title{\mytitle}
+\author{\myauthor\hspace{1em}\\\contact\\Instituto Politécnico Nacional -- ESCOM\hspace{0.5em}\\\hspace{0.5em}\mymodule}
+\date{}
+\hypersetup{pdfauthor=\myauthor,pdftitle=\mytitle,pdfkeywords=\mykeywords}
+\sloppy
+
+
+\usepackage{fancyhdr} % Para encabezados y pies de página
+\usepackage{lastpage} % Para contar páginas totales
+% Configuración del encabezado y pie de página
+\pagestyle{fancy}
+\fancyhf{} % Limpia encabezados y pies de página
+% Línea superior e inferior
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+% Configuración del encabezado
+\fancyhead[L]{Minería de Textos: Elecciones 2024} % Esquina superior izquierda
+\fancyhead[R]{\includegraphics[width=1cm]{logo.png}} % Esquina superior derecha
+% Configuración del pie de página
+\fancyfoot[L]{Rodrigo Trejo, Eidan Plata} % Esquina inferior izquierda
+\fancyfoot[R]{Página \thepage\ de \pageref{LastPage}} % Esquina inferior derecha
+
+% Ajusta el diseño del índice si es necesario
+\renewcommand{\contentsname}{Índice} % Cambia el título del índice si lo deseas
+\setlength{\cftbeforesecskip}{0.8em} % Espaciado entre secciones
+
+% #######################################
+% ########### START FROM HERE ###########
+% #######################################
+
+
+
+
+
+
+\begin{document}
+	\begin{titlepage}
+		\centering
+		\includegraphics[width=0.25\textwidth]{logo.png}\par\vspace{2.5cm} % Reemplaza con el nombre exacto de tu imagen
+		{\huge \textbf{Proyecto Final}}\par\vspace{2cm}
+		{\LARGE Evaluación de la Opinión Pública en Redes Sociales durante los Debates y el Día de la Elección Presidencial en México 2024 mediante Minería de Textos \\}\par\vspace{2cm}
+		{\large \textbf{Rodrigo Gerardo Trejo Arriaga}}\par\vspace{0.2cm}
+		{\large \textbf{Eidan Owen Plata Salinas}}\par\vspace{0.5cm}
+		{\large Instituto Politécnico Nacional\\ Escuela Superior de Cómputo}\par\vspace{1cm}
+		{\large \textbf{Minería de Datos}}\par\vspace{2cm}
+		{\large \today}\par
+	\end{titlepage}
+	
+	% Agrega el índice en una nueva página
+	\newpage
+	\tableofcontents
+	\newpage
+	
+	% Aplicar encabezado y pie de página a partir de esta página
+	
+	\newpage
+	\maketitle
+	\thispagestyle{fancy}
+	\begin{abstract}
+		Los autores proponen un análisis de los comentarios en YouTube y X durante las elecciones presidenciales de México 2024, enfocándose en el sentimiento y los temas clave relacionados con los candidatos Claudia Sheinbaum, Xóchitl Gálvez y Jorge Álvarez Maynez. Utilizando técnicas de minería de textos y múltiples algoritmos de aprendizaje automático, se examinan las opiniones y reacciones del electorado durante los debates y el día de la elección. El estudio busca identificar patrones de sentimiento, tópicos principales y diferencias entre audiencias en distintas plataformas y canales. 
+	\end{abstract}
+	
+	\textbf{Palabras Clave -- Análisis de sentimientos, Minería de Textos, Elecciones México 2024, Redes Sociales, Aprendizaje Automático}{\mykeywords}
+	
+	\section{Introducción}
+	Las redes sociales han emergido como plataformas clave para la expresión y difusión de opiniones durante procesos electorales. En el contexto de las elecciones presidenciales de México 2024, plataformas como YouTube y X se han convertido en espacios donde los ciudadanos comparten sus percepciones, críticas y apoyos hacia los candidatos. Este flujo de información proporciona una oportunidad invaluable para analizar la opinión pública y entender las dinámicas sociales que influyen en el electorado.
+	
+	El presente estudio se enfoca en analizar los comentarios y publicaciones realizados en YouTube y X durante los debates presidenciales y el día de la elección. Los candidatos principales en estas elecciones fueron Claudia Sheinbaum Pardo, Xóchitl Gálvez Ruiz y Jorge Álvarez Maynez. Mediante la recopilación de dos conjuntos de datos—uno de 9,392 comentarios de YouTube y otro de 2,486 publicaciones de X—se busca explorar el sentimiento y los temas clave que predominan en las discusiones en línea.
+	
+	Utilizando técnicas de minería de textos y una combinación de algoritmos de aprendizaje automático, este trabajo pretende ofrecer una visión de cómo las opiniones y reacciones de los ciudadanos evolucionaron durante eventos críticos del proceso electoral. Además, se propone comparar las diferencias entre las audiencias de distintas plataformas y canales de comunicación, con el fin de identificar posibles sesgos y variaciones en las percepciones hacia cada candidato.
+	
+	Este estudio no solo contribuye al entendimiento de la opinión pública en contextos electorales, sino que también demuestra la utilidad de las técnicas de minería de datos y aprendizaje automático en el análisis de volúmenes de datos no estructurados provenientes de las redes sociales.
+	
+	\subsection{Objetivos}
+	\subsubsection{Objetivo General}
+	El objetivo principal de este estudio es analizar y comprender las opiniones y reacciones expresadas por los ciudadanos durante las elecciones presidenciales de México 2024, utilizando técnicas de minería de textos y aprendizaje automático sobre comentarios recopilados de YouTube y X. 
+	
+	\subsubsection{Objetivos Específicos}
+	\begin{itemize}
+		\item Medir y comparar el sentimiento (positivo, negativo, neutral) expresado hacia cada uno de los candidatos—Claudia Sheinbaum, Xóchitl Gálvez y Jorge Álvarez Maynez—en los comentarios de YouTube durante los debates y en X durante el día de la elección.
+		\item  Descubrir los temas más discutidos por los ciudadanos en relación con cada candidato durante los debates y el día de la elección.
+		\item Examinar cómo evolucionaron las opiniones y reacciones de las personas durante el día de la elección en X.
+		\item Analizar si existen diferencias significativas en las opiniones y temas discutidos entre las audiencias de diferentes canales de YouTube y entre las plataformas de YouTube y X.
+	\end{itemize}
+	
+	\subsection{Descripción del Conjunto de Datos}
+	
+	En este estudio se utilizaron dos conjuntos de datos recopilados de manera propia, con el propósito de analizar las tendencias de la elección presidencial de México 2024 según las opiniones expresadas por las personas en redes sociales. A continuación se describen detalladamente ambos conjuntos de datos.
+	
+	\subsubsection{Conjunto de Datos de los Debates Presidenciales (YouTube)}
+	
+	Este conjunto de datos contiene comentarios extraídos de videos de YouTube correspondientes al primer, segundo y tercer debate presidencial. Los comentarios fueron recopilados de diferentes canales de noticieros reconocidos en México, como Milenio y Nmás.
+	
+	\begin{itemize}
+		\item \textbf{Fuente de datos:} Comentarios de videos de YouTube sobre los debates presidenciales.
+		\item \textbf{Autoría:} Datos recopilados por el autor del estudio.
+		\item \textbf{Propósito:} Analizar las tendencias y opiniones de las personas respecto a los candidatos durante los debates.
+		\item \textbf{Número de registros:} 9,392 comentarios.
+	\end{itemize}
+	
+	El conjunto de datos cuenta con los siguientes atributos:
+	
+	\begin{itemize}
+		\item \textbf{num\_debate:} Número del debate presidencial (1, 2 o 3).
+		\item \textbf{canal:} Nombre del canal de YouTube donde se transmitió el debate.
+		\item \textbf{username:} Nombre de usuario que realizó el comentario.
+		\item \textbf{fecha:} Fecha en que se realizó el comentario.
+		\item \textbf{comentario:} Contenido textual del comentario.
+		\item \textbf{num\_likes:} Número de "me gusta" que recibió el comentario.
+	\end{itemize}
+	
+	El diccionario de datos que se tiene es el siguiente
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{llp{9cm}}
+			\hline
+			\textbf{Atributo} & \textbf{Tipo de dato} & \textbf{Descripción} \\
+			\hline
+			\texttt{num\_debate} & Entero & Número del debate presidencial (1, 2 o 3). \\
+			\texttt{canal} & Cadena de texto & Nombre del canal de YouTube (ejemplo: \textit{Milenio}, \textit{Nmás}). \\
+			\texttt{username} & Cadena de texto & Nombre de usuario en YouTube que realizó el comentario. \\
+			\texttt{fecha} & Fecha & Fecha en formato DD/MM/AAAA en que se publicó el comentario. \\
+			\texttt{comentario} & Cadena de texto & Texto del comentario realizado por el usuario. \\
+			\texttt{num\_likes} & Entero & Cantidad de "me gusta" que obtuvo el comentario. \\
+			\hline
+		\end{tabular}
+		\caption{Diccionario de datos del conjunto de comentarios de YouTube}
+	\end{table}
+	
+	\subsubsection{Conjunto de Datos del Día de la Elección (X)}
+	
+	Este conjunto de datos incluye publicaciones de X recopiladas manualmente durante el día de la elección, reflejando las reacciones y opiniones de las personas en tiempo real.
+	
+	\begin{itemize}
+		\item \textbf{Fuente de datos:} Publicaciones de X durante el día de la elección.
+		\item \textbf{Autoría:} Datos recopilados por el autor del estudio.
+		\item \textbf{Propósito:} Analizar las tendencias y opiniones de las personas durante el día de la elección presidencial.
+		\item \textbf{Número de registros:} 2,486 publicaciones.
+	\end{itemize}
+	
+	El conjunto de datos cuenta con los siguientes atributos:
+	
+	\begin{itemize}
+		\item \textbf{User:} Nombre del usuario en X.
+		\item \textbf{arroba:} Nombre de usuario precedido por ``@''.
+		\item \textbf{hora\_publicación:} Hora en que se publicó el tweet.
+		\item \textbf{publicación:} Contenido textual del tweet.
+	\end{itemize}
+	
+	El diccionario de datos que se tiene es el siguiente
+	
+	\begin{table}[h]
+		\centering
+		\begin{tabular}{llp{9cm}}
+			\hline
+			\textbf{Atributo} & \textbf{Tipo de dato} & \textbf{Descripción} \\
+			\hline
+			\texttt{User} & Cadena de texto & Nombre del usuario en X. \\
+			\texttt{arroba} & Cadena de texto & Handle de X del usuario (ejemplo: \texttt{@usuario}). \\
+			\texttt{hora\_publicación} & Hora & Hora en formato HH:MM en que se publicó el tweet. \\
+			\texttt{publicación} & Cadena de texto & Texto del tweet publicado por el usuario. \\
+			\hline
+		\end{tabular}
+		\caption{Diccionario de datos del conjunto de publicaciones de X}
+	\end{table}  
+	
+	
+	\section{Marco Teórico}
+	
+	\subsection{Estado del Arte}
+	La minería de opiniones y el análisis de sentimientos en el contexto electoral han cobrado relevancia en los últimos años, especialmente debido al auge de las redes sociales como plataformas clave en la movilización política. Estos enfoques, basados en técnicas de minería de textos y procesamiento de lenguaje natural (PLN), ofrecen nuevas perspectivas sobre cómo se configuran las percepciones públicas en tiempos electorales. En este marco, exploraremos una serie de estudios previos que abordan diferentes aspectos de la influencia de los medios tradicionales y digitales en las elecciones, destacando el papel fundamental de las plataformas sociales en la modelación de las narrativas políticas.
+	
+	Uno de los primeros estudios que se adentra en este terreno es el de \textit{Elecciones presidenciales en el Perú: minería de textos de los editoriales del diario La República} \parencite{Castro2021}. Este análisis se concentra en los editoriales del periódico *La República* durante las elecciones presidenciales de 2021 en Perú. Mediante técnicas de minería de textos, se identifica cómo la terminología utilizada en estos medios crea asociaciones que influyen en la percepción pública. Los resultados subrayan que, aunque los medios tradicionales parecen perder fuerza frente a las plataformas digitales, todavía conservan una significativa capacidad para moldear la representación social de los candidatos, especialmente entre los votantes más conservadores.
+	
+	Este enfoque se complementa con el análisis de \textit{Redes sociales y participación política en las elecciones presidenciales de 2022 en Colombia} \parencite{Ramirez2022}, que pone en evidencia el papel de las redes sociales en la participación política. A través de plataformas como Facebook, WhatsApp, Instagram y Twitter, los ciudadanos tienen un acceso sin precedentes a la información política. Sin embargo, el estudio revela que la relación entre el consumo de contenido político en estas plataformas y la participación electoral no es tan directa como se podría esperar. Esto indica que factores adicionales, como el contexto socioeconómico y las estrategias de movilización, pueden estar influyendo en las decisiones de voto, ampliando las perspectivas sobre la influencia de las redes sociales.
+	
+	En una línea similar, el estudio \textit{Información política en plataformas de redes sociales y participación electoral: evidencia desde Chile utilizando Full Matching} \parencite{Fernandez2020} profundiza en el impacto de las redes sociales en la participación electoral en Chile. Utilizando la técnica de Full Matching para ajustar los datos y evitar sesgos, el estudio concluye que no existe una asociación significativa entre el consumo de información política en redes sociales y el aumento de la participación electoral. Este hallazgo resalta la importancia de considerar variables contextuales y sugiere que, aunque las redes sociales tienen un impacto, no son la única variable que determina la participación ciudadana.
+	
+	Por otro lado, el estudio \textit{POPmine: Tracking Political Opinion on the Web} \parencite{Perez2020} aborda la minería de opiniones desde una perspectiva más técnica. Presentando la herramienta POPmine, diseñada para rastrear opiniones políticas a través de plataformas como Twitter, el estudio utiliza el modelo BERT en español para detectar emociones y sentimientos en los mensajes de congresistas colombianos. Los resultados revelan que herramientas avanzadas como BERT permiten identificar emociones complejas, proporcionando una comprensión más precisa de cómo los votantes perciben a los candidatos. Este enfoque innovador muestra cómo el PLN puede transformar el análisis político, facilitando una evaluación más profunda de la dinámica electoral.
+	
+	El impacto de las redes sociales también se refleja en el estudio \textit{Impacto de las redes sociales en la percepción ciudadana sobre la compra del voto en México} \parencite{Hernandez2019}, que examina cómo las redes sociales influyen en la percepción pública de prácticas ilícitas durante las elecciones presidenciales de 2018 en México. A través de datos del Latinobarómetro y el uso de modelos estadísticos, se concluye que las redes sociales son herramientas más eficaces que los medios tradicionales para sensibilizar a los ciudadanos sobre prácticas como el clientelismo y la compra del voto. Este hallazgo resalta el poder de las plataformas digitales no solo en la difusión de información política, sino también en su capacidad para promover la vigilancia ciudadana frente a fenómenos ilegales.
+	
+	En el mismo contexto, el artículo \textit{Exploring Mexican Voting Intention Through Spatiotemporal Trends Using Social Media and Open Data Analysis} \parencite{Zagal2020} ofrece una visión más profunda al estudiar la intención de voto en las elecciones mexicanas de 2018. Mediante un enfoque espacio-temporal que combina datos de redes sociales, como tweets y memes, con resultados electorales oficiales, el estudio utiliza técnicas de modelado de temas y análisis de sentimientos. Los hallazgos subrayan cómo el análisis de datos no estructurados puede identificar narrativas dominantes en la política, proporcionando una comprensión más precisa de las tendencias electorales que reflejan las emociones y actitudes de los votantes.
+	
+	Por último, el trabajo \textit{Opinion Mining Applied to Public Opinion Analysis in the Electoral Context} \parencite{Castiblanco2022} se enfoca en el análisis de opiniones en el contexto electoral colombiano, utilizando el modelo BERT en español para identificar emociones y sentimientos en los mensajes de los congresistas. Este estudio revela que, al aplicar herramientas avanzadas de PLN, es posible identificar patrones emocionales que afectan las percepciones de los votantes, proporcionando una valiosa herramienta para analistas y estrategas políticos. 
+	
+	De esta manera, estos estudios ilustran el poder de las redes sociales y las herramientas de PLN en el análisis de la opinión pública en el contexto electoral. Mientras que los medios tradicionales continúan influyendo en la percepción pública, las plataformas digitales han demostrado tener un impacto en la movilización política y la detección de fenómenos ilegales. Además, el uso de modelos como BERT está cambiando la forma en que entendemos las emociones y las narrativas políticas, proporcionando enfoques más detallados para el análisis electoral.
+	
+	
+	\subsection{Tareas de Clasificación y Agrupamiento en el Análisis Electoral}
+	En el análisis electoral, las tareas de clasificación y agrupamiento juegan un papel importante en el descubrimiento de patrones y en la interpretación de los datos provenientes de los debates y las interacciones de los votantes en redes sociales durante el día de la elección. A través de estas técnicas, es posible obtener insights clave sobre las opiniones, emociones y temas discutidos, facilitando la comprensión de las dinámicas electorales.
+	
+	\subsubsection{Agrupamiento (Clustering): Identificación de Temas Principales}
+	Mientras que la clasificación permite analizar las emociones detrás de los comentarios, \textbf{el agrupamiento o clustering} se enfoca en identificar los \textbf{temas principales} tratados durante los debates y el día de las elecciones. Mediante esta técnica, los comentarios se agrupan según su contenido semántico, lo que permite descubrir las áreas de interés y las preocupaciones predominantes de los votantes sin necesidad de etiquetar previamente los temas.
+	
+	En el contexto electoral, el clustering tiene un valor significativo nos ayuda a :
+	
+	\begin{itemize}
+		\item \textbf{\textit{Descubrir los temas más relevantes para los votantes}}: Durante los debates, es probable que se discutan una variedad de temas, desde políticas públicas hasta cuestiones personales sobre los candidatos y al aplicar técnicas de agrupamiento, podemos entender mejor qué cuestiones dominan las discusiones.
+		\item \textbf{\textit{Mejorar la estrategia de comunicación política}}: Al identificar los temas predominantes durante los debates, los estrategas políticos pueden adaptar su mensaje a las preocupaciones más relevantes de los votantes. Si un candidato nota que un tema específico genera muchas discusiones y reacciones, puede decidir profundizar en ese tema en futuros discursos o debates. Además, permite descubrir áreas donde los votantes están desinformados o preocupados, lo que ofrece oportunidades para intervenir y cambiar la narrativa.
+	\end{itemize}
+	
+	\subsubsection{Clasificación: Análisis del Tipo de Sentimiento}
+	La \textbf{clasificación} de comentarios, en este caso, se refiere a la tarea de asignar a cada mensaje una etiqueta de sentimiento: \textbf{positivo}, \textbf{negativo} o \textbf{neutral}. Durante los debates políticos y en el día de las elecciones, el análisis de sentimientos se convierte en una herramienta poderosa para comprender la actitud y las emociones de los votantes hacia los candidatos y las propuestas.
+	
+	Con este enfoque podremos:
+	\begin{itemize}
+		\item \textbf{\textit{Identificar la percepción pública:}} En el contexto de un debate o jornada electoral, clasificar los comentarios permite captar cómo los votantes reaccionan ante las intervenciones de los candidatos, sus promesas y sus estrategias. Por ejemplo, los sentimientos negativos pueden surgir como reacción a promesas incumplidas o argumentos débiles durante un debate, mientras que los comentarios positivos pueden reflejar el apoyo a un candidato tras un buen desempeño.
+		\item \textbf{\textit{Medir la influencia de los debates en la opinión pública:}} Los debates son momentos clave donde los votantes expresan su apoyo o rechazo hacia los candidatos. Al clasificar los sentimientos, es posible ver cómo cambia la opinión de los votantes antes, durante y después de los debates. Esto puede ser útil para predecir tendencias o incluso para ajustar las estrategias de campaña de los partidos políticos.
+	\end{itemize}
+	
+	
+	\subsubsection{Importancia de las tareas de Minería de Datos en el Análisis Electoral}
+	Con estas tareas de Minería de Datos podemos desvelar los temas más importantes que están siendo discutidos, tanto durante los debates como en la jornada electoral y proporcionar una visión clara de cómo los votantes se sienten respecto a dichos temas,  
+	
+	Este conocimiento es muy importante para las campañas políticas, ya que permite ajustar estrategias de comunicación, identificar preocupaciones emergentes, medir el impacto de de los candidatos y, en última instancia, tomar decisiones basadas en los intereses y emociones del electorado. En un contexto electoral, donde las opiniones pueden cambiar rápidamente, tener acceso a este tipo de hallazgo es esencial para mantener una ventaja competitiva.
+	
+	\section{Método de Desarrollo}
+	
+	
+	
+	
+	\section{Algoritmos}
+	
+	Para realizar el análisis de los comentarios recopilados en redes sociales durante los debates y el día de la elección presidencial, se utilizarán los siguientes algoritmos y técnicas:
+	
+	\subsection{Tareas de Minería de Datos}
+	
+	\subsubsection{Análisis del tipo de sentimiento}
+	
+	El análisis de sentimientos tiene como objetivo clasificar los comentarios en categorías como positivo, negativo y neutral. Para esta tarea se empleará uno de los siguientes enfoques:
+	
+	\begin{itemize}
+		\item \textbf{Clasificador Naive Bayes}: Este algoritmo utiliza un modelo probabilístico basado en el teorema de Bayes, ideal para clasificar texto al asumir independencia entre las características del texto.
+		\item \textbf{Red Neuronal}: Este enfoque aprovecha la capacidad de aprendizaje de redes neuronales para capturar patrones complejos en los datos textuales, permitiendo clasificaciones más precisas al considerar dependencias contextuales entre las palabras.
+	\end{itemize}
+	
+	Ambos métodos serán evaluados para determinar cuál proporciona un mejor rendimiento en términos de precisión y recall en la clasificación de sentimientos.
+	
+	\subsubsection{Análisis de Tópicos}
+	
+	El análisis de tópicos busca identificar los temas predominantes en los comentarios. Para esta tarea, se implementará una combinación de representaciones de palabras y agrupamiento:
+	
+	\begin{itemize}
+		\item \textbf{Embeddings de Palabras}: Se utilizará \textit{GloVe} (Global Vectors for Word Representation) para generar representaciones vectoriales densas de las palabras, capturando relaciones semánticas y contextuales en el corpus de texto.
+		\item \textbf{K-means}: Sobre los embeddings generados, se aplicará el algoritmo de agrupamiento K-means para identificar grupos de comentarios relacionados con tópicos similares.
+	\end{itemize}
+
+	Esta combinación permitirá descubrir los temas más relevantes dentro de los comentarios analizados, proporcionando una visión más clara de las discusiones predominantes en las plataformas sociales.
+	
+	
+	
+	
+	\printbibliography
+	
+	
+	
+\end{document}
