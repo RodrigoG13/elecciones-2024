@@ -27,4 +27,6 @@
 \contentsline {subsection}{\numberline {3.4}Modelo de la Metodologia}{8}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Resultados}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Limpieza de Datos}{8}{subsection.4.1}%
-\contentsline {section}{\numberline {5}Conclusiones}{10}{section.5}%
+\contentsline {subsubsection}{\numberline {4.1.1}Sistema Evolutivo de Reescritura}{9}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.2}Preprocesamiento de Datos}{10}{subsubsection.4.1.2}%
+\contentsline {section}{\numberline {5}Conclusiones}{11}{section.5}%

@@ -442,7 +442,11 @@
 	
 	Estos problemas no solo dificultan el procesamiento y análisis de los textos, sino que también pueden introducir sesgos en los resultados al interpretar palabras con múltiples variantes o significados según el contexto.
 	
-	Para abordar estos desafíos, se implementó un \textit{sistema evolutivo de reescritura} \parencite{galindo1991sistemas}, diseñado para realizar una limpieza parcial y estandarización de los textos. Este sistema incluye las siguientes funciones:
+	Para abordar estos desafíos, se implementó un \textit{sistema evolutivo de reescritura} \parencite{galindo1991sistemas}, diseñado para realizar una limpieza parcial y estandarización de los textos. 
+	
+	\subsubsection{Sistema Evolutivo de Reescritura}
+	
+	Este sistema incluye las siguientes funciones:
 	\begin{itemize}
 		\item Corrección automática de errores ortográficos y adición de acentos en palabras comunes.
 		\item Reducción de variantes de mexicanismos y groserías a una forma estándar.
@@ -506,6 +510,8 @@
 	\end{figure}
 	
 	Como resultado de la implementación del sistema evolutivo de reescritura, se logró una reducción del ruido en los textos procesados. Este sistema permitió estandarizar palabras con múltiples variantes, corregir errores ortográficos, reemplazar términos coloquiales, y normalizar abreviaturas utilizadas en el contexto político y social. Tras aplicar este proceso, se generaron versiones actualizadas de los dos conjuntos de datos originales, incorporando una nueva columna denominada \textbf{comentario\_editado}. Esta columna contiene los textos procesados y limpios, listos para ser utilizados en las siguientes etapas de análisis.
+	
+	\subsubsection{Preprocesamiento de Datos}
 	
 	Ahora, para continuar con el proceso de minería de textos se aplicó la metodología de preprocesamiento de datos descrita por Gelbukh \parencite{gelbukh2003procesamiento}, que incluye las siguientes etapas fundamentales:
 	
