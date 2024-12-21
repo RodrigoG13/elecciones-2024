@@ -139,6 +139,62 @@
       \verb 10.1016/j.eop.2020.08.010
       \endverb
     \endentry
+    \entry{galindo1991sistemas}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6f92de7b83bc62a6b7f8cdb7e5ab2bcc}{%
+           family={Galindo},
+           familyi={G\bibinitperiod},
+           given={Fernando},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Caracas, Venezuela}%
+      }
+      \strng{namehash}{6f92de7b83bc62a6b7f8cdb7e5ab2bcc}
+      \strng{fullhash}{6f92de7b83bc62a6b7f8cdb7e5ab2bcc}
+      \strng{bibnamehash}{6f92de7b83bc62a6b7f8cdb7e5ab2bcc}
+      \strng{authorbibnamehash}{6f92de7b83bc62a6b7f8cdb7e5ab2bcc}
+      \strng{authornamehash}{6f92de7b83bc62a6b7f8cdb7e5ab2bcc}
+      \strng{authorfullhash}{6f92de7b83bc62a6b7f8cdb7e5ab2bcc}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Memorias XVII Conferencia Latinoamericana de Informática}
+      \field{month}{7}
+      \field{title}{Sistemas Evolutivos: Nuevo Paradigma de la Informática}
+      \field{year}{1991}
+    \endentry
+    \entry{gelbukh2003procesamiento}{article}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d44b430403500a33ea0e21b5148f9af4}{%
+           family={Gelbukh},
+           familyi={G\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{d44b430403500a33ea0e21b5148f9af4}
+      \strng{fullhash}{d44b430403500a33ea0e21b5148f9af4}
+      \strng{bibnamehash}{d44b430403500a33ea0e21b5148f9af4}
+      \strng{authorbibnamehash}{d44b430403500a33ea0e21b5148f9af4}
+      \strng{authornamehash}{d44b430403500a33ea0e21b5148f9af4}
+      \strng{authorfullhash}{d44b430403500a33ea0e21b5148f9af4}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Centro de Investigación en Computación, Instituto Politécnico Nacional, México}
+      \field{title}{Procesamiento del lenguaje natural: estado de la investigación}
+      \field{year}{2003}
+    \endentry
     \entry{Hernandez2019}{article}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=b3559b8e026d152b05087ccb0eba3e21}{%

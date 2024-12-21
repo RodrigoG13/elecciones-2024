@@ -1,14 +1,16 @@
 [0] Config.pm:307> INFO - This is Biber 2.17
-[0] Config.pm:310> INFO - Logfile is 'elecciones.blg'
-[48] biber:340> INFO - === vie dic 20, 2024, 18:50:42
-[57] Biber.pm:418> INFO - Reading 'elecciones.bcf'
-[98] Biber.pm:972> INFO - Found 7 citekeys in bib section 0
-[106] Biber.pm:4383> INFO - Processing section 0
-[112] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
-[112] bibtex.pm:1713> INFO - LaTeX decoding ...
-[117] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
-[160] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[160] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[160] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
-[167] bbl.pm:654> INFO - Writing 'elecciones.bbl' with encoding 'UTF-8'
-[169] bbl.pm:757> INFO - Output to elecciones.bbl
+[1] Config.pm:310> INFO - Logfile is 'elecciones.blg'
+[55] biber:340> INFO - === vie dic 20, 2024, 21:54:55
+[64] Biber.pm:418> INFO - Reading 'elecciones.bcf'
+[105] Biber.pm:972> INFO - Found 9 citekeys in bib section 0
+[112] Biber.pm:4383> INFO - Processing section 0
+[118] Biber.pm:4574> INFO - Looking for bibtex file 'biblio.bib' for section 0
+[119] bibtex.pm:1713> INFO - LaTeX decoding ...
+[124] bibtex.pm:1518> INFO - Found BibTeX data source 'biblio.bib'
+[175] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[175] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[175] Biber.pm:4203> INFO - Sorting list 'apa/global//global/global' of type 'entry' with template 'apa' and locale 'es-ES'
+[183] bbl.pm:654> INFO - Writing 'elecciones.bbl' with encoding 'UTF-8'
+[186] bbl.pm:757> INFO - Output to elecciones.bbl
+[186] Biber.pm:130> WARN - legacy month field 'julio' in entry 'galindo1991sistemas' is not an integer - this will probably not sort properly.
+[186] Biber.pm:132> INFO - WARNINGS: 1

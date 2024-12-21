@@ -2798,13 +2798,19 @@
     <bcf:citekey order="5">Hernandez2019</bcf:citekey>
     <bcf:citekey order="6">Zagal2020</bcf:citekey>
     <bcf:citekey order="7">Castiblanco2022</bcf:citekey>
-    <bcf:citekey order="8">Castro2021</bcf:citekey>
-    <bcf:citekey order="9">Ramirez2022</bcf:citekey>
-    <bcf:citekey order="10">Fernandez2020</bcf:citekey>
-    <bcf:citekey order="11">Perez2020</bcf:citekey>
-    <bcf:citekey order="12">Hernandez2019</bcf:citekey>
-    <bcf:citekey order="13">Zagal2020</bcf:citekey>
-    <bcf:citekey order="14">Castiblanco2022</bcf:citekey>
+    <bcf:citekey order="8">galindo1991sistemas</bcf:citekey>
+    <bcf:citekey order="9">galindo1991sistemas</bcf:citekey>
+    <bcf:citekey order="10">galindo1991sistemas</bcf:citekey>
+    <bcf:citekey order="11">gelbukh2003procesamiento</bcf:citekey>
+    <bcf:citekey order="12">Castro2021</bcf:citekey>
+    <bcf:citekey order="13">Ramirez2022</bcf:citekey>
+    <bcf:citekey order="14">Fernandez2020</bcf:citekey>
+    <bcf:citekey order="15">Perez2020</bcf:citekey>
+    <bcf:citekey order="16">Hernandez2019</bcf:citekey>
+    <bcf:citekey order="17">Zagal2020</bcf:citekey>
+    <bcf:citekey order="18">Castiblanco2022</bcf:citekey>
+    <bcf:citekey order="19">galindo1991sistemas</bcf:citekey>
+    <bcf:citekey order="20">gelbukh2003procesamiento</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="apa">
