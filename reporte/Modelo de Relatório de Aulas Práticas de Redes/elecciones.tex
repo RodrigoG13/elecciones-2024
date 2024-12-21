@@ -531,7 +531,306 @@
 		\item \textbf{Lematización:} Cada palabra se redujo a su forma base o lema, eliminando variaciones morfológicas. Por ejemplo, palabras como \textit{comiendo} y \textit{comerán} fueron convertidas a su forma base \textit{comer}.
 	\end{itemize}
 	
+	\subsection{Analisis Exploratorio de Datos}
+	
+	\subsubsection{Analisis Descriptivo General}
+	En esta sección, se presentan las características generales de los datos recopilados, proporcionando una visión inicial de las interacciones en redes sociales relacionadas con los debates presidenciales y el día de la elección en México 2024. Se analizan las distribuciones de comentarios y publicaciones por fecha y hora, así como la frecuencia de menciones a los principales candidatos en las plataformas de YouTube y X.
+	
+	El análisis exploratorio incluye un conteo de las menciones explícitas a los candidatos Claudia Sheinbaum, Xóchitl Gálvez y Jorge Álvarez Maynez en los comentarios y publicaciones recopilados. Este análisis permite identificar la relevancia de cada candidato en las discusiones y ofrece una perspectiva preliminar sobre las tendencias y temas predominantes en las conversaciones sociales.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_global_debates.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución Global de Menciones en Debates}
+		\label{fig:globalDebates} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_debate1.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución en el primer debate}
+		\label{fig:distrDebate1} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_debate2.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución en el segundo debate}
+		\label{fig:distrDebate2} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_debate3.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución en el tercer debate}
+		\label{fig:distrDebate3} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	En el análisis global y por cada debate, se observa una tendencia constante en la distribución de menciones hacia los candidatos:
+	
+	\begin{itemize}
+		\item \textbf{Menciones Generales:} Una proporción considerable de los comentarios no menciona a ningún candidato específico (entre 30\% y 36\% en todas las gráficas). Esto sugiere que una gran parte de las interacciones en los debates se centra en aspectos generales del evento, como la dinámica, los moderadores o los temas tratados, en lugar de los candidatos individuales.
+		
+		\item \textbf{Competencia entre Claudia y Xóchitl:} Claudia Sheinbaum y Xóchitl Gálvez mantienen una distribución de menciones muy equilibrada en todos los debates, con porcentajes alrededor del 24\% al 32\%. Esto refleja que ambas candidatas generaron un nivel similar de interés y discusión en las redes sociales, consolidándose como las figuras más relevantes del proceso.
+		
+		\item \textbf{Menor Presencia de Maynez:} Jorge Álvarez Maynez tiene una proporción significativamente menor de menciones, oscilando entre el 9\% y 12\%. Esto sugiere que su participación generó menos resonancia o interés en comparación con las otras dos candidatas.
+		
+		\item \textbf{Constancia entre los Debates:} Las gráficas muestran una distribución bastante estable a lo largo de los debates, lo que indica que no hubo cambios drásticos en la atención que los usuarios prestaron a cada candidato entre uno y otro evento.
+	\end{itemize}
 
+	Para realizar el análisis del día de la elección, se decidió dividir la jornada en intervalos horarios. Este enfoque permitió identificar qué candidato tuvo mayor presencia en las publicaciones realizadas por los usuarios que seguían el desarrollo de la jornada electoral. Tras el procesamiento de los datos, se obtuvieron los siguientes resultados de interacción a lo largo del día.
+	
+	\vspace{-5mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_global_x.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución Global de Menciones en el Día de la Elección}
+		\label{fig:globalDiaEleccion} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_intervalo_8-12.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución de Menciones de 08:00 a 12:00}
+		\label{fig:xIntervalo812} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_intervalo_12-17.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución de Menciones de 12:00 a 17:00}
+		\label{fig:xIntervalo1217} % Etiqueta para referencias cruzadas
+	\end{figure}
+
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{grafica_intervalo_17-23.pdf} % Cambia el tamaño con width o height
+		\vspace{-15mm}
+		\caption{Distribución de Menciones de 17:00 a 23:00}
+		\label{fig:xIntervalo1723} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\begin{itemize}
+		\item \textbf{Distribución Global:} La proporción de menciones entre Claudia Sheinbaum (32.9\%) y Xóchitl Gálvez (33.9\%) es muy similar, lo que refleja que ambas candidatas generaron un interés equiparable a nivel general. Jorge Álvarez Maynez, con solo el 2.8\% de las menciones, muestra una presencia muy limitada en las discusiones. Los comentarios sin mención específica representan un 30.4\%, lo que sugiere que una parte significativa de las publicaciones aborda temas generales del proceso electoral.
+		
+		\item \textbf{Intervalo 8-12 horas:} En las primeras horas del día, Xóchitl Gálvez domina con un 47.6\% de las menciones, mientras que Claudia Sheinbaum obtiene el 36.9\%. Jorge Álvarez Maynez tiene un 2.3\%, manteniendo su bajo nivel de atención. Solo el 13.1\% de las publicaciones no menciona candidatos, lo que indica que en este intervalo las discusiones estuvieron más focalizadas en los participantes.
+		
+		\item \textbf{Intervalo 12-17 horas:} Xóchitl Gálvez sigue liderando con un 39.1\%, aunque su ventaja frente a Claudia Sheinbaum (31.2\%) se reduce Jorge Álvarez Maynez continúa con un bajo porcentaje (1.7\%), lo que evidencia su falta de resonancia durante este intervalo. Las publicaciones sin mención específica aumentan al 27.9\%, lo que podría reflejar una mayor variedad de temas abordados por los usuarios.
+		
+		\item \textbf{Intervalo 17-23 horas:} Claudia Sheinbaum supera a Xóchitl Gálvez con un 32.7\% frente a 15.9\% de las menciones. Este cambio sugiere que hacia el cierre de la jornada electoral, Claudia captó más atención. Jorge Álvarez Maynez incrementa levemente su porcentaje a 4.6\%, aunque sigue siendo marginal. Las publicaciones sin mención específica alcanzan un 46.8\%, indicando un aumento significativo en los comentarios generales o no relacionados con los candidatos.
+	\end{itemize}
+	
+	
+	\subsubsection{Distribución Temporal}
+	
+	La distribución temporal es importante para identificar patrones y tendencias en la participación de los usuarios en diferentes momentos clave del proceso electoral. Este análisis permite observar cómo varía la cantidad de interacciones a lo largo del tiempo y cómo se concentran en fechas u horarios específicos. En este apartado se analiza la participación en los debates presidenciales y el comportamiento de los usuarios el día de la elección.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{comentarios_fecha.pdf} % Cambia el tamaño con width o height
+		\vspace{-3mm}
+		\caption{Distribución de Comentarios en los Debates por Fechas}
+		\label{fig:temporalDebates} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	La gráfica de distribución de comentarios en los debates muestra una participación constante a lo largo de los tres eventos. El debate del 7 de abril de 2024 tuvo el mayor número de comentarios, con un ligero descenso en los debates posteriores, especialmente en el del 19 de mayo de 2024. Esto podría indicar un alto interés inicial en las propuestas de los candidatos, que disminuyó ligeramente hacia el final del ciclo de debates, posiblemente debido a la repetición de ideas o al desgaste del público.
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.7\textwidth]{publicaciones_por_hora.pdf} % Cambia el tamaño con width o height
+		\vspace{-3mm}
+		\caption{Distribución de Comentarios en los Debates por Fechas}
+		\label{fig:temporalDiaEleccion} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	La distribución de publicaciones por hora durante el día de la elección muestra picos claros de actividad a las 16:00 horas y nuevamente a las 22:00 horas, lo que podría reflejar el cierre de las casillas y las discusiones sobre los resultados preliminares. En contraste, las horas de la mañana (8:00-12:00) muestran una actividad moderada, probablemente relacionada con el inicio de la jornada electoral. El periodo de menor interacción ocurre alrededor de las 19:00 horas, lo que podría coincidir con un momento de pausa antes del cierre de las votaciones. Esto resalta cómo la actividad en redes sociales está vinculada a hitos clave del día electoral.
+	
+	
+	\subsubsection{Análisis de frecuencias de palabras}
+	
+	En esta sección se realiza un análisis exploratorio para identificar las palabras más frecuentes en los comentarios y publicaciones relacionadas con los debates presidenciales y el día de la elección. Este análisis se lleva a cabo mediante la generación de nubes de palabras, que permiten visualizar de forma intuitiva los términos más recurrentes en los datos.
+	
+	\vspace{-4mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_palabras_general.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras de los Debates}
+		\label{fig:nubeGralDebates} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	
+	\vspace{-7mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_palabras_debate_1.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras del Primer Debate}
+		\label{fig:nubeDebate1} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\newpage
+	
+	\vspace{-4mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_palabras_debate_2.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras del Segundo Debate}
+		\label{fig:nubeDebate2} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\vspace{-10mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_palabras_debate_3.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras del Tercer Debate}
+		\label{fig:nubeDebate3} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	En la nube de palabras general de los debates, se observa una predominancia de términos como "decir", "hacer", "debate", "candidato" y menciones directas a los nombres de los candidatos, como "claudia", "xóchitl" y "maynez". Esto refleja que las discusiones se centran en las propuestas, el desempeño en los debates y las expectativas de los usuarios en torno a los participantes. Palabras relacionadas con el contexto político y social como "México", "gobierno" y "propuesta" también son frecuentes, indicando un interés en los temas tratados.
+	
+	Por otro lado, en las nubes de palabras individuales de los debates, se observan ligeras variaciones en los términos predominantes. Por ejemplo, en el primer debate destacan términos como "preguntar" y "atacar", lo que podría sugerir un enfoque más confrontativo. En el segundo debate, términos como "ganar" y "propuesta" son más prominentes, reflejando quizás un tono más propositivo. Finalmente, en el tercer debate, hay una recurrencia de términos como "hablar" y "decir", sugiriendo un interés en la claridad y el contenido de los mensajes. En conjunto, estas nubes reflejan cómo el enfoque y la percepción de los usuarios varían con el desarrollo de los debates.
+	
+	Replicando el mismo proceso para el día de la elección y considerando los intervalos definidos anteriormente, podemos observar las nubes descritas a continuación.
+	
+	\newpage
+	
+	
+	\vspace{-4mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_general_eleccion.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras del Día de la Elección}
+		\label{fig:nubeDiaEleccion} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\vspace{-5mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_intervalo_8-12.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras en el Horario de 08:00 a 12:00}
+		\label{fig:nubeIntervalo812} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\newpage
+	\vspace{-10mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_intervalo_12-17.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras en el Horario de 12:00 a 17:00}
+		\label{fig:nubeIntervalo1217} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\vspace{-10mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=1\textwidth]{nube_intervalo_17-23.pdf} % Cambia el tamaño con width o height
+		\vspace{-22mm}
+		\caption{Nube de Palabras en el Horario de 17:00 a 23:00}
+		\label{fig:nubeIntervalo1723} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	
+	En la nube general del día de la elección destaca términos como \textit{elección mexico}, \textit{votar}, \textit{siguiente presidenta}, \textit{xochitl galvez}. Esto refleja el enfoque de los usuarios en la jornada electoral, con énfasis en los principales candidatos y la participación ciudadana, indicando el interés por el proceso democrático.
+	
+	Y por intervalos, describimos a continuación las observaciones por cada uno:
+	
+	\begin{itemize}
+		\item \textbf{Intervalo 8-12:} Las menciones predominantes incluyen términos como \textit{voto}, \textit{arrasar votación} y etiquetas relacionadas con ambos candidatos principales. Este periodo se caracteriza por mensajes incentivando el voto temprano y la participación.
+		
+		\item \textbf{Intervalo 12-17:} Se mantiene el protagonismo de \textit{votar xóchitl} y \textit{siguiente presidenta}, junto con menciones a \textit{casilla electoral}. Refleja el progreso del día y el aumento de interacciones relacionadas con el acto de votar.
+		
+		\item \textbf{Intervalo 17-23:} En las últimas horas, destacan términos como \textbf{ganar}, \textit{prep} y \textit{Claudia}. Esto indica una transición hacia la expectativa de resultados y comentarios finales sobre el cierre de casillas.
+	\end{itemize}
+	En general, las nubes reflejan cómo la narrativa cambia a lo largo del día, desde promover la participación hasta debatir resultados y candidatos clave.
+	
+	
+	\subsubsection{Análisis de Engagement (YouTube)}
+	
+	En esta sección se analiza el nivel de interacción que generan los comentarios en los debates presidenciales, utilizando como indicador principal el número de "me gusta" (num\_likes). Este análisis busca identificar patrones asociados a los comentarios más populares, como su relación con la longitud del texto, el contenido o el debate en el que fueron realizados. Asimismo, se revisan los comentarios con más "likes" para comprender las opiniones y temas que generaron mayor resonancia entre los usuarios.
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|p{11cm}|c|c|}
+			\hline
+			\textbf{ID} & \textbf{Comentario} & \textbf{Num Likes} & \textbf{Num Debate} \\ \hline
+			3831 & Es en serio lo que dijo la candidata Xochitl. ¿Pregúntenle a los muertos?. Que tonterías dice y sin razón. & 823 & 1 \\ \hline
+			3848 & Imagínense que Xochitl quedara de presidente. No mms la peor vergüenza mundial que nos podría pasar & 745 & 1 \\ \hline
+			3832 & Xochitl galvez es un peña nieto cualquiera & 717 & 1 \\ \hline
+			3839 & Xóchitl se pone nerviosa en un debate y se traba al expresarse. Imagínate para dirigir un país & 661 & 1 \\ \hline
+			2529 & Bla bla bla. A estas alturas. Ya sabemos quién miente. No somos pendejos. & 545 & 3 \\ \hline
+		\end{tabular}
+		\caption{Ejemplo de comentarios relacionados con Xóchitl Gálvez, con sus respectivos likes y debate.}
+		\label{tab:comentarios_xochitl}
+	\end{table}
+	
+	Observaciones sobre los comentarios más populares
+	
+	Los comentarios con mayor número de "me gusta" tienden a centrarse en juicios hacia los candidatos, utilizando un tono crítico y humorístico. En particular, los cinco comentarios más populares observados tienen en común:
+	
+	\begin{itemize}
+		\item \textbf{Foco en Xóchitl Gálvez:} Todos los comentarios hacen referencia directa a Xóchitl, lo que sugiere que su participación en los debates generó un alto nivel de interacción.
+		\item \textbf{Tono crítico o sarcástico:} Los usuarios tienden a usar ironías o críticas contundentes, que parecen captar más atención y \textit{me gusta}.
+		\item \textbf{Debate predominante:} Cuatro de los cinco comentarios están relacionados con el primer debate, lo que indica que este evento pudo haber generado el mayor nivel de controversia y participación.
+	\end{itemize}
+	
+	
+	\subsubsection{Análisis de Longitud y Complejidad de Comentarios}
+	En esta sección se evalúa la longitud de los comentarios en YouTube y las publicaciones en la plataforma X, medida en cantidad de palabras. Este análisis permite comprender la complejidad y nivel de detalle de las interacciones en ambas plataformas. Se utiliza la longitud promedio como un indicador clave y se visualiza mediante histogramas que muestran la distribución de la frecuencia de palabras. Además, una línea punteada roja señala el promedio, ayudando a identificar si los comentarios suelen ser más extensos o concisos. Este enfoque facilita detectar patrones relacionados con la profundidad de las opiniones de los usuarios.
+	
+	\vspace{-3mm}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{longitud_comentarios_youtube.pdf} % Cambia el tamaño con width o height
+		\vspace{-2mm}
+		\caption{Distribución de Longitud de Comentarios en Youtube}
+		\label{fig:longYoutube} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[width=0.8\textwidth]{longitud_publicaciones_x.pdf} % Cambia el tamaño con width o height
+		\vspace{-2mm}
+		\caption{Distribución de Longitud de Publicaciones en X}
+		\label{fig:longX} % Etiqueta para referencias cruzadas
+	\end{figure}
+	
+	En los histogramas presentados se observa la distribución de la longitud de los comentarios y publicaciones en los datasets de YouTube y X, respectivamente.
+	
+	\begin{enumerate}
+		\item \textbf{YouTube:} La mayoría de los comentarios tienen una longitud muy corta, con un promedio de 8 palabras. Esto indica que los usuarios en esta plataforma tienden a realizar aportaciones concisas, posiblemente debido a la naturaleza del contenido de YouTube, que fomenta interacciones rápidas y directas. Sin embargo, hay una pequeña cantidad de comentarios que alcanzan longitudes mayores, reflejando una profundidad ocasional en el discurso.
+		
+		\item \textbf{X:} Las publicaciones en X también muestran un comportamiento de longitud predominantemente corto, con un promedio ligeramente menor, de 10 palabras. Esto puede atribuirse al formato de la plataforma, históricamente restringido en caracteres, lo que impulsa a los usuarios a ser breves. Sin embargo, se observa una mayor variabilidad en las longitudes en comparación con YouTube, con publicaciones que alcanzan hasta más de 30 palabras, posiblemente reflejando usuarios aprovechando la extensión actualizada de caracteres.
+	\end{enumerate}
+	
+	\subsubsection{Conclusiones Preliminares}
+	\textbf{De la Participación por Fecha y Plataforma:} En YouTube, la mayor cantidad de comentarios se concentra en el primer debate, disminuyendo ligeramente en los debates posteriores. Esto sugiere que el interés disminuyó conforme avanzaron los debates. En X, las publicaciones se distribuyen de manera más uniforme a lo largo del día de la elección, con un pico notable en los intervalos de la tarde, entre las 12:00 y 17:00, indicando una mayor actividad cuando se reportan resultados preliminares o momentos clave.
+	
+	\textbf{De las Menciones a Candidatos:} En ambos datasets, Claudia Sheinbaum y Xóchitl Gálvez presentan una proporción similar de menciones, reflejando su protagonismo en la conversación electoral. Jorge Álvarez Maynez tiene una participación significativamente menor.Un alto porcentaje de comentarios no menciona explícitamente a ningún candidato, lo que puede implicar discusiones generales sobre los debates o temas relacionados con la elección sin una referencia directa a los candidatos.
+	
+	\textbf{De la Frecuencia de Palabras:} En las nubes de palabras de los debates, los términos más frecuentes están relacionados con "decir", "hacer", "propuestas" y los nombres de los candidatos, reflejando un enfoque en las declaraciones y promesas durante los debates. En el día de la elección, destacan palabras como "eleccionesmexico2024", "votar", "casilla" y "resultados", lo que subraya la interacción centrada en el acto de votar y la espera de resultados.
+	
+	\textbf{Del Engagement (YouTube):} Los comentarios con mayor número de likes tienden a ser más críticos o emocionales, especialmente hacia ciertos candidatos, lo que sugiere que las opiniones polarizadas generan mayor interacción.
+	
+	\textbf{De la Longitud y Complejidad:} Los comentarios en YouTube tienen un promedio de 8 palabras, mientras que las publicaciones en X tienen un promedio de 7 palabras, reflejando la naturaleza breve y directa de las interacciones en ambas plataformas. En ambas plataformas, la distribución de longitud es altamente sesgada hacia comentarios muy cortos, con pocas interacciones más elaboradas.
+	
+	\textbf{\textit{Resumen General}}
+	
+	Los resultados reflejan patrones importantes de participación y discurso en redes sociales durante el contexto electoral. Los candidatos principales, Claudia Sheinbaum y Xóchitl Gálvez, dominan la conversación, mientras que Jorge Álvarez Maynez tiene un impacto menor. Las palabras clave destacan el enfoque de los usuarios en propuestas y resultados, mientras que las interacciones tienden a ser breves y rápidas, acorde al formato de las plataformas.
+	
 	
 	\section{Conclusiones}
 	

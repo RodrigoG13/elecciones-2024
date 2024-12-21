@@ -29,4 +29,11 @@
 \contentsline {subsection}{\numberline {4.1}Limpieza de Datos}{8}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Sistema Evolutivo de Reescritura}{9}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}Preprocesamiento de Datos}{10}{subsubsection.4.1.2}%
-\contentsline {section}{\numberline {5}Conclusiones}{11}{section.5}%
+\contentsline {subsection}{\numberline {4.2}Analisis Exploratorio de Datos}{10}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Analisis Descriptivo General}{10}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Distribución Temporal}{15}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.3}Análisis de frecuencias de palabras}{16}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.4}Análisis de Engagement (YouTube)}{20}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Análisis de Longitud y Complejidad de Comentarios}{20}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}Conclusiones Preliminares}{21}{subsubsection.4.2.6}%
+\contentsline {section}{\numberline {5}Conclusiones}{22}{section.5}%
