@@ -38,4 +38,7 @@
 \contentsline {subsection}{\numberline {4.3}Análisis de Sentimientos}{17}{subsection.4.3}%
 \contentsline {subsubsection}{\numberline {4.3.1}Codificación de Sentimientos}{18}{subsubsection.4.3.1}%
 \contentsline {subsubsection}{\numberline {4.3.2}BETO Fine-Tuning}{19}{subsubsection.4.3.2}%
-\contentsline {section}{\numberline {5}Conclusiones}{21}{section.5}%
+\contentsline {subsubsection}{\numberline {4.3.3}Resultados del Análisis de Sentimientos}{21}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Comparación de audiencias}{24}{subsubsection.4.3.4}%
+\contentsline {section}{\numberline {5}Análisis de Temas}{25}{section.5}%
+\contentsline {section}{\numberline {6}Conclusiones}{25}{section.6}%
