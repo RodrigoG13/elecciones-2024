@@ -24,16 +24,16 @@
 \contentsline {subsection}{\numberline {3.3}Tareas de Minería de Datos}{8}{subsection.3.3}%
 \contentsline {subsubsection}{\numberline {3.3.1}Análisis del tipo de sentimiento}{8}{subsubsection.3.3.1}%
 \contentsline {subsubsection}{\numberline {3.3.2}Análisis de Tópicos}{8}{subsubsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.4}Modelo de la Metodologia}{8}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Resultados}{8}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Limpieza de Datos}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {3.4}Modelo del Framework de Desarrollo}{8}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Resultados}{9}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Limpieza de Datos}{9}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}Sistema Evolutivo de Reescritura}{9}{subsubsection.4.1.1}%
-\contentsline {subsubsection}{\numberline {4.1.2}Preprocesamiento de Datos}{10}{subsubsection.4.1.2}%
-\contentsline {subsection}{\numberline {4.2}Analisis Exploratorio de Datos}{10}{subsection.4.2}%
-\contentsline {subsubsection}{\numberline {4.2.1}Analisis Descriptivo General}{10}{subsubsection.4.2.1}%
-\contentsline {subsubsection}{\numberline {4.2.2}Distribución Temporal}{15}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.1.2}Preprocesamiento de Datos}{11}{subsubsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.2}Analisis Exploratorio de Datos}{11}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.2.1}Analisis Descriptivo General}{11}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.2}Distribución Temporal}{16}{subsubsection.4.2.2}%
 \contentsline {subsubsection}{\numberline {4.2.3}Análisis de frecuencias de palabras}{16}{subsubsection.4.2.3}%
-\contentsline {subsubsection}{\numberline {4.2.4}Análisis de Engagement (YouTube)}{20}{subsubsection.4.2.4}%
-\contentsline {subsubsection}{\numberline {4.2.5}Análisis de Longitud y Complejidad de Comentarios}{20}{subsubsection.4.2.5}%
-\contentsline {subsubsection}{\numberline {4.2.6}Conclusiones Preliminares}{21}{subsubsection.4.2.6}%
-\contentsline {section}{\numberline {5}Conclusiones}{22}{section.5}%
+\contentsline {subsubsection}{\numberline {4.2.4}Análisis de Engagement (YouTube)}{21}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.5}Análisis de Longitud y Complejidad de Comentarios}{21}{subsubsection.4.2.5}%
+\contentsline {subsubsection}{\numberline {4.2.6}Conclusiones Preliminares}{22}{subsubsection.4.2.6}%
+\contentsline {section}{\numberline {5}Conclusiones}{23}{section.5}%

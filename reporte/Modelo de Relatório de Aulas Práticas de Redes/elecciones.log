@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  21 DEC 2024 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  24 DEC 2024 16:00
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1164,11 +1164,18 @@ ation with the same identifier (name{table.4}) has been already used, duplicate
                                                   \__shipout_drop_firstpage_...
 l.399 ...ection{Análisis del tipo de sentimiento}
                                                   ]
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images//diagrama.pdf): PDF inclusion:
+ found PDF version <1.6>, but at most version <1.5> allowed
+<./images//diagrama.pdf, id=268, 794.97pt x 614.295pt>
+File: ./images//diagrama.pdf Graphic file (type pdf)
+<use ./images//diagrama.pdf>
+Package pdftex.def Info: ./images//diagrama.pdf  used on input line 425.
+(pdftex.def)             Requested size: 435.32422pt x 336.39166pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 446.
+Package pdftex.def Info: ./images//logo.png  used on input line 434.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1177,34 +1184,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[8]
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 504.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[9pdfTeX warning (ext4): destination with the same identifier (name{table.5}) h
-as been already used, duplicate ignored
+[8pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.504 	
-       ]
-<./images//evolutivo.png, id=291, 1315.91624pt x 739.76375pt>
+l.434 	
+        <./images//diagrama.pdf>]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 479.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[9]
+<./images//evolutivo.png, id=328, 1315.91624pt x 739.76375pt>
 File: ./images//evolutivo.png Graphic file (type png)
 <use ./images//evolutivo.png>
-Package pdftex.def Info: ./images//evolutivo.png  used on input line 507.
+Package pdftex.def Info: ./images//evolutivo.png  used on input line 514.
 (pdftex.def)             Requested size: 411.14528pt x 231.13045pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 538.
+Package pdftex.def Info: ./images//logo.png  used on input line 520.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1215,47 +1222,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[10pdfTeX warning (ext4): destination with the same identifier (name{figure.2})
- has been already used, duplicate ignored
+[10pdfTeX warning (ext4): destination with the same identifier (name{table.5}) 
+has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.538 	
+l.520 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.520 	
         <./images//evolutivo.png>]
-<./images//grafica_global_debates.pdf, id=301, 722.7pt x 578.16pt>
+<./images//grafica_global_debates.pdf, id=340, 722.7pt x 578.16pt>
 File: ./images//grafica_global_debates.pdf Graphic file (type pdf)
 <use ./images//grafica_global_debates.pdf>
 Package pdftex.def Info: ./images//grafica_global_debates.pdf  used on input li
-ne 543.
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-<./images//grafica_debate1.pdf, id=302, 722.7pt x 578.16pt>
-File: ./images//grafica_debate1.pdf Graphic file (type pdf)
-<use ./images//grafica_debate1.pdf>
-Package pdftex.def Info: ./images//grafica_debate1.pdf  used on input line 552.
-
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-<./images//grafica_debate2.pdf, id=303, 722.7pt x 578.16pt>
-File: ./images//grafica_debate2.pdf Graphic file (type pdf)
-<use ./images//grafica_debate2.pdf>
-Package pdftex.def Info: ./images//grafica_debate2.pdf  used on input line 560.
-
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./images//grafica_debate3.pdf, id=304, 722.7pt x 578.16pt>
-File: ./images//grafica_debate3.pdf Graphic file (type pdf)
-<use ./images//grafica_debate3.pdf>
-Package pdftex.def Info: ./images//grafica_debate3.pdf  used on input line 568.
-
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ne 550.
+(pdftex.def)             Requested size: 362.77264pt x 290.21732pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 578.
+Package pdftex.def Info: ./images//logo.png  used on input line 557.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1264,23 +1252,38 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{figure.3})
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.578 		
-        pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.4}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.578 		
-         <./images//grafica_global_debates.pdf> <./images//grafica_debate1.pdf>
-]
+l.557 	\newpage
+                <./images//grafica_global_debates.pdf>]
+<./images//grafica_debate1.pdf, id=391, 722.7pt x 578.16pt>
+File: ./images//grafica_debate1.pdf Graphic file (type pdf)
+<use ./images//grafica_debate1.pdf>
+Package pdftex.def Info: ./images//grafica_debate1.pdf  used on input line 560.
+
+(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
+<./images//grafica_debate2.pdf, id=392, 722.7pt x 578.16pt>
+File: ./images//grafica_debate2.pdf Graphic file (type pdf)
+<use ./images//grafica_debate2.pdf>
+Package pdftex.def Info: ./images//grafica_debate2.pdf  used on input line 568.
+
+(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
+<./images//grafica_debate3.pdf, id=393, 722.7pt x 578.16pt>
+File: ./images//grafica_debate3.pdf Graphic file (type pdf)
+<use ./images//grafica_debate3.pdf>
+Package pdftex.def Info: ./images//grafica_debate3.pdf  used on input line 576.
+
+(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
 Package pdftex.def Info: ./images//logo.png  used on input line 582.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1293,48 +1296,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.582 		
-        pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.6}) has been already used, duplicate ignored
+l.582 	\newpage
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.582 		
-         <./images//grafica_debate2.pdf> <./images//grafica_debate3.pdf>]
-<./images//grafica_global_x.pdf, id=492, 722.7pt x 578.16pt>
-File: ./images//grafica_global_x.pdf Graphic file (type pdf)
-<use ./images//grafica_global_x.pdf>
-Package pdftex.def Info: ./images//grafica_global_x.pdf  used on input line 591
-.
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-<./images//grafica_intervalo_8-12.pdf, id=493, 722.7pt x 578.16pt>
-File: ./images//grafica_intervalo_8-12.pdf Graphic file (type pdf)
-<use ./images//grafica_intervalo_8-12.pdf>
-Package pdftex.def Info: ./images//grafica_intervalo_8-12.pdf  used on input li
-ne 599.
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-<./images//grafica_intervalo_12-17.pdf, id=494, 722.7pt x 578.16pt>
-File: ./images//grafica_intervalo_12-17.pdf Graphic file (type pdf)
-<use ./images//grafica_intervalo_12-17.pdf>
-Package pdftex.def Info: ./images//grafica_intervalo_12-17.pdf  used on input l
-ine 607.
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<./images//grafica_intervalo_17-23.pdf, id=495, 722.7pt x 578.16pt>
-File: ./images//grafica_intervalo_17-23.pdf Graphic file (type pdf)
-<use ./images//grafica_intervalo_17-23.pdf>
-Package pdftex.def Info: ./images//grafica_intervalo_17-23.pdf  used on input l
-ine 615.
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+l.582 	\newpage
+                <./images//grafica_debate1.pdf> <./images//grafica_debate2.pdf>
+]
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 623.
+Package pdftex.def Info: ./images//logo.png  used on input line 599.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1347,17 +1321,66 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
  has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.623 		
-        pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.8}) has been already used, duplicate ignored
+l.599 	\newpage
+                <./images//grafica_debate3.pdf>]
+<./images//grafica_global_x.pdf, id=537, 722.7pt x 578.16pt>
+File: ./images//grafica_global_x.pdf Graphic file (type pdf)
+<use ./images//grafica_global_x.pdf>
+Package pdftex.def Info: ./images//grafica_global_x.pdf  used on input line 602
+.
+(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
+<./images//grafica_intervalo_8-12.pdf, id=538, 722.7pt x 578.16pt>
+File: ./images//grafica_intervalo_8-12.pdf Graphic file (type pdf)
+<use ./images//grafica_intervalo_8-12.pdf>
+Package pdftex.def Info: ./images//grafica_intervalo_8-12.pdf  used on input li
+ne 610.
+(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
+<./images//grafica_intervalo_12-17.pdf, id=539, 722.7pt x 578.16pt>
+File: ./images//grafica_intervalo_12-17.pdf Graphic file (type pdf)
+<use ./images//grafica_intervalo_12-17.pdf>
+Package pdftex.def Info: ./images//grafica_intervalo_12-17.pdf  used on input l
+ine 618.
+(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images//grafica_intervalo_17-23.pdf, id=540, 722.7pt x 578.16pt>
+File: ./images//grafica_intervalo_17-23.pdf Graphic file (type pdf)
+<use ./images//grafica_intervalo_17-23.pdf>
+Package pdftex.def Info: ./images//grafica_intervalo_17-23.pdf  used on input l
+ine 626.
+(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 638.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[14pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
+ has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.623 		
+l.638 		
+        pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.638 		
          <./images//grafica_global_x.pdf> <./images//grafica_intervalo_8-12.pdf
 >]
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 627.
+Package pdftex.def Info: ./images//logo.png  used on input line 646.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1368,33 +1391,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.9})
- has been already used, duplicate ignored
+[15pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
+) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.627 		
-        pdfTeX warning (ext4): destination with the same identifier (name{figur
-e.10}) has been already used, duplicate ignored
+l.646 	
+       pdfTeX warning (ext4): destination with the same identifier (name{figure
+.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.627 		
-         <./images//grafica_intervalo_12-17.pdf> <./images//grafica_intervalo_1
-7-23.pdf>]
-<./images//comentarios_fecha.pdf, id=681, 722.7pt x 433.62pt>
+l.646 	
+        <./images//grafica_intervalo_12-17.pdf> <./images//grafica_intervalo_17
+-23.pdf>]
+<./images//comentarios_fecha.pdf, id=727, 722.7pt x 433.62pt>
 File: ./images//comentarios_fecha.pdf Graphic file (type pdf)
 <use ./images//comentarios_fecha.pdf>
-Package pdftex.def Info: ./images//comentarios_fecha.pdf  used on input line 63
-8.
+Package pdftex.def Info: ./images//comentarios_fecha.pdf  used on input line 64
+9.
 (pdftex.def)             Requested size: 338.58632pt x 203.15302pt.
-<./images//publicaciones_por_hora.pdf, id=682, 722.7pt x 433.62pt>
+<./images//publicaciones_por_hora.pdf, id=728, 722.7pt x 433.62pt>
 File: ./images//publicaciones_por_hora.pdf Graphic file (type pdf)
 <use ./images//publicaciones_por_hora.pdf>
 Package pdftex.def Info: ./images//publicaciones_por_hora.pdf  used on input li
-ne 648.
+ne 659.
 (pdftex.def)             Requested size: 338.58632pt x 203.15302pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 655.
+Package pdftex.def Info: ./images//logo.png  used on input line 671.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1405,33 +1428,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.11}
+[16pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.655 	
+l.671 	
        pdfTeX warning (ext4): destination with the same identifier (name{figure
-.12}) has been already used, duplicate ignored
+.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.655 	
+l.671 	
         <./images//comentarios_fecha.pdf> <./images//publicaciones_por_hora.pdf
 >]
-<./images//nube_palabras_general.pdf, id=763, 722.7pt x 433.62pt>
+<./images//nube_palabras_general.pdf, id=809, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_general.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_general.pdf>
 Package pdftex.def Info: ./images//nube_palabras_general.pdf  used on input lin
-e 664.
+e 675.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-<./images//nube_palabras_debate_1.pdf, id=764, 722.7pt x 433.62pt>
+<./images//nube_palabras_debate_1.pdf, id=810, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_1.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_1.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_1.pdf  used on input li
-ne 674.
+ne 685.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 680.
+Package pdftex.def Info: ./images//logo.png  used on input line 691.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1442,33 +1465,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
+[17pdfTeX warning (ext4): destination with the same identifier (name{figure.14}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.680 	\newpage
+l.691 	\newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.14}) has been already used, duplicate ignored
+e{figure.15}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.680 	\newpage
+l.691 	\newpage
                 <./images//nube_palabras_general.pdf> <./images//nube_palabras_
 debate_1.pdf>]
-<./images//nube_palabras_debate_2.pdf, id=818, 722.7pt x 433.62pt>
+<./images//nube_palabras_debate_2.pdf, id=863, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_2.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_2.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_2.pdf  used on input li
-ne 685.
+ne 696.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-<./images//nube_palabras_debate_3.pdf, id=819, 722.7pt x 433.62pt>
+<./images//nube_palabras_debate_3.pdf, id=864, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_3.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_3.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_3.pdf  used on input li
-ne 694.
+ne 705.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 706.
+Package pdftex.def Info: ./images//logo.png  used on input line 717.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1479,33 +1502,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.16}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.706 	\newpage
+l.717 	\newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.16}) has been already used, duplicate ignored
+e{figure.17}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.706 	\newpage
+l.717 	\newpage
                 <./images//nube_palabras_debate_2.pdf> <./images//nube_palabras
 _debate_3.pdf>]
-<./images//nube_general_eleccion.pdf, id=872, 722.7pt x 433.62pt>
+<./images//nube_general_eleccion.pdf, id=918, 722.7pt x 433.62pt>
 File: ./images//nube_general_eleccion.pdf Graphic file (type pdf)
 <use ./images//nube_general_eleccion.pdf>
 Package pdftex.def Info: ./images//nube_general_eleccion.pdf  used on input lin
-e 712.
+e 723.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-<./images//nube_intervalo_8-12.pdf, id=873, 722.7pt x 433.62pt>
+<./images//nube_intervalo_8-12.pdf, id=919, 722.7pt x 433.62pt>
 File: ./images//nube_intervalo_8-12.pdf Graphic file (type pdf)
 <use ./images//nube_intervalo_8-12.pdf>
 Package pdftex.def Info: ./images//nube_intervalo_8-12.pdf  used on input line 
-721.
+732.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 727.
+Package pdftex.def Info: ./images//logo.png  used on input line 738.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1516,33 +1539,33 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
+[19pdfTeX warning (ext4): destination with the same identifier (name{figure.18}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.727 	\newpage
+l.738 	\newpage
                pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.18}) has been already used, duplicate ignored
+e{figure.19}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.727 	\newpage
+l.738 	\newpage
                 <./images//nube_general_eleccion.pdf> <./images//nube_intervalo
 _8-12.pdf>]
-<./images//nube_intervalo_12-17.pdf, id=937, 722.7pt x 433.62pt>
+<./images//nube_intervalo_12-17.pdf, id=982, 722.7pt x 433.62pt>
 File: ./images//nube_intervalo_12-17.pdf Graphic file (type pdf)
 <use ./images//nube_intervalo_12-17.pdf>
 Package pdftex.def Info: ./images//nube_intervalo_12-17.pdf  used on input line
- 731.
+ 742.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-<./images//nube_intervalo_17-23.pdf, id=938, 722.7pt x 433.62pt>
+<./images//nube_intervalo_17-23.pdf, id=983, 722.7pt x 433.62pt>
 File: ./images//nube_intervalo_17-23.pdf Graphic file (type pdf)
 <use ./images//nube_intervalo_17-23.pdf>
 Package pdftex.def Info: ./images//nube_intervalo_17-23.pdf  used on input line
- 740.
+ 751.
 (pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 764.
+Package pdftex.def Info: ./images//logo.png  used on input line 775.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1553,40 +1576,40 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
+[20pdfTeX warning (ext4): destination with the same identifier (name{figure.20}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.764 	
+l.775 	
        pdfTeX warning (ext4): destination with the same identifier (name{figure
-.20}) has been already used, duplicate ignored
+.21}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.764 	
+l.775 	
         <./images//nube_intervalo_12-17.pdf> <./images//nube_intervalo_17-23.pd
 f>]
-Overfull \hbox (4.8405pt too wide) in paragraph at lines 767--776
+Overfull \hbox (4.8405pt too wide) in paragraph at lines 778--787
  [][] 
  []
 
-<./images//longitud_comentarios_youtube.pdf, id=1003, 722.7pt x 433.62pt>
+<./images//longitud_comentarios_youtube.pdf, id=1049, 722.7pt x 433.62pt>
 File: ./images//longitud_comentarios_youtube.pdf Graphic file (type pdf)
 <use ./images//longitud_comentarios_youtube.pdf>
 Package pdftex.def Info: ./images//longitud_comentarios_youtube.pdf  used on in
-put line 797.
+put line 808.
 (pdftex.def)             Requested size: 386.95897pt x 232.17297pt.
-<./images//longitud_publicaciones_x.pdf, id=1004, 722.7pt x 433.62pt>
+<./images//longitud_publicaciones_x.pdf, id=1050, 722.7pt x 433.62pt>
 File: ./images//longitud_publicaciones_x.pdf Graphic file (type pdf)
 <use ./images//longitud_publicaciones_x.pdf>
 Package pdftex.def Info: ./images//longitud_publicaciones_x.pdf  used on input 
-line 805.
+line 816.
 (pdftex.def)             Requested size: 386.95897pt x 232.17297pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 812.
+Package pdftex.def Info: ./images//logo.png  used on input line 823.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1596,20 +1619,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[20pdfTeX warning (ext4): destination with the same identifier (name{table.6}) 
+[21pdfTeX warning (ext4): destination with the same identifier (name{table.6}) 
 has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.812 	
+l.823 	
        pdfTeX warning (ext4): destination with the same identifier (name{figure
-.21}) has been already used, duplicate ignored
+.22}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.812 	
+l.823 	
         <./images//longitud_comentarios_youtube.pdf>]
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 832.
+Package pdftex.def Info: ./images//logo.png  used on input line 843.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1620,17 +1643,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
+[22pdfTeX warning (ext4): destination with the same identifier (name{figure.23}
 ) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.832 	L
+l.843 	L
         os resultados reflejan patrones importantes de participación y disc...
  <./images//longitud_publicaciones_x.pdf>] 
 AED: lastpage setting LastPage
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 845.
+Package pdftex.def Info: ./images//logo.png  used on input line 856.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1640,7 +1663,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[22] (./elecciones.aux
+[23] (./elecciones.aux
 LaTeX Info: Redefining \sptext on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
@@ -1649,16 +1672,16 @@ LaTeX Info: Redefining \% on input line 27.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `elecciones.out' has not changed.
-(rerunfilecheck)             Checksum: B164D7F47F104517B7309DCBE53D42CA;8136.
+(rerunfilecheck)             Checksum: 5D7034302B4FF05B34622B4690D8A664;8189.
 Package logreq Info: Writing requests to 'elecciones.run.xml'.
 \openout1 = `elecciones.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24041 strings out of 478287
- 419986 string characters out of 5849289
- 1325036 words of memory out of 5000000
- 41794 multiletter control sequences out of 15000+600000
+ 24052 strings out of 478287
+ 420240 string characters out of 5849289
+ 1325085 words of memory out of 5000000
+ 41802 multiletter control sequences out of 15000+600000
  529567 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  68i,16n,77p,1199b,2802s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1674,10 +1697,10 @@ usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type
 1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></us
 r/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmtt10.pfb>
-Output written on elecciones.pdf (23 pages, 2841939 bytes).
+Output written on elecciones.pdf (24 pages, 3197580 bytes).
 PDF statistics:
- 1194 PDF objects out of 1200 (max. 8388607)
- 527 compressed objects within 6 object streams
- 104 named destinations out of 1000 (max. 500000)
- 420 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1239 PDF objects out of 1440 (max. 8388607)
+ 561 compressed objects within 6 object streams
+ 106 named destinations out of 1000 (max. 500000)
+ 425 words of extra memory for PDF output out of 10000 (max. 10000000)
 

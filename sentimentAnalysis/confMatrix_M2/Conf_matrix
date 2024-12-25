@@ -1,0 +1,13 @@
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+# Cargar una matriz de confusión específica
+cm = np.load("conf_matrix_Xóchitl.npy")
+
+# Visualizar la matriz de confusión
+sns.heatmap(cm, annot=True, fmt='d', cmap='Blues')
+plt.title('Matriz de Confusión para Xóchitl - Época 1')
+plt.xlabel('Predicción')
+plt.ylabel('Verdadero')
+plt.show()
