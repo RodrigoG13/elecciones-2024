@@ -479,34 +479,6 @@ class BetoMultiOutput(nn.Module):
         return {"loss": loss, "logits": reshaped_logits}
     
     
-import torch
-from torch.utils.data import DataLoader, WeightedRandomSampler
-from transformers import Trainer
-
-class WeightedTrainer(Trainer):
-    def __init__(self, weights, *args, **kwargs):
-        super().__init__(*args, **kwargs)
-        self.weights = weights
-
-    def get_train_dataloader(self):
-        if self.train_dataset is None:
-            raise ValueError("Trainer: training requires a train_dataset.")
-
-        # Construye el sampler usando la lista 'self.weights'
-        sampler = WeightedRandomSampler(
-            weights=self.weights,
-            num_samples=len(self.weights),   # Mismo número de muestras que el dataset
-            replacement=True                # Con replacement para balanceo
-        )
-        return DataLoader(
-            self.train_dataset,
-            batch_size=self.args.train_batch_size,
-            sampler=sampler,
-            collate_fn=self.data_collator,
-            drop_last=self.args.dataloader_drop_last
-        )
-
-
 
 ###################################
 # 9) Definición de Métricas de Evaluación #

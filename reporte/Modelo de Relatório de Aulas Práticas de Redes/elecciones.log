@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  24 DEC 2024 20:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  25 DEC 2024 15:05
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -209,6 +209,30 @@ Package: parskip 2021-03-14 v2.0h non-zero parskip adjustments
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count272
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/caption/subcaption.sty
+Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen153
+\captionmargin@=\dimen154
+\captionwidth=\dimen155
+\caption@tempdima=\dimen156
+\caption@indent=\dimen157
+\caption@parindent=\dimen158
+\caption@hangindent=\dimen159
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count273
+\c@continuedfloat=\count274
+Package caption Info: hyperref package is loaded.
+)
+\c@subfigure=\count275
+\c@subtable=\count276
+)
 (/usr/share/texmf/tex/latex/lm/lmodern.sty
 Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -254,15 +278,15 @@ Package: expl3 2022-01-21 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count273
+\l__color_backend_stack_int=\count277
 \l__pdf_internal_box=\box50
 ))
 Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
 )
 Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
-\g__lipsum_par_int=\count274
-\l__lipsum_a_int=\count275
-\l__lipsum_b_int=\count276
+\g__lipsum_par_int=\count278
+\l__lipsum_a_int=\count279
+\l__lipsum_b_int=\count280
 
 (/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.ltd.tex))
 (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -283,23 +307,23 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count277
+\lst@mode=\count281
 \lst@gtempboxa=\box51
 \lst@token=\toks18
-\lst@length=\count278
-\lst@currlwidth=\dimen153
-\lst@column=\count279
-\lst@pos=\count280
-\lst@lostspace=\dimen154
-\lst@width=\dimen155
-\lst@newlines=\count281
-\lst@lineno=\count282
-\lst@maxwidth=\dimen156
+\lst@length=\count282
+\lst@currlwidth=\dimen160
+\lst@column=\count283
+\lst@pos=\count284
+\lst@lostspace=\dimen161
+\lst@width=\dimen162
+\lst@newlines=\count285
+\lst@lineno=\count286
+\lst@maxwidth=\dimen163
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
-\c@lstnumber=\count283
-\lst@skipnumbers=\count284
+\c@lstnumber=\count287
+\lst@skipnumbers=\count288
 \lst@framebox=\box52
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
@@ -309,7 +333,7 @@ Package: listings 2020/03/24 1.8d (Carsten Heinz)
 
 (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count285
+\c@float@type=\count289
 \float@exts=\toks19
 \float@box=\box53
 \@float@everytoks=\toks20
@@ -320,12 +344,12 @@ Package: titlesec 2021/07/05 v2.14 Sectioning titles
 \ttl@box=\box55
 \beforetitleunit=\skip50
 \aftertitleunit=\skip51
-\ttl@plus=\dimen157
-\ttl@minus=\dimen158
+\ttl@plus=\dimen164
+\ttl@minus=\dimen165
 \ttl@toksa=\toks21
-\titlewidth=\dimen159
-\titlewidthlast=\dimen160
-\titlewidthfirst=\dimen161
+\titlewidth=\dimen166
+\titlewidthlast=\dimen167
+\titlewidthfirst=\dimen168
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
@@ -338,46 +362,46 @@ Package: amstext 2021/08/26 v2.01 AMS text
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks22
-\ex@=\dimen162
+\ex@=\dimen169
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen163
+\pmbraise@=\dimen170
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count286
+\inf@bad=\count290
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count287
-\leftroot@=\count288
+\uproot@=\count291
+\leftroot@=\count292
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count289
-\DOTSCASE@=\count290
+\classnum@=\count293
+\DOTSCASE@=\count294
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box56
 \strutbox@=\box57
-\big@size=\dimen164
+\big@size=\dimen171
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count291
-\c@MaxMatrixCols=\count292
+\macc@depth=\count295
+\c@MaxMatrixCols=\count296
 \dotsspace@=\muskip17
-\c@parentequation=\count293
-\dspbrk@lvl=\count294
+\c@parentequation=\count297
+\dspbrk@lvl=\count298
 \tag@help=\toks23
-\row@=\count295
-\column@=\count296
-\maxfields@=\count297
+\row@=\count299
+\column@=\count300
+\maxfields@=\count301
 \andhelp@=\toks24
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
+\eqnshift@=\dimen172
+\alignsep@=\dimen173
+\tagshift@=\dimen174
+\tagwidth@=\dimen175
+\totwidth@=\dimen176
+\lineht@=\dimen177
 \@envbody=\toks25
 \multlinegap=\skip53
 \multlinetaggap=\skip54
@@ -387,7 +411,7 @@ LaTeX Info: Redefining \] on input line 2939.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
 Package: algorithm2e 2017/07/18 v5.2 algorithms environments
-\c@AlgoLine=\count298
+\c@AlgoLine=\count302
 
 (/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
@@ -396,7 +420,7 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 
 (/usr/share/texlive/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
 Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
-\c@checkoddpage=\count299
+\c@checkoddpage=\count303
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
@@ -412,12 +436,12 @@ Package: relsize 2013/03/29 ver 4.1
 \skiplength=\skip61
 \algomargin=\skip62
 \skipalgocfslide=\skip63
-\algowidth=\dimen171
-\inoutsize=\dimen172
-\inoutindent=\dimen173
-\interspacetitleruled=\dimen174
-\interspacealgoruled=\dimen175
-\interspacetitleboxruled=\dimen176
+\algowidth=\dimen178
+\inoutsize=\dimen179
+\inoutindent=\dimen180
+\interspacetitleruled=\dimen181
+\interspacealgoruled=\dimen182
+\interspacetitleboxruled=\dimen183
 \algocf@ruledwidth=\skip64
 \algocf@inoutbox=\box58
 \algocf@inputbox=\box59
@@ -434,26 +458,26 @@ Package: relsize 2013/03/29 ver 4.1
 \algoheightrule=\skip71
 \algotitleheightruledefault=\skip72
 \algotitleheightrule=\skip73
-\c@algocfline=\count300
-\c@algocfproc=\count301
-\c@algocf=\count302
+\c@algocfline=\count304
+\c@algocfproc=\count305
+\c@algocf=\count306
 \algocf@algoframe=\box64
 \algocf@algobox=\box65
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
 Package: babel 2022/01/26 3.70 The Babel package
-\babel@savecnt=\count303
-\U@D=\dimen177
+\babel@savecnt=\count307
+\U@D=\dimen184
 \l@unhyphenated=\language87
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count304
+\bbl@dirlevel=\count308
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks27
-\es@quotdepth=\count305
+\es@quotdepth=\count309
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -488,8 +512,8 @@ Package tocloft Info: The document has section divisions on input line 51.
 \cftbeforefigskip=\skip97
 \cftfigindent=\skip98
 \cftfignumwidth=\skip99
-\c@lofdepth=\count306
-\c@lotdepth=\count307
+\c@lofdepth=\count310
+\c@lotdepth=\count311
 \cftbeforelottitleskip=\skip100
 \cftafterlottitleskip=\skip101
 \cftbeforetabskip=\skip102
@@ -514,12 +538,12 @@ LaTeX Warning: Command \underline  has changed.
 
 ) (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.sty
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
-\csq@reset=\count308
-\csq@gtype=\count309
-\csq@glevel=\count310
-\csq@qlevel=\count311
-\csq@maxlvl=\count312
-\csq@tshold=\count313
+\csq@reset=\count312
+\csq@gtype=\count313
+\csq@glevel=\count314
+\csq@qlevel=\count315
+\csq@maxlvl=\count316
+\csq@tshold=\count317
 \csq@ltx@everypar=\toks28
 
 (/usr/share/texlive/texmf-dist/tex/latex/csquotes/csquotes.def
@@ -536,53 +560,53 @@ Package: biblatex 2022/02/02 v3.17 programmable bibliographies (PK/MW)
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count314
+\lrq@indent=\count318
 
 (/usr/share/texlive/texmf-dist/tex/latex/logreq/logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count315
-\c@listtotal=\count316
-\c@listcount=\count317
-\c@liststart=\count318
-\c@liststop=\count319
-\c@citecount=\count320
-\c@citetotal=\count321
-\c@multicitecount=\count322
-\c@multicitetotal=\count323
-\c@instcount=\count324
-\c@maxnames=\count325
-\c@minnames=\count326
-\c@maxitems=\count327
-\c@minitems=\count328
-\c@citecounter=\count329
-\c@maxcitecounter=\count330
-\c@savedcitecounter=\count331
-\c@uniquelist=\count332
-\c@uniquename=\count333
-\c@refsection=\count334
-\c@refsegment=\count335
-\c@maxextratitle=\count336
-\c@maxextratitleyear=\count337
-\c@maxextraname=\count338
-\c@maxextradate=\count339
-\c@maxextraalpha=\count340
-\c@abbrvpenalty=\count341
-\c@highnamepenalty=\count342
-\c@lownamepenalty=\count343
-\c@maxparens=\count344
-\c@parenlevel=\count345
-\blx@tempcnta=\count346
-\blx@tempcntb=\count347
-\blx@tempcntc=\count348
-\c@blx@maxsection=\count349
-\c@blx@maxsegment@0=\count350
-\blx@notetype=\count351
-\blx@parenlevel@text=\count352
-\blx@parenlevel@foot=\count353
-\c@blx@sectionciteorder@0=\count354
-\blx@entrysetcounter=\count355
-\blx@biblioinstance=\count356
+\c@tabx@nest=\count319
+\c@listtotal=\count320
+\c@listcount=\count321
+\c@liststart=\count322
+\c@liststop=\count323
+\c@citecount=\count324
+\c@citetotal=\count325
+\c@multicitecount=\count326
+\c@multicitetotal=\count327
+\c@instcount=\count328
+\c@maxnames=\count329
+\c@minnames=\count330
+\c@maxitems=\count331
+\c@minitems=\count332
+\c@citecounter=\count333
+\c@maxcitecounter=\count334
+\c@savedcitecounter=\count335
+\c@uniquelist=\count336
+\c@uniquename=\count337
+\c@refsection=\count338
+\c@refsegment=\count339
+\c@maxextratitle=\count340
+\c@maxextratitleyear=\count341
+\c@maxextraname=\count342
+\c@maxextradate=\count343
+\c@maxextraalpha=\count344
+\c@abbrvpenalty=\count345
+\c@highnamepenalty=\count346
+\c@lownamepenalty=\count347
+\c@maxparens=\count348
+\c@parenlevel=\count349
+\blx@tempcnta=\count350
+\blx@tempcntb=\count351
+\blx@tempcntc=\count352
+\c@blx@maxsection=\count353
+\c@blx@maxsegment@0=\count354
+\blx@notetype=\count355
+\blx@parenlevel@text=\count356
+\blx@parenlevel@foot=\count357
+\c@blx@sectionciteorder@0=\count358
+\blx@entrysetcounter=\count359
+\blx@biblioinstance=\count360
 \labelnumberwidth=\skip105
 \labelalphawidth=\skip106
 \biblabelsep=\skip107
@@ -594,9 +618,9 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language88
-\c@mincomprange=\count357
-\c@maxcomprange=\count358
-\c@mincompwidth=\count359
+\c@mincomprange=\count361
+\c@maxcomprange=\count362
+\c@mincompwidth=\count363
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
@@ -611,84 +635,84 @@ File: apa.dbx 2021/12/24 v9.15 APA biblatex style data model
 )
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count360
-\c@savedafterword=\count361
-\c@annotator=\count362
-\c@savedannotator=\count363
-\c@author=\count364
-\c@savedauthor=\count365
-\c@bookauthor=\count366
-\c@savedbookauthor=\count367
-\c@commentator=\count368
-\c@savedcommentator=\count369
-\c@editor=\count370
-\c@savededitor=\count371
-\c@editora=\count372
-\c@savededitora=\count373
-\c@editorb=\count374
-\c@savededitorb=\count375
-\c@editorc=\count376
-\c@savededitorc=\count377
-\c@foreword=\count378
-\c@savedforeword=\count379
-\c@holder=\count380
-\c@savedholder=\count381
-\c@introduction=\count382
-\c@savedintroduction=\count383
-\c@namea=\count384
-\c@savednamea=\count385
-\c@nameb=\count386
-\c@savednameb=\count387
-\c@namec=\count388
-\c@savednamec=\count389
-\c@translator=\count390
-\c@savedtranslator=\count391
-\c@shortauthor=\count392
-\c@savedshortauthor=\count393
-\c@shorteditor=\count394
-\c@savedshorteditor=\count395
-\c@narrator=\count396
-\c@savednarrator=\count397
-\c@execproducer=\count398
-\c@savedexecproducer=\count399
-\c@execdirector=\count400
-\c@savedexecdirector=\count401
-\c@with=\count402
-\c@savedwith=\count403
-\c@labelname=\count404
-\c@savedlabelname=\count405
-\c@institution=\count406
-\c@savedinstitution=\count407
-\c@lista=\count408
-\c@savedlista=\count409
-\c@listb=\count410
-\c@savedlistb=\count411
-\c@listc=\count412
-\c@savedlistc=\count413
-\c@listd=\count414
-\c@savedlistd=\count415
-\c@liste=\count416
-\c@savedliste=\count417
-\c@listf=\count418
-\c@savedlistf=\count419
-\c@location=\count420
-\c@savedlocation=\count421
-\c@organization=\count422
-\c@savedorganization=\count423
-\c@origlocation=\count424
-\c@savedoriglocation=\count425
-\c@origpublisher=\count426
-\c@savedorigpublisher=\count427
-\c@publisher=\count428
-\c@savedpublisher=\count429
-\c@language=\count430
-\c@savedlanguage=\count431
-\c@origlanguage=\count432
-\c@savedoriglanguage=\count433
-\c@citation=\count434
-\c@savedcitation=\count435
-\c@pageref=\count436
-\c@savedpageref=\count437
+\c@afterword=\count364
+\c@savedafterword=\count365
+\c@annotator=\count366
+\c@savedannotator=\count367
+\c@author=\count368
+\c@savedauthor=\count369
+\c@bookauthor=\count370
+\c@savedbookauthor=\count371
+\c@commentator=\count372
+\c@savedcommentator=\count373
+\c@editor=\count374
+\c@savededitor=\count375
+\c@editora=\count376
+\c@savededitora=\count377
+\c@editorb=\count378
+\c@savededitorb=\count379
+\c@editorc=\count380
+\c@savededitorc=\count381
+\c@foreword=\count382
+\c@savedforeword=\count383
+\c@holder=\count384
+\c@savedholder=\count385
+\c@introduction=\count386
+\c@savedintroduction=\count387
+\c@namea=\count388
+\c@savednamea=\count389
+\c@nameb=\count390
+\c@savednameb=\count391
+\c@namec=\count392
+\c@savednamec=\count393
+\c@translator=\count394
+\c@savedtranslator=\count395
+\c@shortauthor=\count396
+\c@savedshortauthor=\count397
+\c@shorteditor=\count398
+\c@savedshorteditor=\count399
+\c@narrator=\count400
+\c@savednarrator=\count401
+\c@execproducer=\count402
+\c@savedexecproducer=\count403
+\c@execdirector=\count404
+\c@savedexecdirector=\count405
+\c@with=\count406
+\c@savedwith=\count407
+\c@labelname=\count408
+\c@savedlabelname=\count409
+\c@institution=\count410
+\c@savedinstitution=\count411
+\c@lista=\count412
+\c@savedlista=\count413
+\c@listb=\count414
+\c@savedlistb=\count415
+\c@listc=\count416
+\c@savedlistc=\count417
+\c@listd=\count418
+\c@savedlistd=\count419
+\c@liste=\count420
+\c@savedliste=\count421
+\c@listf=\count422
+\c@savedlistf=\count423
+\c@location=\count424
+\c@savedlocation=\count425
+\c@organization=\count426
+\c@savedorganization=\count427
+\c@origlocation=\count428
+\c@savedoriglocation=\count429
+\c@origpublisher=\count430
+\c@savedorigpublisher=\count431
+\c@publisher=\count432
+\c@savedpublisher=\count433
+\c@language=\count434
+\c@savedlanguage=\count435
+\c@origlanguage=\count436
+\c@savedoriglanguage=\count437
+\c@citation=\count438
+\c@savedcitation=\count439
+\c@pageref=\count440
+\c@savedpageref=\count441
 \shorthandwidth=\skip113
 \shortjournalwidth=\skip114
 \shortserieswidth=\skip115
@@ -714,19 +738,19 @@ Package biblatex Info: ... file 'biblatex.def' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/biblatex.def
 File: biblatex.def 2022/02/02 v3.17 biblatex compatibility (PK/MW)
-\c@textcitecount=\count438
-\c@textcitetotal=\count439
-\c@textcitemaxnames=\count440
-\c@biburlbigbreakpenalty=\count441
-\c@biburlbreakpenalty=\count442
-\c@biburlnumpenalty=\count443
-\c@biburlucpenalty=\count444
-\c@biburllcpenalty=\count445
+\c@textcitecount=\count442
+\c@textcitetotal=\count443
+\c@textcitemaxnames=\count444
+\c@biburlbigbreakpenalty=\count445
+\c@biburlbreakpenalty=\count446
+\c@biburlnumpenalty=\count447
+\c@biburlucpenalty=\count448
+\c@biburllcpenalty=\count449
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count446
+\c@smartand=\count450
 )
 Package biblatex Info: Trying to load bibliography style 'apa'...
 Package biblatex Info: ... file 'apa.bbx' found.
@@ -738,8 +762,8 @@ Package biblatex Info: ... file 'standard.bbx' found.
 
 (/usr/share/texlive/texmf-dist/tex/latex/biblatex/bbx/standard.bbx
 File: standard.bbx 2022/02/02 v3.17 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count447
-\c@bbx:relatedtotal=\count448
+\c@bbx:relatedcount=\count451
+\c@bbx:relatedtotal=\count452
 )
 Package biblatex Info: Delimiter 'nameyeardelim' in context 'bib' already defin
 ed, overwriting.
@@ -830,7 +854,7 @@ Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'spanish'.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-124.
+125.
 
 (/usr/share/texmf/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -840,24 +864,24 @@ LaTeX Info: Redefining \% on input line 27.
 )
 \openout1 = `elecciones.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 124.
-LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 125.
+LaTeX Font Info:    ... okay on input line 125.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -895,16 +919,16 @@ LaTeX Font Info:    ... okay on input line 124.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count449
-\scratchdimen=\dimen178
+\scratchcounter=\count453
+\scratchdimen=\dimen185
 \scratchbox=\box66
-\nofMPsegments=\count450
-\nofMParguments=\count451
+\nofMPsegments=\count454
+\nofMParguments=\count455
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count452
-\MPscratchDim=\dimen179
-\MPnumerator=\count453
-\makeMPintoPDFobject=\count454
+\MPscratchCnt=\count456
+\MPscratchDim=\dimen186
+\MPnumerator=\count457
+\makeMPintoPDFobject=\count458
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -915,7 +939,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package hyperref Info: Link coloring ON on input line 124.
+Package hyperref Info: Link coloring ON on input line 125.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -926,19 +950,23 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count455
+\c@section@level=\count459
 )
-LaTeX Info: Redefining \ref on input line 124.
-LaTeX Info: Redefining \pageref on input line 124.
-LaTeX Info: Redefining \nameref on input line 124.
+LaTeX Info: Redefining \ref on input line 125.
+LaTeX Info: Redefining \pageref on input line 125.
+LaTeX Info: Redefining \nameref on input line 125.
 
 (./elecciones.out) (./elecciones.out)
 \@outlinefile=\write4
 \openout4 = `elecciones.out'.
 
-\c@lstlisting=\count456
-LaTeX Info: Redefining \. on input line 124.
-LaTeX Info: Redefining \% on input line 124.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count460
+LaTeX Info: Redefining \. on input line 125.
+LaTeX Info: Redefining \% on input line 125.
 Package biblatex Info: Trying to load language 'spanish' -> 'spanish-apa'...
 Package biblatex Info: ... file 'spanish-apa.lbx' found.
 
@@ -965,15 +993,15 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'elecciones.bbl' found.
 
 (./elecciones.bbl)
-Package biblatex Info: Reference section=0 on input line 124.
-Package biblatex Info: Reference segment=0 on input line 124.
+Package biblatex Info: Reference section=0 on input line 125.
+Package biblatex Info: Reference segment=0 on input line 125.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
-(lastpage)             ! on input line 124.
-<./images//logo.png, id=152, 1228.59pt x 1228.59pt>
+(lastpage)             ! on input line 125.
+<./images//logo.png, id=164, 1228.59pt x 1228.59pt>
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 127.
+Package pdftex.def Info: ./images//logo.png  used on input line 128.
 (pdftex.def)             Requested size: 120.92421pt x 120.91653pt.
  [1
 
@@ -1019,20 +1047,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.141 	\newpage
+l.142 	\newpage
                 [1]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 147.
+(Font)              <12> on input line 148.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 147.
+(Font)              <8> on input line 148.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 147.
+(Font)              <6> on input line 148.
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 157.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 158.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 169.
+Package pdftex.def Info: ./images//logo.png  used on input line 170.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1046,7 +1074,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 [2]
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 199.
+Package pdftex.def Info: ./images//logo.png  used on input line 200.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1059,13 +1087,13 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [3]
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-210.
+211.
  (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 265.
+Package pdftex.def Info: ./images//logo.png  used on input line 266.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1076,20 +1104,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[4pdfTeX warning (ext4): destination with the same identifier (name{table.1}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.265 	
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.265 	
-       ]
+[4]
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 286.
+Package pdftex.def Info: ./images//logo.png  used on input line 287.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1102,13 +1120,21 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [5]
 LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 290
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 291
 .
+<./images//crispdm.png, id=260, 144.54pt x 144.7809pt>
+File: ./images//crispdm.png Graphic file (type png)
+<use ./images//crispdm.png>
+Package pdftex.def Info: ./images//crispdm.png  used on input line 318.
+(pdftex.def)             Requested size: 169.29684pt x 169.58736pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 310.
+Package pdftex.def Info: ./images//logo.png  used on input line 332.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1118,30 +1144,6 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
 [6]
-<./images//crispdm.png, id=252, 144.54pt x 144.7809pt>
-File: ./images//crispdm.png Graphic file (type png)
-<use ./images//crispdm.png>
-Package pdftex.def Info: ./images//crispdm.png  used on input line 318.
-(pdftex.def)             Requested size: 169.29684pt x 169.58736pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 347.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[7pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.347 	
-        <./images//crispdm.png>]
 LaTeX Font Info:    Trying to load font information for OMS+lmss on input line 
 368.
 LaTeX Font Info:    No file OMSlmss.fd. on input line 368.
@@ -1156,7 +1158,19 @@ Overfull \hbox (6.94171pt too wide) in paragraph at lines 364--381
  [][] 
  []
 
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 383.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[7 <./images//crispdm.png>]
 Underfull \hbox (badness 1845) in paragraph at lines 393--394
 []\OT1/lmss/m/n/10 Texto al-fa-num[]eri-co (e.g.,
  []
@@ -1168,7 +1182,7 @@ Overfull \hbox (8.51889pt too wide) in paragraph at lines 387--400
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 425.
+Package pdftex.def Info: ./images//logo.png  used on input line 432.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1178,30 +1192,18 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[8pdfTeX warning (ext4): destination with the same identifier (name{table.3}) h
-as been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.425 		\item \textbf
-                     {Embeddings de Palabras}: Se utilizarán los embeddings...
-pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has
- been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.425 		\item \textbf
-                     {Embeddings de Palabras}: Se utilizarán los embeddings...
-]
+[8]
 
 pdfTeX warning: /usr/bin/pdflatex (file ./images//diagrama.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<./images//diagrama.pdf, id=268, 794.97pt x 614.295pt>
+<./images//diagrama.pdf, id=283, 794.97pt x 614.295pt>
 File: ./images//diagrama.pdf Graphic file (type pdf)
 <use ./images//diagrama.pdf>
 Package pdftex.def Info: ./images//diagrama.pdf  used on input line 436.
-(pdftex.def)             Requested size: 483.69687pt x 373.77269pt.
+(pdftex.def)             Requested size: 386.95897pt x 299.02002pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 449.
+Package pdftex.def Info: ./images//logo.png  used on input line 464.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1211,15 +1213,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[9pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.449 	
-        <./images//diagrama.pdf>]
+[9 <./images//diagrama.pdf>]
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 495.
+Package pdftex.def Info: ./images//logo.png  used on input line 522.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1231,14 +1228,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
 [10]
-<./images//evolutivo.png, id=330, 1315.91624pt x 739.76375pt>
+<./images//evolutivo.png, id=346, 1315.91624pt x 739.76375pt>
 File: ./images//evolutivo.png Graphic file (type png)
 <use ./images//evolutivo.png>
 Package pdftex.def Info: ./images//evolutivo.png  used on input line 525.
-(pdftex.def)             Requested size: 411.14528pt x 231.13045pt.
+(pdftex.def)             Requested size: 338.58632pt x 190.33607pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 537.
+Package pdftex.def Info: ./images//logo.png  used on input line 558.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1249,93 +1246,34 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[11pdfTeX warning (ext4): destination with the same identifier (name{table.5}) 
-has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.537 		\item \textbf
-                     {Conversión a minúsculas:} Todos los textos fueron co...
-pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) ha
-s been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.537 		\item \textbf
-                     {Conversión a minúsculas:} Todos los textos fueron co...
- <./images//evolutivo.png>]
-<./images//grafica_global_debates.pdf, id=340, 722.7pt x 578.16pt>
+[11 <./images//evolutivo.png>]
+<./images//grafica_global_debates.pdf, id=356, 722.7pt x 578.16pt>
 File: ./images//grafica_global_debates.pdf Graphic file (type pdf)
 <use ./images//grafica_global_debates.pdf>
 Package pdftex.def Info: ./images//grafica_global_debates.pdf  used on input li
-ne 561.
-(pdftex.def)             Requested size: 386.95897pt x 309.56396pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 568.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[12pdfTeX warning (ext4): destination with the same identifier (name{figure.4})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.568 	\newpage
-                <./images//grafica_global_debates.pdf>]
-<./images//grafica_debate1.pdf, id=392, 722.7pt x 578.16pt>
+ne 562.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//grafica_debate1.pdf, id=357, 722.7pt x 578.16pt>
 File: ./images//grafica_debate1.pdf Graphic file (type pdf)
 <use ./images//grafica_debate1.pdf>
-Package pdftex.def Info: ./images//grafica_debate1.pdf  used on input line 571.
+Package pdftex.def Info: ./images//grafica_debate1.pdf  used on input line 568.
 
-(pdftex.def)             Requested size: 435.32422pt x 348.25726pt.
-<./images//grafica_debate2.pdf, id=393, 722.7pt x 578.16pt>
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//grafica_debate2.pdf, id=358, 722.7pt x 578.16pt>
 File: ./images//grafica_debate2.pdf Graphic file (type pdf)
 <use ./images//grafica_debate2.pdf>
-Package pdftex.def Info: ./images//grafica_debate2.pdf  used on input line 579.
+Package pdftex.def Info: ./images//grafica_debate2.pdf  used on input line 577.
 
-(pdftex.def)             Requested size: 435.32422pt x 348.25726pt.
-<./images//grafica_debate3.pdf, id=394, 722.7pt x 578.16pt>
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//grafica_debate3.pdf, id=359, 722.7pt x 578.16pt>
 File: ./images//grafica_debate3.pdf Graphic file (type pdf)
 <use ./images//grafica_debate3.pdf>
-Package pdftex.def Info: ./images//grafica_debate3.pdf  used on input line 587.
+Package pdftex.def Info: ./images//grafica_debate3.pdf  used on input line 583.
 
-(pdftex.def)             Requested size: 435.32422pt x 348.25726pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 593.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[13pdfTeX warning (ext4): destination with the same identifier (name{figure.5})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.593 	\newpage
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.593 	\newpage
-                <./images//grafica_debate1.pdf> <./images//grafica_debate2.pdf>
-]
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 609.
+Package pdftex.def Info: ./images//logo.png  used on input line 603.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1346,64 +1284,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[14pdfTeX warning (ext4): destination with the same identifier (name{figure.7})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.609 	\newpage
-                <./images//grafica_debate3.pdf>]
-<./images//grafica_global_x.pdf, id=537, 722.7pt x 578.16pt>
+[12 <./images//grafica_global_debates.pdf> <./images//grafica_debate1.pdf> <./i
+mages//grafica_debate2.pdf> <./images//grafica_debate3.pdf>]
+<./images//grafica_global_x.pdf, id=540, 722.7pt x 578.16pt>
 File: ./images//grafica_global_x.pdf Graphic file (type pdf)
 <use ./images//grafica_global_x.pdf>
-Package pdftex.def Info: ./images//grafica_global_x.pdf  used on input line 612
+Package pdftex.def Info: ./images//grafica_global_x.pdf  used on input line 607
 .
-(pdftex.def)             Requested size: 435.32422pt x 348.25726pt.
-<./images//grafica_intervalo_8-12.pdf, id=538, 722.7pt x 578.16pt>
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//grafica_intervalo_8-12.pdf, id=541, 722.7pt x 578.16pt>
 File: ./images//grafica_intervalo_8-12.pdf Graphic file (type pdf)
 <use ./images//grafica_intervalo_8-12.pdf>
 Package pdftex.def Info: ./images//grafica_intervalo_8-12.pdf  used on input li
-ne 622.
-(pdftex.def)             Requested size: 435.32422pt x 348.25726pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 628.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.8})
- has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.628 	\newpage
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.9}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.628 	\newpage
-                <./images//grafica_global_x.pdf> <./images//grafica_intervalo_8
--12.pdf>]
-<./images//grafica_intervalo_12-17.pdf, id=631, 722.7pt x 578.16pt>
+ne 614.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//grafica_intervalo_12-17.pdf, id=542, 722.7pt x 578.16pt>
 File: ./images//grafica_intervalo_12-17.pdf Graphic file (type pdf)
 <use ./images//grafica_intervalo_12-17.pdf>
 Package pdftex.def Info: ./images//grafica_intervalo_12-17.pdf  used on input l
-ine 631.
-(pdftex.def)             Requested size: 435.32422pt x 348.25726pt.
-<./images//grafica_intervalo_17-23.pdf, id=632, 722.7pt x 578.16pt>
+ine 624.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//grafica_intervalo_17-23.pdf, id=543, 722.7pt x 578.16pt>
 File: ./images//grafica_intervalo_17-23.pdf Graphic file (type pdf)
 <use ./images//grafica_intervalo_17-23.pdf>
 Package pdftex.def Info: ./images//grafica_intervalo_17-23.pdf  used on input l
-ine 639.
-(pdftex.def)             Requested size: 435.32422pt x 348.25726pt.
+ine 631.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 645.
+Package pdftex.def Info: ./images//logo.png  used on input line 652.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1414,247 +1323,51 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[16pdfTeX warning (ext4): destination with the same identifier (name{figure.10}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.645 	\newpage
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.11}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.645 	\newpage
-                <./images//grafica_intervalo_12-17.pdf> <./images//grafica_inte
-rvalo_17-23.pdf>]
-<./images//comentarios_fecha.pdf, id=727, 722.7pt x 433.62pt>
+[13 <./images//grafica_global_x.pdf> <./images//grafica_intervalo_8-12.pdf> <./
+images//grafica_intervalo_12-17.pdf> <./images//grafica_intervalo_17-23.pdf>]
+<./images//comentarios_fecha.pdf, id=723, 722.7pt x 433.62pt>
 File: ./images//comentarios_fecha.pdf Graphic file (type pdf)
 <use ./images//comentarios_fecha.pdf>
-Package pdftex.def Info: ./images//comentarios_fecha.pdf  used on input line 66
-3.
-(pdftex.def)             Requested size: 386.95897pt x 232.17297pt.
-<./images//publicaciones_por_hora.pdf, id=728, 722.7pt x 433.62pt>
+Package pdftex.def Info: ./images//comentarios_fecha.pdf  used on input line 65
+6.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//publicaciones_por_hora.pdf, id=724, 722.7pt x 433.62pt>
 File: ./images//publicaciones_por_hora.pdf Graphic file (type pdf)
 <use ./images//publicaciones_por_hora.pdf>
 Package pdftex.def Info: ./images//publicaciones_por_hora.pdf  used on input li
-ne 673.
-(pdftex.def)             Requested size: 386.95897pt x 232.17297pt.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 685.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[17pdfTeX warning (ext4): destination with the same identifier (name{figure.12}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.685 	
-        <./images//comentarios_fecha.pdf>]
-<./images//nube_palabras_general.pdf, id=771, 722.7pt x 433.62pt>
+ne 663.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//nube_palabras_general.pdf, id=727, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_general.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_general.pdf>
 Package pdftex.def Info: ./images//nube_palabras_general.pdf  used on input lin
-e 689.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 696.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[18pdfTeX warning (ext4): destination with the same identifier (name{figure.13}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.696 	\newpage
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.14}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.696 	\newpage
-                <./images//publicaciones_por_hora.pdf> <./images//nube_palabras
-_general.pdf>]
-<./images//nube_palabras_debate_1.pdf, id=840, 722.7pt x 433.62pt>
+e 683.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//nube_palabras_debate_1.pdf, id=728, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_1.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_1.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_1.pdf  used on input li
-ne 700.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-<./images//nube_palabras_debate_2.pdf, id=841, 722.7pt x 433.62pt>
+ne 690.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//nube_palabras_debate_2.pdf, id=729, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_2.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_2.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_2.pdf  used on input li
-ne 710.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 717.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[19pdfTeX warning (ext4): destination with the same identifier (name{figure.15}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.717 	\newpage
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.16}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.717 	\newpage
-                <./images//nube_palabras_debate_1.pdf> <./images//nube_palabras
-_debate_2.pdf>]
-<./images//nube_palabras_debate_3.pdf, id=893, 722.7pt x 433.62pt>
+ne 701.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//nube_palabras_debate_3.pdf, id=730, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_3.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_3.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_3.pdf  used on input li
-ne 721.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-<./images//nube_general_eleccion.pdf, id=894, 722.7pt x 433.62pt>
-File: ./images//nube_general_eleccion.pdf Graphic file (type pdf)
-<use ./images//nube_general_eleccion.pdf>
-Package pdftex.def Info: ./images//nube_general_eleccion.pdf  used on input lin
-e 737.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 743.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[20pdfTeX warning (ext4): destination with the same identifier (name{figure.17}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.743 	\newpage
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.18}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.743 	\newpage
-                <./images//nube_palabras_debate_3.pdf> <./images//nube_general_
-eleccion.pdf>]
-<./images//nube_intervalo_8-12.pdf, id=952, 722.7pt x 433.62pt>
-File: ./images//nube_intervalo_8-12.pdf Graphic file (type pdf)
-<use ./images//nube_intervalo_8-12.pdf>
-Package pdftex.def Info: ./images//nube_intervalo_8-12.pdf  used on input line 
-747.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-<./images//nube_intervalo_12-17.pdf, id=953, 722.7pt x 433.62pt>
-File: ./images//nube_intervalo_12-17.pdf Graphic file (type pdf)
-<use ./images//nube_intervalo_12-17.pdf>
-Package pdftex.def Info: ./images//nube_intervalo_12-17.pdf  used on input line
- 757.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 763.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[21pdfTeX warning (ext4): destination with the same identifier (name{figure.19}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.763 	\newpage
-               pdfTeX warning (ext4): destination with the same identifier (nam
-e{figure.20}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.763 	\newpage
-                <./images//nube_intervalo_8-12.pdf> <./images//nube_intervalo_1
-2-17.pdf>]
-<./images//nube_intervalo_17-23.pdf, id=1017, 722.7pt x 433.62pt>
-File: ./images//nube_intervalo_17-23.pdf Graphic file (type pdf)
-<use ./images//nube_intervalo_17-23.pdf>
-Package pdftex.def Info: ./images//nube_intervalo_17-23.pdf  used on input line
- 767.
-(pdftex.def)             Requested size: 483.69687pt x 290.21953pt.
-
-Overfull \hbox (4.8405pt too wide) in paragraph at lines 795--804
- [][] 
- []
-
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 811.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[22pdfTeX warning (ext4): destination with the same identifier (name{figure.21}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.811 	
-       pdfTeX warning (ext4): destination with the same identifier (name{table.
-6}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.811 	
-        <./images//nube_intervalo_17-23.pdf>]
-<./images//longitud_comentarios_youtube.pdf, id=1055, 722.7pt x 433.62pt>
-File: ./images//longitud_comentarios_youtube.pdf Graphic file (type pdf)
-<use ./images//longitud_comentarios_youtube.pdf>
-Package pdftex.def Info: ./images//longitud_comentarios_youtube.pdf  used on in
-put line 825.
-(pdftex.def)             Requested size: 386.95897pt x 232.17297pt.
-<./images//longitud_publicaciones_x.pdf, id=1056, 722.7pt x 433.62pt>
-File: ./images//longitud_publicaciones_x.pdf Graphic file (type pdf)
-<use ./images//longitud_publicaciones_x.pdf>
-Package pdftex.def Info: ./images//longitud_publicaciones_x.pdf  used on input 
-line 833.
-(pdftex.def)             Requested size: 386.95897pt x 232.17297pt.
+ne 708.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 851.
+Package pdftex.def Info: ./images//logo.png  used on input line 718.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1664,15 +1377,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[23pdfTeX warning (ext4): destination with the same identifier (name{figure.22}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.851 	
-        <./images//longitud_comentarios_youtube.pdf>]
+[14 <./images//comentarios_fecha.pdf> <./images//publicaciones_por_hora.pdf> <.
+/images//nube_palabras_general.pdf> <./images//nube_palabras_debate_1.pdf>]
+<./images//nube_general_eleccion.pdf, id=856, 722.7pt x 433.62pt>
+File: ./images//nube_general_eleccion.pdf Graphic file (type pdf)
+<use ./images//nube_general_eleccion.pdf>
+Package pdftex.def Info: ./images//nube_general_eleccion.pdf  used on input lin
+e 724.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//nube_intervalo_8-12.pdf, id=857, 722.7pt x 433.62pt>
+File: ./images//nube_intervalo_8-12.pdf Graphic file (type pdf)
+<use ./images//nube_intervalo_8-12.pdf>
+Package pdftex.def Info: ./images//nube_intervalo_8-12.pdf  used on input line 
+731.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//nube_intervalo_12-17.pdf, id=858, 722.7pt x 433.62pt>
+File: ./images//nube_intervalo_12-17.pdf Graphic file (type pdf)
+<use ./images//nube_intervalo_12-17.pdf>
+Package pdftex.def Info: ./images//nube_intervalo_12-17.pdf  used on input line
+ 742.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//nube_intervalo_17-23.pdf, id=859, 722.7pt x 433.62pt>
+File: ./images//nube_intervalo_17-23.pdf Graphic file (type pdf)
+<use ./images//nube_intervalo_17-23.pdf>
+Package pdftex.def Info: ./images//nube_intervalo_17-23.pdf  used on input line
+ 749.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 869.
+Package pdftex.def Info: ./images//logo.png  used on input line 764.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1683,17 +1416,143 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[24pdfTeX warning (ext4): destination with the same identifier (name{figure.23}
-) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.870 	
-        <./images//longitud_publicaciones_x.pdf>]
+[15 <./images//nube_palabras_debate_2.pdf> <./images//nube_palabras_debate_3.pd
+f> <./images//nube_general_eleccion.pdf> <./images//nube_intervalo_8-12.pdf> <.
+/images//nube_intervalo_12-17.pdf> <./images//nube_intervalo_17-23.pdf>]
+Overfull \hbox (4.8405pt too wide) in paragraph at lines 776--782
+ [][] 
+ []
+
+
+Overfull \hbox (4.8405pt too wide) in paragraph at lines 788--795
+ [][] 
+ []
+
+<./images//longitud_comentarios_youtube.pdf, id=1025, 722.7pt x 433.62pt>
+File: ./images//longitud_comentarios_youtube.pdf Graphic file (type pdf)
+<use ./images//longitud_comentarios_youtube.pdf>
+Package pdftex.def Info: ./images//longitud_comentarios_youtube.pdf  used on in
+put line 816.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+<./images//longitud_publicaciones_x.pdf, id=1026, 722.7pt x 433.62pt>
+File: ./images//longitud_publicaciones_x.pdf Graphic file (type pdf)
+<use ./images//longitud_publicaciones_x.pdf>
+Package pdftex.def Info: ./images//longitud_publicaciones_x.pdf  used on input 
+line 823.
+(pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 837.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[16]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 860.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[17 <./images//longitud_comentarios_youtube.pdf> <./images//longitud_publicacio
+nes_x.pdf>]
+<./images//etiquetado.png, id=1120, 1096.095pt x 830.10126pt>
+File: ./images//etiquetado.png Graphic file (type png)
+<use ./images//etiquetado.png>
+Package pdftex.def Info: ./images//etiquetado.png  used on input line 891.
+(pdftex.def)             Requested size: 290.22107pt x 219.7858pt.
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 898.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[18 <./images//etiquetado.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+940.
+ (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<./images//conf_matrix_Claudia.pdf, id=1134, 433.62pt x 433.62pt>
+File: ./images//conf_matrix_Claudia.pdf Graphic file (type pdf)
+<use ./images//conf_matrix_Claudia.pdf>
+Package pdftex.def Info: ./images//conf_matrix_Claudia.pdf  used on input line 
+955.
+(pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
+<./images//conf_matrix_Maynez.pdf, id=1135, 433.62pt x 433.62pt>
+File: ./images//conf_matrix_Maynez.pdf Graphic file (type pdf)
+<use ./images//conf_matrix_Maynez.pdf>
+Package pdftex.def Info: ./images//conf_matrix_Maynez.pdf  used on input line 9
+61.
+(pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 965.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[19]
+<./images//conf_matrix_Xóchitl.pdf, id=1143, 433.62pt x 433.62pt>
+File: ./images//conf_matrix_Xóchitl.pdf Graphic file (type pdf)
+<use ./images//conf_matrix_Xóchitl.pdf>
+Package pdftex.def Info: ./images//conf_matrix_Xóchitl.pdf  used on input line
+ 970.
+(pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
+<./images//curvas_de_perdida.pdf, id=1144, 722.7pt x 433.62pt>
+File: ./images//curvas_de_perdida.pdf Graphic file (type pdf)
+<use ./images//curvas_de_perdida.pdf>
+Package pdftex.def Info: ./images//curvas_de_perdida.pdf  used on input line 97
+9.
+(pdftex.def)             Requested size: 314.40001pt x 188.63641pt.
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 985.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[20 <./images//conf_matrix_Claudia.pdf> <./images//conf_matrix_Maynez.pdf> <./i
+mages//conf_matrix_Xóchitl.pdf> <./images//curvas_de_perdida.pdf>]
 
 AED: lastpage setting LastPage
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 873.
+Package pdftex.def Info: ./images//logo.png  used on input line 997.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1703,7 +1562,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[25] (./elecciones.aux
+[21] (./elecciones.aux
 LaTeX Info: Redefining \sptext on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
@@ -1712,35 +1571,36 @@ LaTeX Info: Redefining \% on input line 27.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `elecciones.out' has not changed.
-(rerunfilecheck)             Checksum: B78FD13512B82B9AFED840228BD27ECF;8039.
+(rerunfilecheck)             Checksum: D4B60C5DD080493CECA820C9926F3C2F;8594.
 Package logreq Info: Writing requests to 'elecciones.run.xml'.
 \openout1 = `elecciones.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 24152 strings out of 478287
- 421912 string characters out of 5849289
- 1327892 words of memory out of 5000000
- 41896 multiletter control sequences out of 15000+600000
- 529567 words of font info for 62 fonts, out of 8000000 for 9000
+ 25512 strings out of 478287
+ 449929 string characters out of 5849289
+ 1347040 words of memory out of 5000000
+ 43239 multiletter control sequences out of 15000+600000
+ 529937 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,15n,77p,1199b,2802s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
-hare/texmf/fonts/enc/dvips/lm/lm-rmtt.enc}</usr/share/texlive/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmm
-i10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb></usr/share/texmf/fo
-nts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.p
-fb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbo10.pfb></
-usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type
-1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></us
-r/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/pub
-lic/lm/lmtt10.pfb>
-Output written on elecciones.pdf (26 pages, 3200143 bytes).
+ 68i,16n,77p,1199b,2802s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
+vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
+e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
+m-rmtt.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
+.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
+/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb><
+/usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1
+/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sha
+re/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public
+/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/te
+xmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on elecciones.pdf (22 pages, 3348871 bytes).
 PDF statistics:
- 1246 PDF objects out of 1440 (max. 8388607)
- 566 compressed objects within 6 object streams
- 108 named destinations out of 1000 (max. 500000)
- 417 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1418 PDF objects out of 1440 (max. 8388607)
+ 598 compressed objects within 6 object streams
+ 107 named destinations out of 1000 (max. 500000)
+ 466 words of extra memory for PDF output out of 10000 (max. 10000000)
 

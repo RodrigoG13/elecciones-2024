@@ -18,6 +18,7 @@
 \usepackage[colorlinks,linkcolor={black},citecolor={blue!80!black},urlcolor={blue!80!black}]{hyperref}
 %Stop indentation on new paragraphs
 \usepackage[parfill]{parskip}
+\usepackage{subcaption} % Para subfiguras
 %% Arial-like font
 \usepackage{lmodern}
 \renewcommand*\familydefault{\sfdefault}
@@ -306,8 +307,7 @@
 	
 	Este conocimiento es muy importante para las campañas políticas, ya que permite ajustar estrategias de comunicación, identificar preocupaciones emergentes, medir el impacto de de los candidatos y, en última instancia, tomar decisiones basadas en los intereses y emociones del electorado. En un contexto electoral, donde las opiniones pueden cambiar rápidamente, tener acceso a este tipo de hallazgo es esencial para mantener una ventaja competitiva.
 	
-	
-	\newpage
+
 	\section{Método de Desarrollo}
 	
 	\subsection{Metodología CRISP-DM}
@@ -433,7 +433,7 @@
 	
 	\begin{figure}[h!] % 'h!' posiciona la imagen cerca del texto relacionado
 		\centering
-		\includegraphics[width=1\textwidth]{diagrama.pdf} % Ajusta el tamaño con width o height
+		\includegraphics[width=0.8\textwidth]{diagrama.pdf} % Ajusta el tamaño con width o height
 		\caption{Framework de Deasarrollo} % Texto del caption
 		\label{fig:framework} % Etiqueta para referenciar la imagen
 	\end{figure}
@@ -522,7 +522,7 @@
 	
 	\begin{figure}[h!] % 'h!' posiciona la imagen cerca del texto relacionado
 		\centering
-		\includegraphics[width=0.85\textwidth]{evolutivo.png} % Ajusta el tamaño con width o height
+		\includegraphics[width=0.7\textwidth]{evolutivo.png} % Ajusta el tamaño con width o height
 		\caption{Sistema Evolutivo de Reescritura} % Texto del caption
 		\label{fig:evolutivo} % Etiqueta para referenciar la imagen
 	\end{figure}
@@ -555,42 +555,37 @@
 	En esta sección, se presentan las características generales de los datos recopilados, proporcionando una visión inicial de las interacciones en redes sociales relacionadas con los debates presidenciales y el día de la elección en México 2024. Se analizan las distribuciones de comentarios y publicaciones por fecha y hora, así como la frecuencia de menciones a los principales candidatos en las plataformas de YouTube y X.
 	
 	El análisis exploratorio incluye un conteo de las menciones explícitas a los candidatos Claudia Sheinbaum, Xóchitl Gálvez y Jorge Álvarez Maynez en los comentarios y publicaciones recopilados. Este análisis permite identificar la relevancia de cada candidato en las discusiones y ofrece una perspectiva preliminar sobre las tendencias y temas predominantes en las conversaciones sociales.
-	
+		
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_global_debates.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución Global de Menciones en Debates}
-		\label{fig:globalDebates} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	
-	\newpage
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=0.9\textwidth]{grafica_debate1.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución en el primer debate}
-		\label{fig:distrDebate1} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{grafica_global_debates.pdf} 
+			\caption{Distribución Global de Menciones en Debates}
+			\label{fig:globalDebates}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{grafica_debate1.pdf}
+			\caption{Distribución en el primer debate}
+			\label{fig:distrDebate1}
+		\end{minipage}
 	\end{figure}
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.9\textwidth]{grafica_debate2.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución en el segundo debate}
-		\label{fig:distrDebate2} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{grafica_debate2.pdf} 
+			\caption{Distribución en el segundo debate}
+			\label{fig:distrDebate2}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{grafica_debate3.pdf}
+			\caption{Distribución en el tercer debate}
+			\label{fig:distrDebate3}
+		\end{minipage}
 	\end{figure}
-	
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=0.9\textwidth]{grafica_debate3.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución en el tercer debate}
-		\label{fig:distrDebate3} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	\newpage
+
 	
 	En el análisis global y por cada debate, se observa una tendencia constante en la distribución de menciones hacia los candidatos:
 	
@@ -606,43 +601,40 @@
 
 	Para realizar el análisis del día de la elección, se decidió dividir la jornada en intervalos horarios. Este enfoque permitió identificar qué candidato tuvo mayor presencia en las publicaciones realizadas por los usuarios que seguían el desarrollo de la jornada electoral. Tras el procesamiento de los datos, se obtuvieron los siguientes resultados de interacción a lo largo del día.
 	
-	\newpage
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.9\textwidth]{grafica_global_x.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución Global de Menciones en el Día de la Elección}
-		\label{fig:globalDiaEleccion} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{grafica_global_x.pdf} 
+			\vspace{-15mm}
+			\caption{Distribución Global de Menciones en el Día de la Elección}
+			\label{fig:globalDiaEleccion}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{grafica_intervalo_8-12.pdf}
+			\vspace{-15mm}
+			\caption{Distribución de Menciones de 08:00 a 12:00}
+			\label{fig:xIntervalo812}
+		\end{minipage}
 	\end{figure}
 	
-	
-	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.9\textwidth]{grafica_intervalo_8-12.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución de Menciones de 08:00 a 12:00}
-		\label{fig:xIntervalo812} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	\newpage
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=0.9\textwidth]{grafica_intervalo_12-17.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución de Menciones de 12:00 a 17:00}
-		\label{fig:xIntervalo1217} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{grafica_intervalo_12-17.pdf} 
+			\vspace{-15mm}
+			\caption{Distribución de Menciones de 12:00 a 17:00}
+			\label{fig:xIntervalo1217}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{grafica_intervalo_17-23.pdf}
+			\vspace{-15mm}
+			\caption{Distribución de Menciones de 17:00 a 23:00}
+			\label{fig:xIntervalo1723}
+		\end{minipage}
 	\end{figure}
 
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=0.9\textwidth]{grafica_intervalo_17-23.pdf} % Cambia el tamaño con width o height
-		\vspace{-15mm}
-		\caption{Distribución de Menciones de 17:00 a 23:00}
-		\label{fig:xIntervalo1723} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	\newpage
 	\begin{itemize}
 		\item \textbf{Distribución Global:} La proporción de menciones entre Claudia Sheinbaum (32.9\%) y Xóchitl Gálvez (33.9\%) es muy similar, lo que refleja que ambas candidatas generaron un interés equiparable a nivel general. Jorge Álvarez Maynez, con solo el 2.8\% de las menciones, muestra una presencia muy limitada en las discusiones. Los comentarios sin mención específica representan un 30.4\%, lo que sugiere que una parte significativa de las publicaciones aborda temas generales del proceso electoral.
 		
@@ -660,23 +652,24 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{comentarios_fecha.pdf} % Cambia el tamaño con width o height
-		\vspace{-3mm}
-		\caption{Distribución de Comentarios en los Debates por Fechas}
-		\label{fig:temporalDebates} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{comentarios_fecha.pdf} 
+			\vspace{-3mm}
+			\caption{Distribución de Comentarios en los Debates por Fechas}
+			\label{fig:temporalDebates}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{publicaciones_por_hora.pdf}
+			\vspace{-3mm}
+			\caption{Distribución de Comentarios en los Debates por Fechas}
+			\label{fig:temporalDiaEleccion}
+		\end{minipage}
 	\end{figure}
 	
-	La gráfica de distribución de comentarios en los debates muestra una participación constante a lo largo de los tres eventos. El debate del 7 de abril de 2024 tuvo el mayor número de comentarios, con un ligero descenso en los debates posteriores, especialmente en el del 19 de mayo de 2024. Esto podría indicar un alto interés inicial en las propuestas de los candidatos, que disminuyó ligeramente hacia el final del ciclo de debates, posiblemente debido a la repetición de ideas o al desgaste del público.
+	Como se muestra en la figura \ref{fig:temporalDebates}, la gráfica de distribución de comentarios en los debates muestra una participación constante a lo largo de los tres eventos. El debate del 7 de abril de 2024 tuvo el mayor número de comentarios, con un ligero descenso en los debates posteriores, especialmente en el del 19 de mayo de 2024. Esto podría indicar un alto interés inicial en las propuestas de los candidatos, que disminuyó ligeramente hacia el final del ciclo de debates, posiblemente debido a la repetición de ideas o al desgaste del público.
 	
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=0.8\textwidth]{publicaciones_por_hora.pdf} % Cambia el tamaño con width o height
-		\vspace{-3mm}
-		\caption{Distribución de Comentarios en los Debates por Fechas}
-		\label{fig:temporalDiaEleccion} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	La distribución de publicaciones por hora durante el día de la elección muestra picos claros de actividad a las 16:00 horas y nuevamente a las 22:00 horas, lo que podría reflejar el cierre de las casillas y las discusiones sobre los resultados preliminares. En contraste, las horas de la mañana (8:00-12:00) muestran una actividad moderada, probablemente relacionada con el inicio de la jornada electoral. El periodo de menor interacción ocurre alrededor de las 19:00 horas, lo que podría coincidir con un momento de pausa antes del cierre de las votaciones. Esto resalta cómo la actividad en redes sociales está vinculada a hitos clave del día electoral.
+	Así también, se observa en la figura \ref{fig:temporalDiaEleccion} que la distribución de publicaciones por hora durante el día de la elección muestra picos claros de actividad a las 16:00 horas y nuevamente a las 22:00 horas, lo que podría reflejar el cierre de las casillas y las discusiones sobre los resultados preliminares. En contraste, las horas de la mañana (8:00-12:00) muestran una actividad moderada, probablemente relacionada con el inicio de la jornada electoral. El periodo de menor interacción ocurre alrededor de las 19:00 horas, lo que podría coincidir con un momento de pausa antes del cierre de las votaciones. Esto resalta cómo la actividad en redes sociales está vinculada a hitos clave del día electoral.
 	
 	
 	\subsubsection{Análisis de frecuencias de palabras}
@@ -686,91 +679,79 @@
 	\vspace{-4mm}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=1\textwidth]{nube_palabras_general.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras de los Debates}
-		\label{fig:nubeGralDebates} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{nube_palabras_general.pdf} 
+			\vspace{-10mm}
+			\caption{Distribución de Comentarios en los Debates por Fechas}
+			\label{fig:Nube de Palabras de los Debates}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{nube_palabras_debate_1.pdf}
+			\vspace{-10mm}
+			\caption{Nube de Palabras del Primer Debate}
+			\label{fig:nubeDebate1}
+		\end{minipage}
 	\end{figure}
 	
 	
-	\newpage
-	\vspace{-7mm}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=1\textwidth]{nube_palabras_debate_1.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras del Primer Debate}
-		\label{fig:nubeDebate1} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{nube_palabras_debate_2.pdf} 
+			\vspace{-10mm}
+			\caption{Nube de Palabras del Segundo Debate}
+			\label{fig:nubeDebate2}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{nube_palabras_debate_3.pdf}
+			\vspace{-10mm}
+			\caption{Nube de Palabras del Tercer Debate}
+			\label{fig:nubeDebate3}
+		\end{minipage}
 	\end{figure}
 
-	
-	\vspace{-4mm}
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=1\textwidth]{nube_palabras_debate_2.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras del Segundo Debate}
-		\label{fig:nubeDebate2} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	
-	\newpage
-	\vspace{-10mm}
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=1\textwidth]{nube_palabras_debate_3.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras del Tercer Debate}
-		\label{fig:nubeDebate3} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
 	En la nube de palabras general de los debates, se observa una predominancia de términos como "decir", "hacer", "debate", "candidato" y menciones directas a los nombres de los candidatos, como "claudia", "xóchitl" y "maynez". Esto refleja que las discusiones se centran en las propuestas, el desempeño en los debates y las expectativas de los usuarios en torno a los participantes. Palabras relacionadas con el contexto político y social como "México", "gobierno" y "propuesta" también son frecuentes, indicando un interés en los temas tratados.
 	
 	Por otro lado, en las nubes de palabras individuales de los debates, se observan ligeras variaciones en los términos predominantes. Por ejemplo, en el primer debate destacan términos como "preguntar" y "atacar", lo que podría sugerir un enfoque más confrontativo. En el segundo debate, términos como "ganar" y "propuesta" son más prominentes, reflejando quizás un tono más propositivo. Finalmente, en el tercer debate, hay una recurrencia de términos como "hablar" y "decir", sugiriendo un interés en la claridad y el contenido de los mensajes. En conjunto, estas nubes reflejan cómo el enfoque y la percepción de los usuarios varían con el desarrollo de los debates.
 	
 	Replicando el mismo proceso para el día de la elección y considerando los intervalos definidos anteriormente, podemos observar las nubes descritas a continuación.
 	
-	
-	\vspace{-4mm}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=1\textwidth]{nube_general_eleccion.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras del Día de la Elección}
-		\label{fig:nubeDiaEleccion} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	\newpage
-	\vspace{-5mm}
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=1\textwidth]{nube_intervalo_8-12.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras en el Horario de 08:00 a 12:00}
-		\label{fig:nubeIntervalo812} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-
-	\vspace{-10mm}
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=1\textwidth]{nube_intervalo_12-17.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras en el Horario de 12:00 a 17:00}
-		\label{fig:nubeIntervalo1217} % Etiqueta para referencias cruzadas
-	\end{figure}
-	
-	\newpage
-	
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=1\textwidth]{nube_intervalo_17-23.pdf} % Cambia el tamaño con width o height
-		\vspace{-22mm}
-		\caption{Nube de Palabras en el Horario de 17:00 a 23:00}
-		\label{fig:nubeIntervalo1723} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{nube_general_eleccion.pdf} 
+			\vspace{-10mm}
+			\caption{Nube de Palabras del Día de la Elección}
+			\label{fig:nubeDiaEleccion}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{nube_intervalo_8-12.pdf}
+			\vspace{-10mm}
+			\caption{Nube de Palabras en el Horario de 08:00 a 12:00}
+			\label{fig:nubeIntervalo812}
+		\end{minipage}
 	\end{figure}
 	
 	
+	\begin{figure}[h!]
+		\centering
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{nube_intervalo_12-17.pdf} 
+			\vspace{-10mm}
+			\caption{Nube de Palabras en el Horario de 12:00 a 17:00}
+			\label{fig:nubeIntervalo1217}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{nube_intervalo_17-23.pdf}
+			\vspace{-10mm}
+			\caption{Nube de Palabras en el Horario de 08:00 a 12:00}
+			\label{fig:nubeIntervalo1723}
+		\end{minipage}
+	\end{figure}
 
 	En la nube general del día de la elección destaca términos como \textit{elección mexico}, \textit{votar}, \textit{siguiente presidenta}, \textit{xochitl galvez}. Esto refleja el enfoque de los usuarios en la jornada electoral, con énfasis en los principales candidatos y la participación ciudadana, indicando el interés por el proceso democrático.
 	
@@ -797,12 +778,22 @@
 			\textbf{ID} & \textbf{Comentario} & \textbf{Num Likes} & \textbf{Num Debate} \\ \hline
 			3831 & Es en serio lo que dijo la candidata Xochitl. ¿Pregúntenle a los muertos?. Que tonterías dice y sin razón. & 823 & 1 \\ \hline
 			3848 & Imagínense que Xochitl quedara de presidente. No mms la peor vergüenza mundial que nos podría pasar & 745 & 1 \\ \hline
+		\end{tabular}
+		\caption{Ejemplo de comentarios relacionados con Xóchitl Gálvez, con sus respectivos likes y debate.}
+		\label{tab:comentarios_xochitl}
+	\end{table}
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|c|p{11cm}|c|c|}
+			\hline
+			\textbf{ID} & \textbf{Comentario} & \textbf{Num Likes} & \textbf{Num Debate} \\ \hline
 			3832 & Xochitl galvez es un peña nieto cualquiera & 717 & 1 \\ \hline
 			3839 & Xóchitl se pone nerviosa en un debate y se traba al expresarse. Imagínate para dirigir un país & 661 & 1 \\ \hline
 			2529 & Bla bla bla. A estas alturas. Ya sabemos quién miente. No somos pendejos. & 545 & 3 \\ \hline
 		\end{tabular}
 		\caption{Ejemplo de comentarios relacionados con Xóchitl Gálvez, con sus respectivos likes y debate.}
-		\label{tab:comentarios_xochitl}
+		\label{tab:comentarios_xochitl2}
 	\end{table}
 	
 	Observaciones sobre los comentarios más populares
@@ -819,24 +810,25 @@
 	\subsubsection{Análisis de Longitud y Complejidad de Comentarios}
 	En esta sección se evalúa la longitud de los comentarios en YouTube y las publicaciones en la plataforma X, medida en cantidad de palabras. Este análisis permite comprender la complejidad y nivel de detalle de las interacciones en ambas plataformas. Se utiliza la longitud promedio como un indicador clave y se visualiza mediante histogramas que muestran la distribución de la frecuencia de palabras. Además, una línea punteada roja señala el promedio, ayudando a identificar si los comentarios suelen ser más extensos o concisos. Este enfoque facilita detectar patrones relacionados con la profundidad de las opiniones de los usuarios.
 	
-	\vspace{-3mm}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{longitud_comentarios_youtube.pdf} % Cambia el tamaño con width o height
-		\vspace{-2mm}
-		\caption{Distribución de Longitud de Comentarios en Youtube}
-		\label{fig:longYoutube} % Etiqueta para referencias cruzadas
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{longitud_comentarios_youtube.pdf} 
+			\vspace{-2mm}
+			\caption{Distribución de Longitud de Comentarios en Youtube}
+			\label{fig:longYoutube}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{longitud_publicaciones_x.pdf}
+			\vspace{-2mm}
+			\caption{Distribución de Longitud de Publicaciones en X}
+			\label{fig:longX}
+		\end{minipage}
 	\end{figure}
 	
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=0.8\textwidth]{longitud_publicaciones_x.pdf} % Cambia el tamaño con width o height
-		\vspace{-2mm}
-		\caption{Distribución de Longitud de Publicaciones en X}
-		\label{fig:longX} % Etiqueta para referencias cruzadas
-	\end{figure}
 	
-	En los histogramas presentados se observa la distribución de la longitud de los comentarios y publicaciones en los datasets de YouTube y X, respectivamente.
+	En los histogramas presentados se observa la distribución de la longitud de los comentarios y publicaciones en los datasets de YouTube (figura \ref{fig:longYoutube}) y X (figura \ref{fig:longX}), respectivamente.
 	
 	\begin{enumerate}
 		\item \textbf{YouTube:} La mayoría de los comentarios tienen una longitud muy corta, con un promedio de 8 palabras. Esto indica que los usuarios en esta plataforma tienden a realizar aportaciones concisas, posiblemente debido a la naturaleza del contenido de YouTube, que fomenta interacciones rápidas y directas. Sin embargo, hay una pequeña cantidad de comentarios que alcanzan longitudes mayores, reflejando una profundidad ocasional en el discurso.
@@ -858,6 +850,138 @@
 	\textbf{\textit{Resumen General}}
 	
 	Los resultados reflejan patrones importantes de participación y discurso en redes sociales durante el contexto electoral. Los candidatos principales, Claudia Sheinbaum y Xóchitl Gálvez, dominan la conversación, mientras que Jorge Álvarez Maynez tiene un impacto menor. Las palabras clave destacan el enfoque de los usuarios en propuestas y resultados, mientras que las interacciones tienden a ser breves y rápidas, acorde al formato de las plataformas.
+	
+	\subsection{Análisis de Sentimientos}
+	Para analizar las opiniones expresadas en los comentarios y publicaciones de las redes sociales, se desarrolló un proceso de etiquetado de datos diseñado específicamente para capturar los matices del sentimiento en un contexto electoral multietiqueta. Este proceso consideró que un comentario puede expresar sentimientos hacia más de un candidato y, por tanto, el conjunto de datos se configuró para admitir múltiples etiquetas asociadas a un solo registro.
+	
+	\subsubsection{Codificación de Sentimientos}
+	
+	Se adoptó una codificación consistente para representar los sentimientos asociados a los candidatos principales de las elecciones presidenciales de México 2024, incluyendo un cuarto candidato virtual denominado \textit{Ninguno}. Este último se empleó en los casos donde los comentarios o publicaciones no hacían referencia explícita a ninguno de los candidatos reales. Las etiquetas se asignaron de la siguiente manera:
+	
+	\begin{itemize}
+		\item \textbf{-1:} Sentimiento negativo hacia un candidato.
+		\item \textbf{0:} Sentimiento neutral o ausencia de mención hacia el candidato en cuestión.
+		\item \textbf{1:} Sentimiento positivo hacia un candidato.
+	\end{itemize}
+	
+	Los candidatos considerados en el etiquetado fueron:
+	\begin{itemize}
+		\item \textbf{Claudia Sheinbaum}
+		\item \textbf{Xóchitl Gálvez}
+		\item \textbf{Jorge Álvarez Maynez}
+		\item \textbf{Ninguno} (candidato virtual)
+	\end{itemize}
+	
+	
+	Se establecieron lineamientos específicos para garantizar que las etiquetas reflejaran de manera precisa los sentimientos y opiniones expresados en los comentarios. Las principales consideraciones fueron las siguientes:
+	
+	\begin{enumerate}
+		\item \textbf{Críticas al gobierno actual:} Se etiquetaron como sentimientos negativos hacia Claudia Sheinbaum, dado su vínculo con el partido en el poder.
+		\item \textbf{Descalificaciones generales:} Comentarios como ``no hay ni a quién irle'' se etiquetaron con sentimiento negativo hacia los tres candidatos.
+		\item \textbf{Críticas específicas a propuestas o lemas:} Cuando un comentario hacía referencia a una propuesta o lema de campaña, se marcó el sentimiento hacia el candidato que lo propuso.
+		\item \textbf{Críticas a partidos o coaliciones:} En este caso, el sentimiento se asoció al candidato representante del partido o coalición mencionada.
+		\item \textbf{Uso de apodos:} Se tuvo en cuenta el uso consistente de apodos en los comentarios para asociar el sentimiento con el candidato correspondiente.
+	\end{enumerate}
+	
+	
+	Se desarrolló una herramienta específica para facilitar este proceso, permitiendo asignar etiquetas a los comentarios de forma manual y precisa. La herramienta fue diseñada para soportar múltiples etiquetas por comentario, siguiendo la estructura multietiqueta del conjunto de datos. A continuación, se incluye una imagen que ilustra la interfaz y funcionalidad de esta herramienta:
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.6\textwidth]{etiquetado.png}
+		\caption{Interfaz de la herramienta de etiquetado desarrollada para el análisis de sentimiento.}
+		\label{fig:etiquetado}
+	\end{figure}
+	
+	Esta herramienta fue de utilidad para garantizar la consistencia en el proceso de etiquetado, permitiendo que los datos reflejen los patrones de opinión expresados por los usuarios en YouTube y X.
+	
+	Como resultado del proceso de etiquetado descrito, se obtuvieron dos conjuntos de datos en formato tabular, el primero consta de 4,000 datos etiquetados correspondientes a los debates presidenciales, y el segundo con 1,000 datos etiquetados tomados de manera aleatoria del dia de la elección. Dichos datasets contienen las siguientes columnas adicionales:
+	
+	\begin{itemize}
+		\item \texttt{Claudia:} Sentimiento expresado hacia Claudia Sheinbaum.
+		\item \texttt{Maynez:} Sentimiento expresado hacia Jorge Álvarez Maynez.
+		\item \texttt{Ninguno:} Sentimiento expresado hacia ningún candidato real.
+		\item \texttt{Xóchitl:} Sentimiento expresado hacia Xóchitl Gálvez.
+	\end{itemize}
+	
+	
+	
+	\subsubsection{BETO Fine-Tuning}
+	
+	Para la clasificación de sentimientos en los comentarios recopilados sobre los debates y el día de la elección, se realizó un proceso de fine-tuning del modelo pre-entrenado BETO (\textit{BERT en español}). Este modelo se adaptó para comprender el contexto político y la jerga mexicana relacionada con la jornada electoral de México 2024, permitiendo etiquetar automáticamente el resto de los comentarios no procesados manualmente.
+	
+	En primer lugar, para que el modelo de inteligencia pudiera entender mejor las etiquetas, se realizó una recodificación de los sentimientos:
+	\begin{itemize}
+		\item \(-1 \rightarrow 0\) (sentimiento negativo),
+		\item \(0 \rightarrow 1\) (sentimiento neutral),
+		\item \(1 \rightarrow 2\) (sentimiento positivo).
+	\end{itemize}
+
+	
+	Se combinaron los dos conjuntos de datos (comentarios de debates y comentarios del día de la elección) en un único dataset con las siguientes columnas:
+	\begin{itemize}
+		\item \texttt{comentario\_editado}: Texto del comentario.
+		\item \texttt{Claudia}, \texttt{Xóchitl}, \texttt{Maynez}, \texttt{Ninguno}: Etiquetas de sentimiento asociadas a cada candidato.
+	\end{itemize}
+	
+	El problema se definió como una clasificación multietiqueta de tres clases (positivo, neutral y negativo) asociadas a cuatro categorías (los candidatos y la categoría ``Ninguno''). Esto resulta en un total de 12 clases (\(3 \times 4\)).
+	
+	Para combatir el desequilibrio en las clases, se realizaron los siguientes pasos:
+	\begin{itemize}
+		\item \textbf{Undersampling}: Se eliminaron 250 registros con etiquetas que indicaban sentimientos neutrales para los tres candidatos principales (\texttt{Xóchitl = 1, Claudia = 1, Maynez = 1}), buscando reducir el ruido en los datos.
+		\item \textbf{Pesos de Clase}: Se utilizó la técnica \texttt{compute\_class\_weight} para calcular los pesos de clase, que luego fueron incorporados en una variante de la función de pérdida \texttt{CrossEntropyLoss}.
+	\end{itemize}
+	
+	Propiamente hablando, el modelo fine-tuned incluyó los siguientes elementos:
+	\begin{itemize}
+		\item \textbf{BETO Pre-entrenado}: Se usó el token \texttt{[CLS]} como el vector de características representativo del significado global del comentario.
+		\item \textbf{Clasificador Tipo MLP}: Se diseñó un perceptrón multicapa (MLP) cuya salida consistió en 12 logits:
+		\begin{itemize}
+			\item Logits \(0-2\): Sentimientos hacia Xóchitl.
+			\item Logits \(3-5\): Sentimientos hacia Claudia.
+			\item Logits \(6-8\): Sentimientos hacia Maynez.
+			\item Logits \(9-11\): Sentimientos hacia Ninguno.
+		\end{itemize}
+		Para cada grupo de 3 logits se aplicó una función \texttt{softmax}, garantizando que las probabilidades en cada grupo sumen 1.
+	\end{itemize}
+	
+	Dicho modelo se entrenó utilizando los siguientes parámetros: \(16\) en el tamaño del batch y \(3\) épocas de fine-tuning. 
+	
+	Con ello, el modelo fine-tuned logró un accuracy general del \textbf{81.3\%}, destacándose especialmente en la clasificación de sentimientos hacia \textbf{Xóchitl} con un 83.8\% de precisión, seguida de \textbf{Claudia} con un 81.2\% y \textbf{Maynez} con un 78.9\%. Las matrices de confusión revelan que el modelo clasificó correctamente la mayoría de los ejemplos neutrales, aunque los sentimientos negativos tendieron a confundirse con neutrales en algunos casos.
+	
+	\begin{figure}[h!]
+		\centering
+		\begin{minipage}{0.4\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{conf_matrix_Claudia.pdf} 
+			\caption{Matriz de confusión para Claudia.}
+			\label{fig:cmClaudia}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.4\textwidth}
+			\includegraphics[width=\linewidth]{conf_matrix_Maynez.pdf}
+			\caption{Matriz de confusión para Maynez.}
+			\label{fig:cmMaynez}
+		\end{minipage}
+	\end{figure}
+	
+	\begin{figure}[h!]
+		\centering
+		\begin{minipage}{0.4\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{conf_matrix_Xóchitl.pdf} 
+			\caption{Matriz de confusión para Xóchitl.}
+			\label{fig:cmXochitl}
+		\end{minipage}
+	\end{figure}
+
+	\vspace{-3mm}
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=0.65\textwidth]{curvas_de_perdida.pdf}
+		\caption{Curva de pérdida durante el entrenamiento y validación.}
+		\label{fig:curvaTrain}
+	\end{figure}
+	
+	La gráfica de la función de pérdida de la figura \ref{fig:curvaTrain} muestra una disminución constante tanto en el entrenamiento como en la validación, lo que indica un aprendizaje efectivo y una convergencia adecuada hacia el final de las tres épocas. Además, la ausencia de divergencias entre las curvas sugiere que el modelo no presenta sobreajuste y generaliza bien al conjunto de validación.
 	
 	
 	\section{Conclusiones}
