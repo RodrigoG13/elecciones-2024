@@ -38,6 +38,20 @@
 \usepackage[spanish]{babel}
 \usepackage{tocloft}
 
+
+\usepackage{xcolor} % Paquete para colores
+\usepackage{sectsty} % Paquete para personalizar secciones
+
+% Define un color azul personalizado
+\definecolor{miazul}{RGB}{60,75,205} % Puedes cambiar los valores RGB a tu gusto
+
+% Aplica el color a las secciones
+\sectionfont{\color{miazul}}
+\subsectionfont{\color{miazul}}
+\subsubsectionfont{\color{miazul}}
+
+
+
 \usepackage{csquotes} % Requerido para citas
 \usepackage[style=apa, backend=biber]{biblatex}
 \DeclareLanguageMapping{spanish}{spanish-apa} 
@@ -107,10 +121,6 @@
 % #######################################
 
 
-
-
-
-
 \begin{document}
 	\begin{titlepage}
 		\centering
@@ -136,22 +146,21 @@
 	\maketitle
 	\thispagestyle{fancy}
 	\begin{abstract}
-		Los autores proponen un análisis de los comentarios en YouTube y X durante las elecciones presidenciales de México 2024, enfocándose en el sentimiento y los temas clave relacionados con los candidatos Claudia Sheinbaum, Xóchitl Gálvez y Jorge Álvarez Maynez. Utilizando técnicas de minería de textos y múltiples algoritmos de aprendizaje automático, se examinan las opiniones y reacciones del electorado durante los debates y el día de la elección. El estudio busca identificar patrones de sentimiento, tópicos principales y diferencias entre audiencias en distintas plataformas y canales. 
+		Los autores proponen un realizar análisis de los comentarios y publicaciones realizadas en YouTube y X (anteriormente Twitter) durante las elecciones presidenciales de México 2024. Este estudio se enfoca en explorar el sentimiento y los temas clave relacionados con los principales candidatos: Claudia Sheinbaum, Xóchitl Gálvez y Jorge Álvarez Maynez, así como las opiniones relacionadas con el partido del gobierno actual y los de oposición. A través del uso de técnicas de minería de textos y la implementación de algoritmos de aprendizaje automático y aprendizaje profundo, se busca examinar las opiniones y reacciones del electorado en momentos clave del proceso electoral, como los debates presidenciales y el día de la elección. Además, el estudio pretende identificar patrones de sentimiento predominantes, los tópicos más discutidos y las diferencias en la interacción entre diversas audiencias y plataformas. Este enfoque interdisciplinario tiene como objetivo ofrecer una perspectiva integral sobre la opinión pública y las dinámicas sociales que moldean la percepción electoral en un contexto digital.
 	\end{abstract}
 	
 	\textbf{Palabras Clave -- Análisis de sentimientos, Minería de Textos, Elecciones México 2024, Redes Sociales, Aprendizaje Automático}{\mykeywords}
 	
 	\section{Introducción}
-	Las redes sociales han emergido como plataformas clave para la expresión y difusión de opiniones durante procesos electorales. En el contexto de las elecciones presidenciales de México 2024, plataformas como YouTube y X se han convertido en espacios donde los ciudadanos comparten sus percepciones, críticas y apoyos hacia los candidatos. Este flujo de información proporciona una oportunidad invaluable para analizar la opinión pública y entender las dinámicas sociales que influyen en el electorado.
+	Las redes sociales han surgido como plataformas importantes para la expresión y difusión de opiniones durante procesos electorales. En el contexto de las elecciones presidenciales de México 2024, plataformas como YouTube y X se han convertido en espacios donde los ciudadanos comparten sus percepciones, críticas y apoyos hacia los candidatos. Este flujo de información proporciona una buena oportunidad para analizar la opinión pública y entender las dinámicas sociales que influyen en el electorado.
 	
-	El presente estudio se enfoca en analizar los comentarios y publicaciones realizados en YouTube y X durante los debates presidenciales y el día de la elección. Los candidatos principales en estas elecciones fueron Claudia Sheinbaum Pardo, Xóchitl Gálvez Ruiz y Jorge Álvarez Maynez. Mediante la recopilación de dos conjuntos de datos—uno de 9,392 comentarios de YouTube y otro de 2,486 publicaciones de X—se busca explorar el sentimiento y los temas clave que predominan en las discusiones en línea.
+	El presente estudio se enfoca en analizar los comentarios y publicaciones realizados en YouTube y X durante los debates presidenciales y el día de la elección. Los candidatos principales en estas elecciones fueron Claudia Sheinbaum Pardo (de la coalición \textit{Sigamos Haciendo Historia}: MORENA-PT-VERDE), Xóchitl Gálvez Ruiz (de la coalición \textit{Fuerza y Corazón por México}: PAN-PRI-PRD) y Jorge Álvarez Maynez (del partido Movimiento Ciudadano). Mediante la recopilación de dos conjuntos de datos—uno de 9,392 comentarios de YouTube y otro de 2,486 publicaciones de X—se busca explorar el sentimiento y los temas clave que predominan en las discusiones en línea.
 	
 	Utilizando técnicas de minería de textos y una combinación de algoritmos de aprendizaje automático, este trabajo pretende ofrecer una visión de cómo las opiniones y reacciones de los ciudadanos evolucionaron durante eventos críticos del proceso electoral. Además, se propone comparar las diferencias entre las audiencias de distintas plataformas y canales de comunicación, con el fin de identificar posibles sesgos y variaciones en las percepciones hacia cada candidato.
 	
 	Este estudio no solo contribuye al entendimiento de la opinión pública en contextos electorales, sino que también demuestra la utilidad de las técnicas de minería de datos y aprendizaje automático en el análisis de volúmenes de datos no estructurados provenientes de las redes sociales.
 	
-	\subsection{Objetivos}
-	\subsubsection{Objetivo General}
+	\subsection{Objetivo}
 	El objetivo principal de este estudio es analizar y comprender las opiniones y reacciones expresadas por los ciudadanos durante las elecciones presidenciales de México 2024, utilizando técnicas de minería de textos y aprendizaje automático sobre comentarios recopilados de YouTube y X. 
 	
 	\subsubsection{Objetivos Específicos}
@@ -161,6 +170,8 @@
 		\item Examinar cómo evolucionaron las opiniones y reacciones de las personas durante el día de la elección en X.
 		\item Analizar si existen diferencias significativas en las opiniones y temas discutidos entre las audiencias de diferentes canales de YouTube y entre las plataformas de YouTube y X.
 	\end{itemize}
+	
+	\vspace{10cm}
 	
 	\subsection{Descripción del Conjunto de Datos}
 	
@@ -250,7 +261,7 @@
 	\subsection{Estado del Arte}
 	La minería de opiniones y el análisis de sentimientos en el contexto electoral han cobrado relevancia en los últimos años, especialmente debido al auge de las redes sociales como plataformas clave en la movilización política. Estos enfoques, basados en técnicas de minería de textos y procesamiento de lenguaje natural (PLN), ofrecen nuevas perspectivas sobre cómo se configuran las percepciones públicas en tiempos electorales. En este marco, exploraremos una serie de estudios previos que abordan diferentes aspectos de la influencia de los medios tradicionales y digitales en las elecciones, destacando el papel fundamental de las plataformas sociales en la modelación de las narrativas políticas.
 	
-	Uno de los primeros estudios que se adentra en este terreno es el de \textit{Elecciones presidenciales en el Perú: minería de textos de los editoriales del diario La República} \parencite{Castro2021}. Este análisis se concentra en los editoriales del periódico *La República* durante las elecciones presidenciales de 2021 en Perú. Mediante técnicas de minería de textos, se identifica cómo la terminología utilizada en estos medios crea asociaciones que influyen en la percepción pública. Los resultados subrayan que, aunque los medios tradicionales parecen perder fuerza frente a las plataformas digitales, todavía conservan una significativa capacidad para moldear la representación social de los candidatos, especialmente entre los votantes más conservadores.
+	Uno de los primeros estudios que se adentra en este terreno es el de \textit{Elecciones presidenciales en el Perú: minería de textos de los editoriales del diario La República} \parencite{Castro2021}. Este análisis se concentra en los editoriales del periódico \textit{La República} durante las elecciones presidenciales de 2021 en Perú. Mediante técnicas de minería de textos, se identifica cómo la terminología utilizada en estos medios crea asociaciones que influyen en la percepción pública. Los resultados subrayan que, aunque los medios tradicionales parecen perder fuerza frente a las plataformas digitales, todavía conservan una significativa capacidad para moldear la representación social de los candidatos, especialmente entre los votantes más conservadores.
 	
 	Este enfoque se complementa con el análisis de \textit{Redes sociales y participación política en las elecciones presidenciales de 2022 en Colombia} \parencite{Ramirez2022}, que pone en evidencia el papel de las redes sociales en la participación política. A través de plataformas como Facebook, WhatsApp, Instagram y Twitter, los ciudadanos tienen un acceso sin precedentes a la información política. Sin embargo, el estudio revela que la relación entre el consumo de contenido político en estas plataformas y la participación electoral no es tan directa como se podría esperar. Esto indica que factores adicionales, como el contexto socioeconómico y las estrategias de movilización, pueden estar influyendo en las decisiones de voto, ampliando las perspectivas sobre la influencia de las redes sociales.
 	
@@ -296,7 +307,7 @@
 	Este conocimiento es muy importante para las campañas políticas, ya que permite ajustar estrategias de comunicación, identificar preocupaciones emergentes, medir el impacto de de los candidatos y, en última instancia, tomar decisiones basadas en los intereses y emociones del electorado. En un contexto electoral, donde las opiniones pueden cambiar rápidamente, tener acceso a este tipo de hallazgo es esencial para mantener una ventaja competitiva.
 	
 	
-	
+	\newpage
 	\section{Método de Desarrollo}
 	
 	\subsection{Metodología CRISP-DM}
@@ -422,7 +433,7 @@
 	
 	\begin{figure}[h!] % 'h!' posiciona la imagen cerca del texto relacionado
 		\centering
-		\includegraphics[width=0.9\textwidth]{diagrama.pdf} % Ajusta el tamaño con width o height
+		\includegraphics[width=1\textwidth]{diagrama.pdf} % Ajusta el tamaño con width o height
 		\caption{Framework de Deasarrollo} % Texto del caption
 		\label{fig:framework} % Etiqueta para referenciar la imagen
 	\end{figure}
@@ -538,16 +549,16 @@
 		\item \textbf{Lematización:} Cada palabra se redujo a su forma base o lema, eliminando variaciones morfológicas. Por ejemplo, palabras como \textit{comiendo} y \textit{comerán} fueron convertidas a su forma base \textit{comer}.
 	\end{itemize}
 	
-	\subsection{Analisis Exploratorio de Datos}
+	\subsection{Análisis Exploratorio de Datos}
 	
-	\subsubsection{Analisis Descriptivo General}
+	\subsubsection{Análisis Descriptivo General}
 	En esta sección, se presentan las características generales de los datos recopilados, proporcionando una visión inicial de las interacciones en redes sociales relacionadas con los debates presidenciales y el día de la elección en México 2024. Se analizan las distribuciones de comentarios y publicaciones por fecha y hora, así como la frecuencia de menciones a los principales candidatos en las plataformas de YouTube y X.
 	
 	El análisis exploratorio incluye un conteo de las menciones explícitas a los candidatos Claudia Sheinbaum, Xóchitl Gálvez y Jorge Álvarez Maynez en los comentarios y publicaciones recopilados. Este análisis permite identificar la relevancia de cada candidato en las discusiones y ofrece una perspectiva preliminar sobre las tendencias y temas predominantes en las conversaciones sociales.
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.75\textwidth]{grafica_global_debates.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.8\textwidth]{grafica_global_debates.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución Global de Menciones en Debates}
 		\label{fig:globalDebates} % Etiqueta para referencias cruzadas
@@ -557,7 +568,7 @@
 	\newpage
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_debate1.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.9\textwidth]{grafica_debate1.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución en el primer debate}
 		\label{fig:distrDebate1} % Etiqueta para referencias cruzadas
@@ -565,7 +576,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_debate2.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.9\textwidth]{grafica_debate2.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución en el segundo debate}
 		\label{fig:distrDebate2} % Etiqueta para referencias cruzadas
@@ -573,7 +584,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_debate3.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.9\textwidth]{grafica_debate3.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución en el tercer debate}
 		\label{fig:distrDebate3} % Etiqueta para referencias cruzadas
@@ -595,27 +606,29 @@
 
 	Para realizar el análisis del día de la elección, se decidió dividir la jornada en intervalos horarios. Este enfoque permitió identificar qué candidato tuvo mayor presencia en las publicaciones realizadas por los usuarios que seguían el desarrollo de la jornada electoral. Tras el procesamiento de los datos, se obtuvieron los siguientes resultados de interacción a lo largo del día.
 	
-	
 	\newpage
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_global_x.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.9\textwidth]{grafica_global_x.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución Global de Menciones en el Día de la Elección}
 		\label{fig:globalDiaEleccion} % Etiqueta para referencias cruzadas
 	\end{figure}
 	
+	
+	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_intervalo_8-12.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.9\textwidth]{grafica_intervalo_8-12.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución de Menciones de 08:00 a 12:00}
 		\label{fig:xIntervalo812} % Etiqueta para referencias cruzadas
 	\end{figure}
 	
+	\newpage
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_intervalo_12-17.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.9\textwidth]{grafica_intervalo_12-17.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución de Menciones de 12:00 a 17:00}
 		\label{fig:xIntervalo1217} % Etiqueta para referencias cruzadas
@@ -623,12 +636,13 @@
 
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.8\textwidth]{grafica_intervalo_17-23.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.9\textwidth]{grafica_intervalo_17-23.pdf} % Cambia el tamaño con width o height
 		\vspace{-15mm}
 		\caption{Distribución de Menciones de 17:00 a 23:00}
 		\label{fig:xIntervalo1723} % Etiqueta para referencias cruzadas
 	\end{figure}
 	
+	\newpage
 	\begin{itemize}
 		\item \textbf{Distribución Global:} La proporción de menciones entre Claudia Sheinbaum (32.9\%) y Xóchitl Gálvez (33.9\%) es muy similar, lo que refleja que ambas candidatas generaron un interés equiparable a nivel general. Jorge Álvarez Maynez, con solo el 2.8\% de las menciones, muestra una presencia muy limitada en las discusiones. Los comentarios sin mención específica representan un 30.4\%, lo que sugiere que una parte significativa de las publicaciones aborda temas generales del proceso electoral.
 		
@@ -646,7 +660,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.7\textwidth]{comentarios_fecha.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.8\textwidth]{comentarios_fecha.pdf} % Cambia el tamaño con width o height
 		\vspace{-3mm}
 		\caption{Distribución de Comentarios en los Debates por Fechas}
 		\label{fig:temporalDebates} % Etiqueta para referencias cruzadas
@@ -656,7 +670,7 @@
 	
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[width=0.7\textwidth]{publicaciones_por_hora.pdf} % Cambia el tamaño con width o height
+		\includegraphics[width=0.8\textwidth]{publicaciones_por_hora.pdf} % Cambia el tamaño con width o height
 		\vspace{-3mm}
 		\caption{Distribución de Comentarios en los Debates por Fechas}
 		\label{fig:temporalDiaEleccion} % Etiqueta para referencias cruzadas
@@ -679,6 +693,7 @@
 	\end{figure}
 	
 	
+	\newpage
 	\vspace{-7mm}
 	\begin{figure}[h!]
 		\centering
@@ -687,8 +702,7 @@
 		\caption{Nube de Palabras del Primer Debate}
 		\label{fig:nubeDebate1} % Etiqueta para referencias cruzadas
 	\end{figure}
-	
-	\newpage
+
 	
 	\vspace{-4mm}
 	\begin{figure}[h!]
@@ -699,6 +713,8 @@
 		\label{fig:nubeDebate2} % Etiqueta para referencias cruzadas
 	\end{figure}
 	
+	
+	\newpage
 	\vspace{-10mm}
 	\begin{figure}[h!]
 		\centering
@@ -714,8 +730,6 @@
 	
 	Replicando el mismo proceso para el día de la elección y considerando los intervalos definidos anteriormente, podemos observar las nubes descritas a continuación.
 	
-	\newpage
-	
 	
 	\vspace{-4mm}
 	\begin{figure}[h!]
@@ -726,6 +740,7 @@
 		\label{fig:nubeDiaEleccion} % Etiqueta para referencias cruzadas
 	\end{figure}
 	
+	\newpage
 	\vspace{-5mm}
 	\begin{figure}[h!]
 		\centering
@@ -735,7 +750,7 @@
 		\label{fig:nubeIntervalo812} % Etiqueta para referencias cruzadas
 	\end{figure}
 	
-	\newpage
+
 	\vspace{-10mm}
 	\begin{figure}[h!]
 		\centering
@@ -745,7 +760,8 @@
 		\label{fig:nubeIntervalo1217} % Etiqueta para referencias cruzadas
 	\end{figure}
 	
-	\vspace{-10mm}
+	\newpage
+	
 	\begin{figure}[h!]
 		\centering
 		\includegraphics[width=1\textwidth]{nube_intervalo_17-23.pdf} % Cambia el tamaño con width o height
@@ -755,6 +771,7 @@
 	\end{figure}
 	
 	
+
 	En la nube general del día de la elección destaca términos como \textit{elección mexico}, \textit{votar}, \textit{siguiente presidenta}, \textit{xochitl galvez}. Esto refleja el enfoque de los usuarios en la jornada electoral, con énfasis en los principales candidatos y la participación ciudadana, indicando el interés por el proceso democrático.
 	
 	Y por intervalos, describimos a continuación las observaciones por cada uno:
