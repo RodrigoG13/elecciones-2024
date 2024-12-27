@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  25 DEC 2024 17:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  26 DEC 2024 21:10
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -998,7 +998,7 @@ Package biblatex Info: Reference segment=0 on input line 125.
 Package lastpage Info: Please have a look at the pageslts package at
 (lastpage)             https://www.ctan.org/pkg/pageslts
 (lastpage)             ! on input line 125.
-<./images//logo.png, id=176, 1228.59pt x 1228.59pt>
+<./images//logo.png, id=241, 1228.59pt x 1228.59pt>
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
 Package pdftex.def Info: ./images//logo.png  used on input line 128.
@@ -1039,28 +1039,18 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <7> on input line 2.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <5> on input line 2.
-)
-\tf@toc=\write5
-\openout5 = `elecciones.toc'.
-
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 	\newpage
-                [1]
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 148.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 148.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 148.
-LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 158.
+l.58 ...ebates Presidenciales}{35}{subsection.6.1}
+                                                  % [1])
+\tf@toc=\write5
+\openout5 = `elecciones.toc'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 170.
+Package pdftex.def Info: ./images//logo.png  used on input line 142.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1071,43 +1061,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[2]
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 200.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[3]
-LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-211.
- (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
-File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+[2] (./elecciones.lof
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
 )
+\tf@lof=\write6
+\openout6 = `elecciones.lof'.
+
+ [3] (./elecciones.lot
+LaTeX Info: Redefining \sptext on input line 1.
+LaTeX Info: Redefining \. on input line 1.
+LaTeX Info: Redefining \% on input line 1.
+)
+\tf@lot=\write7
+\openout7 = `elecciones.lot'.
+
+ [4]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 153.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 153.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 153.
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 163.
+
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 266.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[4]
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 287.
+Package pdftex.def Info: ./images//logo.png  used on input line 175.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1119,21 +1101,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
 [5]
-LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 291
-.
-<./images//crispdm.png, id=275, 144.54pt x 144.7809pt>
-File: ./images//crispdm.png Graphic file (type png)
-<use ./images//crispdm.png>
-Package pdftex.def Info: ./images//crispdm.png  used on input line 318.
-(pdftex.def)             Requested size: 169.29684pt x 169.58736pt.
+LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
+223.
+ (/usr/share/texmf/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 332.
+Package pdftex.def Info: ./images//logo.png  used on input line 239.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1144,24 +1122,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
 [6]
-LaTeX Font Info:    Trying to load font information for OMS+lmss on input line 
-368.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 368.
-
-
-LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
-(Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 368.
-
-
-Overfull \hbox (6.94171pt too wide) in paragraph at lines 364--381
- [][] 
- []
-
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 383.
+Package pdftex.def Info: ./images//logo.png  used on input line 280.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1170,20 +1135,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[7 <./images//crispdm.png>]
-Underfull \hbox (badness 1845) in paragraph at lines 393--394
-[]\OT1/lmss/m/n/10 Texto al-fa-num[]eri-co (e.g.,
- []
-
-
-Overfull \hbox (8.51889pt too wide) in paragraph at lines 387--400
- [][] 
- []
-
+[7]
+LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 303
+.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 432.
+Package pdftex.def Info: ./images//logo.png  used on input line 304.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1193,18 +1153,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
 [8]
-
-pdfTeX warning: /usr/bin/pdflatex (file ./images//diagrama.pdf): PDF inclusion:
- found PDF version <1.6>, but at most version <1.5> allowed
-<./images//diagrama.pdf, id=299, 794.97pt x 614.295pt>
-File: ./images//diagrama.pdf Graphic file (type pdf)
-<use ./images//diagrama.pdf>
-Package pdftex.def Info: ./images//diagrama.pdf  used on input line 436.
-(pdftex.def)             Requested size: 386.95897pt x 299.02002pt.
+<./images//crispdm.png, id=453, 144.54pt x 144.7809pt>
+File: ./images//crispdm.png Graphic file (type png)
+<use ./images//crispdm.png>
+Package pdftex.def Info: ./images//crispdm.png  used on input line 330.
+(pdftex.def)             Requested size: 169.29684pt x 169.58736pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 464.
+Package pdftex.def Info: ./images//logo.png  used on input line 338.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1213,12 +1171,41 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[9 <./images//diagrama.pdf>]
+[9 <./images//crispdm.png>]
+LaTeX Font Info:    Trying to load font information for OMS+lmss on input line 
+380.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 380.
+
+
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbraceleft' on input line 380.
+
+
+Overfull \hbox (6.94171pt too wide) in paragraph at lines 376--394
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 1845) in paragraph at lines 406--407
+[]\OT1/lmss/m/n/10 Texto al-fa-num[]eri-co (e.g.,
+ []
+
+
+Overfull \hbox (8.51889pt too wide) in paragraph at lines 400--413
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 522.
+Package pdftex.def Info: ./images//logo.png  used on input line 423.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1228,14 +1215,52 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
 [10]
-<./images//evolutivo.png, id=361, 1315.91624pt x 739.76375pt>
+
+pdfTeX warning: /usr/bin/pdflatex (file ./images//diagrama.pdf): PDF inclusion:
+ found PDF version <1.6>, but at most version <1.5> allowed
+<./images//diagrama.pdf, id=467, 794.97pt x 614.295pt>
+File: ./images//diagrama.pdf Graphic file (type pdf)
+<use ./images//diagrama.pdf>
+Package pdftex.def Info: ./images//diagrama.pdf  used on input line 449.
+(pdftex.def)             Requested size: 386.95897pt x 299.02002pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 458.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[11]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 482.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[12 <./images//diagrama.pdf>]
+<./images//evolutivo.png, id=522, 1315.91624pt x 739.76375pt>
 File: ./images//evolutivo.png Graphic file (type png)
 <use ./images//evolutivo.png>
-Package pdftex.def Info: ./images//evolutivo.png  used on input line 525.
+Package pdftex.def Info: ./images//evolutivo.png  used on input line 538.
 (pdftex.def)             Requested size: 338.58632pt x 190.33607pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 558.
+Package pdftex.def Info: ./images//logo.png  used on input line 541.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1246,34 +1271,48 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[11 <./images//evolutivo.png>]
-<./images//grafica_global_debates.pdf, id=371, 722.7pt x 578.16pt>
+[13]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 571.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[14 <./images//evolutivo.png>]
+<./images//grafica_global_debates.pdf, id=543, 722.7pt x 578.16pt>
 File: ./images//grafica_global_debates.pdf Graphic file (type pdf)
 <use ./images//grafica_global_debates.pdf>
 Package pdftex.def Info: ./images//grafica_global_debates.pdf  used on input li
-ne 562.
+ne 575.
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
-<./images//grafica_debate1.pdf, id=372, 722.7pt x 578.16pt>
+<./images//grafica_debate1.pdf, id=544, 722.7pt x 578.16pt>
 File: ./images//grafica_debate1.pdf Graphic file (type pdf)
 <use ./images//grafica_debate1.pdf>
-Package pdftex.def Info: ./images//grafica_debate1.pdf  used on input line 568.
+Package pdftex.def Info: ./images//grafica_debate1.pdf  used on input line 581.
 
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
-<./images//grafica_debate2.pdf, id=373, 722.7pt x 578.16pt>
+<./images//grafica_debate2.pdf, id=545, 722.7pt x 578.16pt>
 File: ./images//grafica_debate2.pdf Graphic file (type pdf)
 <use ./images//grafica_debate2.pdf>
-Package pdftex.def Info: ./images//grafica_debate2.pdf  used on input line 577.
+Package pdftex.def Info: ./images//grafica_debate2.pdf  used on input line 590.
 
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
-<./images//grafica_debate3.pdf, id=374, 722.7pt x 578.16pt>
+<./images//grafica_debate3.pdf, id=546, 722.7pt x 578.16pt>
 File: ./images//grafica_debate3.pdf Graphic file (type pdf)
 <use ./images//grafica_debate3.pdf>
-Package pdftex.def Info: ./images//grafica_debate3.pdf  used on input line 583.
+Package pdftex.def Info: ./images//grafica_debate3.pdf  used on input line 596.
 
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 603.
+Package pdftex.def Info: ./images//logo.png  used on input line 616.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1284,35 +1323,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[12 <./images//grafica_global_debates.pdf> <./images//grafica_debate1.pdf> <./i
+[15 <./images//grafica_global_debates.pdf> <./images//grafica_debate1.pdf> <./i
 mages//grafica_debate2.pdf> <./images//grafica_debate3.pdf>]
-<./images//grafica_global_x.pdf, id=555, 722.7pt x 578.16pt>
+<./images//grafica_global_x.pdf, id=724, 722.7pt x 578.16pt>
 File: ./images//grafica_global_x.pdf Graphic file (type pdf)
 <use ./images//grafica_global_x.pdf>
-Package pdftex.def Info: ./images//grafica_global_x.pdf  used on input line 607
+Package pdftex.def Info: ./images//grafica_global_x.pdf  used on input line 620
 .
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
-<./images//grafica_intervalo_8-12.pdf, id=556, 722.7pt x 578.16pt>
+<./images//grafica_intervalo_8-12.pdf, id=725, 722.7pt x 578.16pt>
 File: ./images//grafica_intervalo_8-12.pdf Graphic file (type pdf)
 <use ./images//grafica_intervalo_8-12.pdf>
 Package pdftex.def Info: ./images//grafica_intervalo_8-12.pdf  used on input li
-ne 614.
+ne 627.
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
-<./images//grafica_intervalo_12-17.pdf, id=557, 722.7pt x 578.16pt>
+<./images//grafica_intervalo_12-17.pdf, id=726, 722.7pt x 578.16pt>
 File: ./images//grafica_intervalo_12-17.pdf Graphic file (type pdf)
 <use ./images//grafica_intervalo_12-17.pdf>
 Package pdftex.def Info: ./images//grafica_intervalo_12-17.pdf  used on input l
-ine 624.
+ine 637.
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
-<./images//grafica_intervalo_17-23.pdf, id=558, 722.7pt x 578.16pt>
+<./images//grafica_intervalo_17-23.pdf, id=727, 722.7pt x 578.16pt>
 File: ./images//grafica_intervalo_17-23.pdf Graphic file (type pdf)
 <use ./images//grafica_intervalo_17-23.pdf>
 Package pdftex.def Info: ./images//grafica_intervalo_17-23.pdf  used on input l
-ine 631.
+ine 644.
 (pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 652.
+Package pdftex.def Info: ./images//logo.png  used on input line 665.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1323,43 +1362,43 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[13 <./images//grafica_global_x.pdf> <./images//grafica_intervalo_8-12.pdf> <./
+[16 <./images//grafica_global_x.pdf> <./images//grafica_intervalo_8-12.pdf> <./
 images//grafica_intervalo_12-17.pdf> <./images//grafica_intervalo_17-23.pdf>]
-<./images//comentarios_fecha.pdf, id=738, 722.7pt x 433.62pt>
+<./images//comentarios_fecha.pdf, id=905, 722.7pt x 433.62pt>
 File: ./images//comentarios_fecha.pdf Graphic file (type pdf)
 <use ./images//comentarios_fecha.pdf>
-Package pdftex.def Info: ./images//comentarios_fecha.pdf  used on input line 65
-6.
+Package pdftex.def Info: ./images//comentarios_fecha.pdf  used on input line 66
+9.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//publicaciones_por_hora.pdf, id=739, 722.7pt x 433.62pt>
+<./images//publicaciones_por_hora.pdf, id=906, 722.7pt x 433.62pt>
 File: ./images//publicaciones_por_hora.pdf Graphic file (type pdf)
 <use ./images//publicaciones_por_hora.pdf>
 Package pdftex.def Info: ./images//publicaciones_por_hora.pdf  used on input li
-ne 663.
+ne 676.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//nube_palabras_general.pdf, id=742, 722.7pt x 433.62pt>
+<./images//nube_palabras_general.pdf, id=909, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_general.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_general.pdf>
 Package pdftex.def Info: ./images//nube_palabras_general.pdf  used on input lin
-e 683.
+e 696.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//nube_palabras_debate_1.pdf, id=743, 722.7pt x 433.62pt>
+<./images//nube_palabras_debate_1.pdf, id=910, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_1.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_1.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_1.pdf  used on input li
-ne 690.
+ne 703.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//nube_palabras_debate_2.pdf, id=744, 722.7pt x 433.62pt>
+<./images//nube_palabras_debate_2.pdf, id=911, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_2.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_2.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_2.pdf  used on input li
-ne 701.
+ne 714.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//nube_palabras_debate_3.pdf, id=745, 722.7pt x 433.62pt>
+<./images//nube_palabras_debate_3.pdf, id=912, 722.7pt x 433.62pt>
 File: ./images//nube_palabras_debate_3.pdf Graphic file (type pdf)
 <use ./images//nube_palabras_debate_3.pdf>
 Package pdftex.def Info: ./images//nube_palabras_debate_3.pdf  used on input li
-ne 708.
+ne 721.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
 
 
@@ -1367,7 +1406,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 718.
+Package pdftex.def Info: ./images//logo.png  used on input line 731.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1377,35 +1416,35 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[14 <./images//comentarios_fecha.pdf> <./images//publicaciones_por_hora.pdf> <.
+[17 <./images//comentarios_fecha.pdf> <./images//publicaciones_por_hora.pdf> <.
 /images//nube_palabras_general.pdf> <./images//nube_palabras_debate_1.pdf>]
-<./images//nube_general_eleccion.pdf, id=871, 722.7pt x 433.62pt>
+<./images//nube_general_eleccion.pdf, id=1036, 722.7pt x 433.62pt>
 File: ./images//nube_general_eleccion.pdf Graphic file (type pdf)
 <use ./images//nube_general_eleccion.pdf>
 Package pdftex.def Info: ./images//nube_general_eleccion.pdf  used on input lin
-e 724.
+e 737.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//nube_intervalo_8-12.pdf, id=872, 722.7pt x 433.62pt>
+<./images//nube_intervalo_8-12.pdf, id=1037, 722.7pt x 433.62pt>
 File: ./images//nube_intervalo_8-12.pdf Graphic file (type pdf)
 <use ./images//nube_intervalo_8-12.pdf>
 Package pdftex.def Info: ./images//nube_intervalo_8-12.pdf  used on input line 
-731.
+744.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//nube_intervalo_12-17.pdf, id=873, 722.7pt x 433.62pt>
+<./images//nube_intervalo_12-17.pdf, id=1038, 722.7pt x 433.62pt>
 File: ./images//nube_intervalo_12-17.pdf Graphic file (type pdf)
 <use ./images//nube_intervalo_12-17.pdf>
 Package pdftex.def Info: ./images//nube_intervalo_12-17.pdf  used on input line
- 742.
+ 755.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//nube_intervalo_17-23.pdf, id=874, 722.7pt x 433.62pt>
+<./images//nube_intervalo_17-23.pdf, id=1039, 722.7pt x 433.62pt>
 File: ./images//nube_intervalo_17-23.pdf Graphic file (type pdf)
 <use ./images//nube_intervalo_17-23.pdf>
 Package pdftex.def Info: ./images//nube_intervalo_17-23.pdf  used on input line
- 749.
+ 762.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 764.
+Package pdftex.def Info: ./images//logo.png  used on input line 779.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1416,102 +1455,32 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[15 <./images//nube_palabras_debate_2.pdf> <./images//nube_palabras_debate_3.pd
+[18 <./images//nube_palabras_debate_2.pdf> <./images//nube_palabras_debate_3.pd
 f> <./images//nube_general_eleccion.pdf> <./images//nube_intervalo_8-12.pdf> <.
 /images//nube_intervalo_12-17.pdf> <./images//nube_intervalo_17-23.pdf>]
-Overfull \hbox (4.8405pt too wide) in paragraph at lines 776--782
+Overfull \hbox (4.8405pt too wide) in paragraph at lines 789--798
  [][] 
  []
 
-
-Overfull \hbox (4.8405pt too wide) in paragraph at lines 788--795
- [][] 
- []
-
-<./images//longitud_comentarios_youtube.pdf, id=1040, 722.7pt x 433.62pt>
+<./images//longitud_comentarios_youtube.pdf, id=1202, 722.7pt x 433.62pt>
 File: ./images//longitud_comentarios_youtube.pdf Graphic file (type pdf)
 <use ./images//longitud_comentarios_youtube.pdf>
 Package pdftex.def Info: ./images//longitud_comentarios_youtube.pdf  used on in
-put line 816.
+put line 820.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
-<./images//longitud_publicaciones_x.pdf, id=1041, 722.7pt x 433.62pt>
+<./images//longitud_publicaciones_x.pdf, id=1203, 722.7pt x 433.62pt>
 File: ./images//longitud_publicaciones_x.pdf Graphic file (type pdf)
 <use ./images//longitud_publicaciones_x.pdf>
 Package pdftex.def Info: ./images//longitud_publicaciones_x.pdf  used on input 
-line 823.
+line 827.
 (pdftex.def)             Requested size: 237.01411pt x 142.20842pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 837.
+Package pdftex.def Info: ./images//logo.png  used on input line 845.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[16]
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 860.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[17 <./images//longitud_comentarios_youtube.pdf> <./images//longitud_publicacio
-nes_x.pdf>]
-<./images//etiquetado.png, id=1135, 1096.095pt x 830.10126pt>
-File: ./images//etiquetado.png Graphic file (type png)
-<use ./images//etiquetado.png>
-Package pdftex.def Info: ./images//etiquetado.png  used on input line 891.
-(pdftex.def)             Requested size: 290.22107pt x 219.7858pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 898.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 32.03885pt, for example:
-(fancyhdr)                \setlength{\headheight}{32.03885pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
-
-[18 <./images//etiquetado.png>]
-LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
-940.
- (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
-File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-<./images//conf_matrix_Claudia.pdf, id=1149, 433.62pt x 433.62pt>
-File: ./images//conf_matrix_Claudia.pdf Graphic file (type pdf)
-<use ./images//conf_matrix_Claudia.pdf>
-Package pdftex.def Info: ./images//conf_matrix_Claudia.pdf  used on input line 
-955.
-(pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
-<./images//conf_matrix_Maynez.pdf, id=1150, 433.62pt x 433.62pt>
-File: ./images//conf_matrix_Maynez.pdf Graphic file (type pdf)
-<use ./images//conf_matrix_Maynez.pdf>
-Package pdftex.def Info: ./images//conf_matrix_Maynez.pdf  used on input line 9
-61.
-(pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
-File: ./images//logo.png Graphic file (type png)
-<use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 965.
-(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
-
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 32.03885pt, for example:
@@ -1521,21 +1490,92 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
 [19]
-<./images//conf_matrix_Xóchitl.pdf, id=1158, 433.62pt x 433.62pt>
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 867.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[20 <./images//longitud_comentarios_youtube.pdf> <./images//longitud_publicacio
+nes_x.pdf>]
+<./images//etiquetado.png, id=1294, 1096.095pt x 830.10126pt>
+File: ./images//etiquetado.png Graphic file (type png)
+<use ./images//etiquetado.png>
+Package pdftex.def Info: ./images//etiquetado.png  used on input line 895.
+(pdftex.def)             Requested size: 290.22107pt x 219.7858pt.
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 906.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[21 <./images//etiquetado.png>]
+LaTeX Font Info:    Trying to load font information for TS1+lmss on input line 
+944.
+ (/usr/share/texmf/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+<./images//conf_matrix_Claudia.pdf, id=1306, 433.62pt x 433.62pt>
+File: ./images//conf_matrix_Claudia.pdf Graphic file (type pdf)
+<use ./images//conf_matrix_Claudia.pdf>
+Package pdftex.def Info: ./images//conf_matrix_Claudia.pdf  used on input line 
+959.
+(pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
+<./images//conf_matrix_Maynez.pdf, id=1307, 433.62pt x 433.62pt>
+File: ./images//conf_matrix_Maynez.pdf Graphic file (type pdf)
+<use ./images//conf_matrix_Maynez.pdf>
+Package pdftex.def Info: ./images//conf_matrix_Maynez.pdf  used on input line 9
+65.
+(pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images//conf_matrix_Xóchitl.pdf, id=1308, 433.62pt x 433.62pt>
 File: ./images//conf_matrix_Xóchitl.pdf Graphic file (type pdf)
 <use ./images//conf_matrix_Xóchitl.pdf>
 Package pdftex.def Info: ./images//conf_matrix_Xóchitl.pdf  used on input line
- 970.
+ 974.
 (pdftex.def)             Requested size: 193.47578pt x 193.47969pt.
-<./images//curvas_de_perdida.pdf, id=1159, 722.7pt x 433.62pt>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<./images//curvas_de_perdida.pdf, id=1309, 722.7pt x 433.62pt>
 File: ./images//curvas_de_perdida.pdf Graphic file (type pdf)
 <use ./images//curvas_de_perdida.pdf>
-Package pdftex.def Info: ./images//curvas_de_perdida.pdf  used on input line 97
-9.
+Package pdftex.def Info: ./images//curvas_de_perdida.pdf  used on input line 98
+3.
 (pdftex.def)             Requested size: 314.40001pt x 188.63641pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 985.
+Package pdftex.def Info: ./images//logo.png  used on input line 987.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[22]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 990.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1546,17 +1586,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[20 <./images//conf_matrix_Claudia.pdf> <./images//conf_matrix_Maynez.pdf> <./i
+[23 <./images//conf_matrix_Claudia.pdf> <./images//conf_matrix_Maynez.pdf> <./i
 mages//conf_matrix_Xóchitl.pdf> <./images//curvas_de_perdida.pdf>]
-<./images//sA_debate1.pdf, id=1327, 722.7pt x 505.89pt>
+<./images//sA_debate1.pdf, id=1481, 722.7pt x 505.89pt>
 File: ./images//sA_debate1.pdf Graphic file (type pdf)
 <use ./images//sA_debate1.pdf>
-Package pdftex.def Info: ./images//sA_debate1.pdf  used on input line 993.
+Package pdftex.def Info: ./images//sA_debate1.pdf  used on input line 997.
 (pdftex.def)             Requested size: 386.95897pt x 270.86847pt.
-<./images//sA_debate2.pdf, id=1328, 722.7pt x 505.89pt>
+<./images//sA_debate2.pdf, id=1482, 722.7pt x 505.89pt>
 File: ./images//sA_debate2.pdf Graphic file (type pdf)
 <use ./images//sA_debate2.pdf>
-Package pdftex.def Info: ./images//sA_debate2.pdf  used on input line 1013.
+Package pdftex.def Info: ./images//sA_debate2.pdf  used on input line 1017.
 (pdftex.def)             Requested size: 362.77264pt x 253.94016pt.
 
 
@@ -1564,7 +1604,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 1020.
+Package pdftex.def Info: ./images//logo.png  used on input line 1025.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1574,15 +1614,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[21 <./images//sA_debate1.pdf>]
-<./images//sA_debate3.pdf, id=1384, 722.7pt x 505.89pt>
+[24 <./images//sA_debate1.pdf>]
+<./images//sA_debate3.pdf, id=1538, 722.7pt x 505.89pt>
 File: ./images//sA_debate3.pdf Graphic file (type pdf)
 <use ./images//sA_debate3.pdf>
-Package pdftex.def Info: ./images//sA_debate3.pdf  used on input line 1027.
+Package pdftex.def Info: ./images//sA_debate3.pdf  used on input line 1031.
 (pdftex.def)             Requested size: 362.77264pt x 253.94016pt.
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 1033.
+Package pdftex.def Info: ./images//logo.png  used on input line 1037.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1593,24 +1633,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[22 <./images//sA_debate2.pdf> <./images//sA_debate3.pdf>]
-<./images//sA_intervalo_0812.pdf, id=1492, 722.7pt x 505.89pt>
+[25 <./images//sA_debate2.pdf> <./images//sA_debate3.pdf>]
+<./images//sA_intervalo_0812.pdf, id=1644, 722.7pt x 505.89pt>
 File: ./images//sA_intervalo_0812.pdf Graphic file (type pdf)
 <use ./images//sA_intervalo_0812.pdf>
 Package pdftex.def Info: ./images//sA_intervalo_0812.pdf  used on input line 10
-40.
-(pdftex.def)             Requested size: 362.77264pt x 253.94016pt.
-<./images//sA_intervalo_1217.pdf, id=1493, 722.7pt x 505.89pt>
+48.
+(pdftex.def)             Requested size: 353.09663pt x 247.17036pt.
+<./images//sA_intervalo_1217.pdf, id=1645, 722.7pt x 505.89pt>
 File: ./images//sA_intervalo_1217.pdf Graphic file (type pdf)
 <use ./images//sA_intervalo_1217.pdf>
 Package pdftex.def Info: ./images//sA_intervalo_1217.pdf  used on input line 10
-47.
-(pdftex.def)             Requested size: 362.77264pt x 253.94016pt.
-<./images//sA_intervalo_1723.pdf, id=1494, 722.7pt x 505.89pt>
+55.
+(pdftex.def)             Requested size: 353.09663pt x 247.17036pt.
+<./images//sA_intervalo_1723.pdf, id=1646, 722.7pt x 505.89pt>
 File: ./images//sA_intervalo_1723.pdf Graphic file (type pdf)
 <use ./images//sA_intervalo_1723.pdf>
 Package pdftex.def Info: ./images//sA_intervalo_1723.pdf  used on input line 10
-54.
+62.
 (pdftex.def)             Requested size: 362.77264pt x 253.94016pt.
 
 
@@ -1618,7 +1658,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 1061.
+Package pdftex.def Info: ./images//logo.png  used on input line 1069.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1628,10 +1668,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[23 <./images//sA_intervalo_0812.pdf> <./images//sA_intervalo_1217.pdf>]
+[26 <./images//sA_intervalo_0812.pdf> <./images//sA_intervalo_1217.pdf>]
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 1072.
+Package pdftex.def Info: ./images//logo.png  used on input line 1084.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 
@@ -1642,11 +1682,185 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[24 <./images//sA_intervalo_1723.pdf>] 
+[27 <./images//sA_intervalo_1723.pdf>]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1115.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[28]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1159.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[29]
+<./images//silhouette_debate1.pdf, id=1823, 867.24pt x 722.7pt>
+File: ./images//silhouette_debate1.pdf Graphic file (type pdf)
+<use ./images//silhouette_debate1.pdf>
+Package pdftex.def Info: ./images//silhouette_debate1.pdf  used on input line 1
+181.
+(pdftex.def)             Requested size: 237.01411pt x 197.50252pt.
+<./images//clusters_debate1.pdf, id=1824, 722.7pt x 578.16pt>
+File: ./images//clusters_debate1.pdf Graphic file (type pdf)
+<use ./images//clusters_debate1.pdf>
+Package pdftex.def Info: ./images//clusters_debate1.pdf  used on input line 118
+7.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//silhouette_debate2.pdf, id=1826, 867.24pt x 722.7pt>
+File: ./images//silhouette_debate2.pdf Graphic file (type pdf)
+<use ./images//silhouette_debate2.pdf>
+Package pdftex.def Info: ./images//silhouette_debate2.pdf  used on input line 1
+200.
+(pdftex.def)             Requested size: 237.01411pt x 197.50252pt.
+<./images//clusters_debate2.pdf, id=1827, 722.7pt x 578.16pt>
+File: ./images//clusters_debate2.pdf Graphic file (type pdf)
+<use ./images//clusters_debate2.pdf>
+Package pdftex.def Info: ./images//clusters_debate2.pdf  used on input line 120
+6.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1214.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[30 <./images//silhouette_debate1.pdf> <./images//clusters_debate1.pdf>]
+File: ./images//silhouette_debate2.pdf Graphic file (type pdf)
+<use ./images//silhouette_debate2.pdf>
+Package pdftex.def Info: ./images//silhouette_debate2.pdf  used on input line 1
+219.
+(pdftex.def)             Requested size: 237.01411pt x 197.50252pt.
+File: ./images//clusters_debate2.pdf Graphic file (type pdf)
+<use ./images//clusters_debate2.pdf>
+Package pdftex.def Info: ./images//clusters_debate2.pdf  used on input line 122
+5.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+<./images//silhouette_diaEleccion.pdf, id=1912, 867.24pt x 722.7pt>
+File: ./images//silhouette_diaEleccion.pdf Graphic file (type pdf)
+<use ./images//silhouette_diaEleccion.pdf>
+Package pdftex.def Info: ./images//silhouette_diaEleccion.pdf  used on input li
+ne 1238.
+(pdftex.def)             Requested size: 237.01411pt x 197.50252pt.
+<./images//clusters_diaElección.pdf, id=1913, 722.7pt x 578.16pt>
+File: ./images//clusters_diaElección.pdf Graphic file (type pdf)
+<use ./images//clusters_diaElección.pdf>
+Package pdftex.def Info: ./images//clusters_diaElección.pdf  used on input lin
+e 1244.
+(pdftex.def)             Requested size: 237.01411pt x 189.61124pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1254.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[31 <./images//silhouette_debate2.pdf> <./images//clusters_debate2.pdf>]
+<./images//diagrama_burbuja.pdf, id=1992, 1156.32pt x 650.43pt>
+File: ./images//diagrama_burbuja.pdf Graphic file (type pdf)
+<use ./images//diagrama_burbuja.pdf>
+Package pdftex.def Info: ./images//diagrama_burbuja.pdf  used on input line 126
+6.
+(pdftex.def)             Requested size: 483.69687pt x 272.07709pt.
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1270.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[32 <./images//silhouette_diaEleccion.pdf> <./images//clusters_diaElección.pdf
+>]
+Overfull \hbox (19.31708pt too wide) in paragraph at lines 1273--1299
+ [][] 
+ []
+
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1310.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[33 <./images//diagrama_burbuja.pdf>]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1343.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[34]
+File: ./images//logo.png Graphic file (type png)
+<use ./images//logo.png>
+Package pdftex.def Info: ./images//logo.png  used on input line 1371.
+(pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
+
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 32.03885pt, for example:
+(fancyhdr)                \setlength{\headheight}{32.03885pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
+
+[35] 
 AED: lastpage setting LastPage
 File: ./images//logo.png Graphic file (type png)
 <use ./images//logo.png>
-Package pdftex.def Info: ./images//logo.png  used on input line 1085.
+Package pdftex.def Info: ./images//logo.png  used on input line 1376.
 (pdftex.def)             Requested size: 28.45274pt x 28.43881pt.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -1656,7 +1870,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-20.03885pt}.
 
-[25] (./elecciones.aux
+[36] (./elecciones.aux
 LaTeX Info: Redefining \sptext on input line 27.
 LaTeX Info: Redefining \. on input line 27.
 LaTeX Info: Redefining \% on input line 27.
@@ -1665,19 +1879,19 @@ LaTeX Info: Redefining \% on input line 27.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `elecciones.out' has not changed.
-(rerunfilecheck)             Checksum: 1B29F0FE755454F8A3ECA41522F7D477;9212.
+(rerunfilecheck)             Checksum: 000609AE2705CD43D251EA9ED4A827CA;12644.
 Package logreq Info: Writing requests to 'elecciones.run.xml'.
 \openout1 = `elecciones.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25582 strings out of 478287
- 451850 string characters out of 5849289
- 1347563 words of memory out of 5000000
- 43290 multiletter control sequences out of 15000+600000
- 529937 words of font info for 63 fonts, out of 8000000 for 9000
+ 25685 strings out of 478287
+ 454668 string characters out of 5849289
+ 1349205 words of memory out of 5000000
+ 43349 multiletter control sequences out of 15000+600000
+ 527217 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,16n,77p,1199b,2802s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 68i,15n,77p,1199b,2802s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/d
 vips/lm/lm-rm.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}{/usr/shar
 e/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/l
@@ -1685,16 +1899,15 @@ m-rmtt.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb></usr/share/texmf/fonts/type1/public/lm/lmmi10.pfb></usr/share/texmf/fonts
 /type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmss10.pfb><
 /usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1
-/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss8.pfb></usr/s
-hare/texmf/fonts/type1/public/lm/lmss9.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/sha
-re/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/share/texmf/fonts/type1/public
-/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy7.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on elecciones.pdf (26 pages, 3446228 bytes).
+/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmss9.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/pub
+lic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/s
+hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
+c/lm/lmsy7.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt10.pfb>
+Output written on elecciones.pdf (37 pages, 3825299 bytes).
 PDF statistics:
- 1774 PDF objects out of 2073 (max. 8388607)
- 669 compressed objects within 7 object streams
- 120 named destinations out of 1000 (max. 500000)
- 520 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2269 PDF objects out of 2487 (max. 8388607)
+ 896 compressed objects within 9 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 683 words of extra memory for PDF output out of 10000 (max. 10000000)
 

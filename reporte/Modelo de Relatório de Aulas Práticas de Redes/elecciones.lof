@@ -1,0 +1,44 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {figure}{\numberline {1}{\ignorespaces Metodología CRISP-DM\relax }}{9}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Framework de Deasarrollo\relax }}{12}{figure.caption.6}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Sistema Evolutivo de Reescritura\relax }}{14}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Distribución Global de Menciones en Debates\relax }}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Distribución en el primer debate\relax }}{15}{figure.caption.9}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Distribución en el segundo debate\relax }}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Distribución en el tercer debate\relax }}{15}{figure.caption.10}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Distribución Global de Menciones en el Día de la Elección\relax }}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Distribución de Menciones de 08:00 a 12:00\relax }}{16}{figure.caption.11}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Distribución de Menciones de 12:00 a 17:00\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Distribución de Menciones de 17:00 a 23:00\relax }}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Distribución de Comentarios en los Debates por Fechas\relax }}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Distribución de Comentarios en los Debates por Fechas\relax }}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Distribución de Comentarios en los Debates por Fechas\relax }}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Nube de Palabras del Primer Debate\relax }}{17}{figure.caption.14}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Nube de Palabras del Segundo Debate\relax }}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Nube de Palabras del Tercer Debate\relax }}{18}{figure.caption.15}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Nube de Palabras del Día de la Elección\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Nube de Palabras en el Horario de 08:00 a 12:00\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Nube de Palabras en el Horario de 12:00 a 17:00\relax }}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Nube de Palabras en el Horario de 08:00 a 12:00\relax }}{18}{figure.caption.17}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Distribución de Longitud de Comentarios en Youtube\relax }}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Distribución de Longitud de Publicaciones en X\relax }}{20}{figure.caption.19}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Interfaz de la herramienta de etiquetado desarrollada para el análisis de sentimiento.\relax }}{21}{figure.caption.20}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Matriz de confusión para Claudia.\relax }}{23}{figure.caption.21}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Matriz de confusión para Maynez.\relax }}{23}{figure.caption.21}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Matriz de confusión para Xóchitl.\relax }}{23}{figure.caption.22}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Curva de pérdida durante el entrenamiento y validación.\relax }}{23}{figure.caption.23}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Distribución de sentimientos en el primer debate\relax }}{24}{figure.caption.24}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Distribución de sentimientos en el segundo debate\relax }}{25}{figure.caption.25}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Distribución de sentimientos en el tercer debate\relax }}{25}{figure.caption.26}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Distribución de sentimientos en el horario 08:00 a 12:00\relax }}{26}{figure.caption.27}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Distribución de sentimientos en el horario 17:00 a 23:00\relax }}{26}{figure.caption.28}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Distribución de sentimientos en el horario 17:00 a 23:00\relax }}{27}{figure.caption.29}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Gráfica de Silueta para el primer debate\relax }}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Grafica de clusters del primer debate\relax }}{30}{figure.caption.30}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Gráfica de Silueta para el segundo debate\relax }}{31}{figure.caption.31}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Grafica de clusters del segundo debate\relax }}{31}{figure.caption.31}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Gráfica de Silueta para el tercer debate\relax }}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Grafica de clusters del tercer debate\relax }}{31}{figure.caption.32}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Gráfica de Silueta para el Dia de la Elección\relax }}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Grafica de clusters el Dia de la Elección\relax }}{32}{figure.caption.33}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Diagrama de burbuja de los tópicos más populares\relax }}{33}{figure.caption.34}%

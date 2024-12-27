@@ -1,0 +1,81 @@
+evento,fecha,Topic,Count,Name,silhouette_promedio
+Debate 1,2024-04-07,-1,966,-1_xochitl_propuestas_claudia_representado,
+Debate 1,2024-04-07,0,875,0_xochitl_claudia_maynez_mejor,-0.17043515
+Debate 1,2024-04-07,1,389,1_debate_voto_candidatos_votar,0.6371639
+Debate 1,2024-04-07,2,208,2_méxico_mexico_mexicanos_díos,0.468794
+Debate 1,2024-04-07,3,158,3_preguntas_xochitl_mentiras_vergüenza,0.5286801
+Debate 1,2024-04-07,4,123,4_educación_niños_escuelas_escuela,0.7067397
+Debate 1,2024-04-07,5,121,5_tiempo_minuto_quitan_reloj,0.99251765
+Debate 1,2024-04-07,6,120,6_presidenta_presidente_maynez_claudia,0.5524824
+Debate 1,2024-04-07,7,91,7_salud_medicamentos_medicamento_servicio,0.51806056
+Debate 1,2024-04-07,8,62,8_sheinbaum_claudia_viva_apoyo,0.5921248
+Debate 1,2024-04-07,9,53,9_dinero_vida_futuro_promesas,0.6759737
+Debate 1,2024-04-07,10,44,10_transformación_viva_plan_apoyado,0.61442316
+Debate 1,2024-04-07,11,41,11_bandera_revés_cabeza_nacional,0.68183875
+Debate 1,2024-04-07,12,41,12_mujeres_hombres_mujer_hombre,0.55765855
+Debate 1,2024-04-07,13,37,13_nunca_vi_ningún_si,0.88506544
+Debate 1,2024-04-07,14,30,14_muertos_preguntarle_murieron_dice,0.895346
+Debate 1,2024-04-07,15,27,15_corrupción_gobiernos_corrupcion_ine,0.767036
+Debate 1,2024-04-07,16,22,16_jajajaja_jajaja_jajja_jaja,0.5685072
+Debate 1,2024-04-07,17,15,17_violadores_homicidas_blablabla_secuestradores,0.69093287
+Debate 1,2024-04-07,18,12,18_galvez_crupta_chucha_ledice,0.5162028
+Debate 2,2024-04-28,-1,1018,-1_xochitl_maynez_claudia_si,
+Debate 2,2024-04-28,0,720,0_xochitl_claudia_maynez_vamos,-0.571465
+Debate 2,2024-04-28,1,369,1_debate_voto_candidata_candidatos,-0.066377394
+Debate 2,2024-04-28,2,255,2_xochitl_mentirosa_mentiras_si,0.024907218
+Debate 2,2024-04-28,3,198,3_méxico_mexicanos_mexico_presidente,0.69517916
+Debate 2,2024-04-28,4,149,4_presidenta_presidente_claudia_sheinbaum,0.5891646
+Debate 2,2024-04-28,5,82,5_salario_pesos_pensiones_empresarios,0.45152965
+Debate 2,2024-04-28,6,77,6_gasolina_usa_unidos_precio,0.8553374
+Debate 2,2024-04-28,7,46,7_jajaja_jajajaja_pan_representado,0.8335154
+Debate 2,2024-04-28,8,41,8_doctora_apoyado_plan_vamos,0.5833506
+Debate 2,2024-04-28,9,38,9_sheinbaum_claudia_apoyo_doctora,0.79651886
+Debate 2,2024-04-28,10,37,10_agua_aeropuerto_infraestructura_monterrey,0.65338063
+Debate 2,2024-04-28,11,36,11_propuestas_definido_propuesta_plan,0.8650949
+Debate 2,2024-04-28,12,35,12_transformación_viva_cambia_piso,0.9416068
+Debate 2,2024-04-28,13,21,13_narcotraficante_narcotraficantes_partido_felipe,0.94653845
+Debate 2,2024-04-28,14,19,14_pobreza_viviendas_morena_pobres,0.7477422
+Debate 2,2024-04-28,15,19,15_tiempo_reloj_robando_raro,0.92258453
+Debate 2,2024-04-28,16,16,16_tren_maya_león_nuevo,0.77432024
+Debate 2,2024-04-28,17,13,17_mejor_comparación_osion_mejorado,0.98042
+Debate 2,2024-04-28,18,12,18_solar_limpias_energia_energía,0.9750708
+Debate 3,2024-05-19,-1,875,-1_xochitl_claudia_maynez_si,
+Debate 3,2024-05-19,0,657,0_xochitl_claudia_maynez_representado,-0.46706104
+Debate 3,2024-05-19,1,196,1_méxico_mexicanos_mexico_hacer,0.6872192
+Debate 3,2024-05-19,2,183,2_voto_votar_candidata_xochitl,0.5898176
+Debate 3,2024-05-19,3,124,3_gobierno_si_vivienda_casa,0.059048753
+Debate 3,2024-05-19,4,124,4_presidenta_presidente_claudia_xochitl,0.6318511
+Debate 3,2024-05-19,5,115,5_mentiras_puras_corrupción_mentira,-0.14664719
+Debate 3,2024-05-19,6,97,6_sheinbaum_claudia_maynez_viva,0.5751362
+Debate 3,2024-05-19,7,78,7_debate_debates_preguntas_propuestas,0.7077239
+Debate 3,2024-05-19,8,51,8_salario_pesos_mínimo_empresas,0.7160719
+Debate 3,2024-05-19,9,47,9_plan_propuestas_apoyado_proyecto,-0.29745242
+Debate 3,2024-05-19,10,34,10_hospitales_medicamentos_médicos_salud,0.82100344
+Debate 3,2024-05-19,11,33,11_hermana_secuestradora_secuestro_seguridad,0.8582861
+Debate 3,2024-05-19,12,28,12_jajaja_jajjaja_gritan_fox,0.8972704
+Debate 3,2024-05-19,13,24,13_educación_niños_escuelas_beca,0.84007406
+Debate 3,2024-05-19,14,22,14_gelatinas_vendido_vender_dolar,0.7610651
+Debate 3,2024-05-19,15,21,15_audio_orejas_video_voz,0.47632286
+Debate 3,2024-05-19,16,14,16_leyendo_libro_leer_agacha,0.87169355
+Debate 3,2024-05-19,17,12,17_transformación_viva_cuarta_arriba,0.95330405
+Debate 3,2024-05-19,18,12,18_francesa_habla_acento_rusa,0.8528188
+Día de la elección,2024-06-02,-1,177,-1_maynez_futuro_fraude_vamos,
+Día de la elección,2024-06-02,0,1306,0_méxico_elecciones_claudia_presidenta,0.61975235
+Día de la elección,2024-06-02,1,398,1_xochitl_galvez_voté_gálvez,0.5281994
+Día de la elección,2024-06-02,2,162,2_siguiente_presidenta_claudia_méxico,0.6872561
+Día de la elección,2024-06-02,3,117,3_voté_xochitl_representado_pri,0.9654843
+Día de la elección,2024-06-02,4,35,4_vamos_final_contigo_amigos,0.7790964
+Día de la elección,2024-06-02,5,35,5_gano_gane_ganó_construyendo,0.5741315
+Día de la elección,2024-06-02,6,33,6_respuesta_voté_xochitl_respondiendo,0.9814377
+Día de la elección,2024-06-02,7,32,7_banqueta_ilegales_micheladas_vamos,0.49423003
+Día de la elección,2024-06-02,8,27,8_va_ganar_ganó_generación,0.34189108
+Día de la elección,2024-06-02,9,19,9_vamooooo_gano_amo_claudiaaaaaa,0.6711972
+Día de la elección,2024-06-02,10,18,10_ganó_estudien_claudia_inundemos,0.645175
+Día de la elección,2024-06-02,11,17,11_viva_maynez_claudia_vivas,0.8337696
+Día de la elección,2024-06-02,12,14,12_morena_pastora_morenaaaaaaa_morenaaaaa,0.69007367
+Día de la elección,2024-06-02,13,14,13_gano_jamaica_horchata_jefas,0.74242294
+Día de la elección,2024-06-02,14,12,14_cambio_viva_memoria_migrar,0.927145
+Día de la elección,2024-06-02,15,11,15_si_pensar_gana_sueño,0.79580635
+Día de la elección,2024-06-02,16,11,16_beneficios_pese_manda_pri,0.59878045
+Día de la elección,2024-06-02,17,11,17_arriba_trajo_pum_patrona,0.8749518
+Día de la elección,2024-06-02,18,10,18_llorar_llores_llorando_cabe,0.7872667

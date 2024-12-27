@@ -140,6 +140,11 @@
 	\newpage
 	\tableofcontents
 	\newpage
+	\listoffigures
+	\newpage
+	\listoftables
+	\newpage
+	
 	
 	% Aplicar encabezado y pie de página a partir de esta página
 	
@@ -172,7 +177,14 @@
 		\item Analizar si existen diferencias significativas en las opiniones y temas discutidos entre las audiencias de diferentes canales de YouTube y entre las plataformas de YouTube y X.
 	\end{itemize}
 	
-	\vspace{10cm}
+	\subsection{Síntesis de los resultados}
+	
+	Los resultados muestran dinámicas claras en la manera en que el público percibió a los candidatos en diferentes momentos del proceso electoral. Claudia Sheinbaum emergió como una figura sólida, asociada con una narrativa positiva y de confianza en gran parte del electorado. Por otro lado, Xóchitl Gálvez enfrentó una polarización significativa, con una alta proporción de comentarios negativos, mientras que Jorge Álvarez Maynez se posicionó como el menos polarizante, aunque con una participación que generó principalmente neutralidad.
+	
+	El día de la elección marcó un cambio notable en la conversación pública, donde las emociones y opiniones se centraron en los resultados preliminares y las experiencias de votación. Claudia Sheinbaum continuó dominando la narrativa, mientras que los comentarios hacia Xóchitl Gálvez reflejaron tanto apoyo como críticas, consolidando su imagen polarizada.
+	
+	Este estudio no solo captura los temas más discutidos y las emociones predominantes en torno a los candidatos, sino que también resalta el uso de las redes sociales como un espacio para la participación ciudadana y la construcción de narrativas electorales. A través de este análisis, se ofrece una perspectiva integral sobre cómo la opinión pública se forma y evoluciona en tiempo real, brindando herramientas para comprender mejor el impacto de los discursos políticos en un entorno digital.
+	
 	
 	\subsection{Descripción del Conjunto de Datos}
 	
@@ -197,7 +209,7 @@
 		\item \textbf{username:} Nombre de usuario que realizó el comentario.
 		\item \textbf{fecha:} Fecha en que se realizó el comentario.
 		\item \textbf{comentario:} Contenido textual del comentario.
-		\item \textbf{num\_likes:} Número de "me gusta" que recibió el comentario.
+		\item \textbf{num\_likes:} Número de \textit{me gusta} que recibió el comentario.
 	\end{itemize}
 	
 	El diccionario de datos que se tiene es el siguiente
@@ -213,7 +225,7 @@
 			\texttt{username} & Cadena de texto & Nombre de usuario en YouTube que realizó el comentario. \\
 			\texttt{fecha} & Fecha & Fecha en formato DD/MM/AAAA en que se publicó el comentario. \\
 			\texttt{comentario} & Cadena de texto & Texto del comentario realizado por el usuario. \\
-			\texttt{num\_likes} & Entero & Cantidad de "me gusta" que obtuvo el comentario. \\
+			\texttt{num\_likes} & Entero & Cantidad de \textit{me gusta} que obtuvo el comentario. \\
 			\hline
 		\end{tabular}
 		\caption{Diccionario de datos del conjunto de comentarios de YouTube}
@@ -329,7 +341,7 @@
 	\subsubsection{Comprensión de los Datos}
 	Se recopilaron dos conjuntos de datos:
 	\begin{itemize}
-		\item \textbf{YouTube:} Comentarios de los debates presidenciales (9,392 registros), incluyendo atributos como usuario, comentario, canal, número de "me gusta" y fecha.
+		\item \textbf{YouTube:} Comentarios de los debates presidenciales (9,392 registros), incluyendo atributos como usuario, comentario, canal, número de \textit{me gusta} y fecha.
 		\item \textbf{X:} Publicaciones realizadas durante el día de las elecciones (2,486 registros), con atributos como usuario, hora de publicación y contenido textual.
 	\end{itemize}
 	Se realizó una exploración inicial para identificar datos irrelevantes, valores faltantes y posibles inconsistencias.
@@ -375,8 +387,9 @@
 			\hline
 			5 & \texttt{comentario} & Contenido textual del comentario realizado por el usuario. & Cadena de texto & Cualquier texto. \\
 			\hline
-			6 & \texttt{num\_likes} & Número de "me gusta" que recibió el comentario. & Entero & \{0, 1, 2, \dots\} \\
+			6 & \texttt{num\_likes} & Número de \textit{me gusta} que recibió el comentario. & Entero & \{0, 1, 2, \dots\} \\
 			\hline
+			
 		\end{tabular}
 		\caption{Descripción de las variables del conjunto de datos de comentarios en YouTube.}
 		\label{tab:variables_dataset}
@@ -423,8 +436,8 @@
 	
 	\begin{itemize}
 		\item \textbf{Embeddings de Palabras}: Se utilizarán los embeddings de BETO para generar representaciones vectoriales densas de las palabras, capturando relaciones semánticas y contextuales en el corpus de texto.
-		\item \textbf{Reducción de Dimensionalidad con PCA}: Antes de aplicar el agrupamiento, se utilizará el análisis de componentes principales (PCA, por sus siglas en inglés) para reducir la dimensionalidad de los embeddings generados, conservando las características más relevantes y mejorando la eficiencia del algoritmo.
-		\item \textbf{K-means}: Sobre los embeddings reducidos, se aplicará el algoritmo de agrupamiento K-means para identificar grupos de comentarios relacionados con tópicos similares.
+		\item \textbf{Reducción de Dimensionalidad con UMAP}: Antes de aplicar el agrupamiento, se utilizará la Proyección y Aproximación Uniforme de Colectores (UMAP, por sus siglas en inglés) para reducir la dimensionalidad de los embeddings generados, conservando las características más relevantes y mejorando la eficiencia del algoritmo.
+		\item \textbf{HDBSCAN}: Sobre los embeddings reducidos, se aplicará el algoritmo de agrupamiento HDBSCAN para identificar grupos de comentarios relacionados con tópicos similares.
 	\end{itemize}
 	
 	Esta combinación permitirá descubrir los temas más relevantes dentro de los comentarios analizados, proporcionando una visión más clara de las discusiones predominantes en las plataformas sociales.
@@ -512,7 +525,7 @@
 	
 	El propósito de esta bolsa de palabras es servir como base para el sistema evolutivo de reescritura. Este sistema aplica las siguientes acciones sobre los textos:
 	\begin{itemize}
-		\item \textbf{Estandarización:} Palabras con múltiples variantes (e.g., "fifi", "fifí") se reducen a una forma única para minimizar ruido semántico.
+		\item \textbf{Estandarización:} Palabras con múltiples variantes (e.g., \textit{fifi}, \textit{fifí}) se reducen a una forma única para minimizar ruido semántico.
 		\item \textbf{Limpieza:} Groserías, abreviaturas y errores ortográficos son corregidos, con el fin de mejorar la legibilidad y procesabilidad del texto.
 	\end{itemize}
 	
@@ -712,9 +725,9 @@
 		\end{minipage}
 	\end{figure}
 
-	En la nube de palabras general de los debates, se observa una predominancia de términos como "decir", "hacer", "debate", "candidato" y menciones directas a los nombres de los candidatos, como "claudia", "xóchitl" y "maynez". Esto refleja que las discusiones se centran en las propuestas, el desempeño en los debates y las expectativas de los usuarios en torno a los participantes. Palabras relacionadas con el contexto político y social como "México", "gobierno" y "propuesta" también son frecuentes, indicando un interés en los temas tratados.
+	En la nube de palabras general de los debates, se observa una predominancia de términos como \textit{decir, hacer, debate, candidato} y menciones directas a los nombres de los candidatos, como \textit{claudia, xóchitl y maynez}. Esto refleja que las discusiones se centran en las propuestas, el desempeño en los debates y las expectativas de los usuarios en torno a los participantes. Palabras relacionadas con el contexto político y social como \textit{México, gobierno} y \textit{propuesta} también son frecuentes, indicando un interés en los temas tratados.
 	
-	Por otro lado, en las nubes de palabras individuales de los debates, se observan ligeras variaciones en los términos predominantes. Por ejemplo, en el primer debate destacan términos como "preguntar" y "atacar", lo que podría sugerir un enfoque más confrontativo. En el segundo debate, términos como "ganar" y "propuesta" son más prominentes, reflejando quizás un tono más propositivo. Finalmente, en el tercer debate, hay una recurrencia de términos como "hablar" y "decir", sugiriendo un interés en la claridad y el contenido de los mensajes. En conjunto, estas nubes reflejan cómo el enfoque y la percepción de los usuarios varían con el desarrollo de los debates.
+	Por otro lado, en las nubes de palabras individuales de los debates, se observan ligeras variaciones en los términos predominantes. Por ejemplo, en el primer debate destacan términos como \textit{preguntar} y \textit{atacar}, lo que podría sugerir un enfoque más confrontativo. En el segundo debate, términos como \textit{ganar} y \textit{propuesta} son más prominentes, reflejando quizás un tono más propositivo. Finalmente, en el tercer debate, hay una recurrencia de términos como \textit{hablar} y \textit{decir}, sugiriendo un interés en la claridad y el contenido de los mensajes. En conjunto, estas nubes reflejan cómo el enfoque y la percepción de los usuarios varían con el desarrollo de los debates.
 	
 	Replicando el mismo proceso para el día de la elección y considerando los intervalos definidos anteriormente, podemos observar las nubes descritas a continuación.
 	
@@ -769,7 +782,7 @@
 	
 	\subsubsection{Análisis de Engagement (YouTube)}
 	
-	En esta sección se analiza el nivel de interacción que generan los comentarios en los debates presidenciales, utilizando como indicador principal el número de "me gusta" (num\_likes). Este análisis busca identificar patrones asociados a los comentarios más populares, como su relación con la longitud del texto, el contenido o el debate en el que fueron realizados. Asimismo, se revisan los comentarios con más "likes" para comprender las opiniones y temas que generaron mayor resonancia entre los usuarios.
+	En esta sección se analiza el nivel de interacción que generan los comentarios en los debates presidenciales, utilizando como indicador principal el número de \textit{me gusta} (num\_likes). Este análisis busca identificar patrones asociados a los comentarios más populares, como su relación con la longitud del texto, el contenido o el debate en el que fueron realizados. Asimismo, se revisan los comentarios con más \textit{likes} para comprender las opiniones y temas que generaron mayor resonancia entre los usuarios.
 	
 	\begin{table}[H]
 		\centering
@@ -778,27 +791,18 @@
 			\textbf{ID} & \textbf{Comentario} & \textbf{Num Likes} & \textbf{Num Debate} \\ \hline
 			3831 & Es en serio lo que dijo la candidata Xochitl. ¿Pregúntenle a los muertos?. Que tonterías dice y sin razón. & 823 & 1 \\ \hline
 			3848 & Imagínense que Xochitl quedara de presidente. No mms la peor vergüenza mundial que nos podría pasar & 745 & 1 \\ \hline
-		\end{tabular}
-		\caption{Ejemplo de comentarios relacionados con Xóchitl Gálvez, con sus respectivos likes y debate.}
-		\label{tab:comentarios_xochitl}
-	\end{table}
-	
-	\begin{table}[H]
-		\centering
-		\begin{tabular}{|c|p{11cm}|c|c|}
-			\hline
-			\textbf{ID} & \textbf{Comentario} & \textbf{Num Likes} & \textbf{Num Debate} \\ \hline
 			3832 & Xochitl galvez es un peña nieto cualquiera & 717 & 1 \\ \hline
 			3839 & Xóchitl se pone nerviosa en un debate y se traba al expresarse. Imagínate para dirigir un país & 661 & 1 \\ \hline
 			2529 & Bla bla bla. A estas alturas. Ya sabemos quién miente. No somos pendejos. & 545 & 3 \\ \hline
 		\end{tabular}
-		\caption{Ejemplo de comentarios relacionados con Xóchitl Gálvez, con sus respectivos likes y debate.}
-		\label{tab:comentarios_xochitl2}
+		\caption{Comentarios con mayor numero de likes en los debates presidenciales}
+		\label{tab:comentarios_xochitl}
 	\end{table}
+
 	
 	Observaciones sobre los comentarios más populares
 	
-	Los comentarios con mayor número de "me gusta" tienden a centrarse en juicios hacia los candidatos, utilizando un tono crítico y humorístico. En particular, los cinco comentarios más populares observados tienen en común:
+	Los comentarios con mayor número de \textit{me gusta} tienden a centrarse en juicios hacia los candidatos, utilizando un tono crítico y humorístico. En particular, los cinco comentarios más populares observados tienen en común:
 	
 	\begin{itemize}
 		\item \textbf{Foco en Xóchitl Gálvez:} Todos los comentarios hacen referencia directa a Xóchitl, lo que sugiere que su participación en los debates generó un alto nivel de interacción.
@@ -841,7 +845,7 @@
 	
 	\textbf{De las Menciones a Candidatos:} En ambos datasets, Claudia Sheinbaum y Xóchitl Gálvez presentan una proporción similar de menciones, reflejando su protagonismo en la conversación electoral. Jorge Álvarez Maynez tiene una participación significativamente menor.Un alto porcentaje de comentarios no menciona explícitamente a ningún candidato, lo que puede implicar discusiones generales sobre los debates o temas relacionados con la elección sin una referencia directa a los candidatos.
 	
-	\textbf{De la Frecuencia de Palabras:} En las nubes de palabras de los debates, los términos más frecuentes están relacionados con "decir", "hacer", "propuestas" y los nombres de los candidatos, reflejando un enfoque en las declaraciones y promesas durante los debates. En el día de la elección, destacan palabras como "eleccionesmexico2024", "votar", "casilla" y "resultados", lo que subraya la interacción centrada en el acto de votar y la espera de resultados.
+	\textbf{De la Frecuencia de Palabras:} En las nubes de palabras de los debates, los términos más frecuentes están relacionados con \textit{decir}, \textit{hacer}, \textit{propuestas} y los nombres de los candidatos, reflejando un enfoque en las declaraciones y promesas durante los debates. En el día de la elección, destacan palabras como \textit{elecciones mexico}, \textit{votar}, \textit{casilla} y \textit{resultados}, lo que subraya la interacción centrada en el acto de votar y la espera de resultados.
 	
 	\textbf{Del Engagement (YouTube):} Los comentarios con mayor número de likes tienden a ser más críticos o emocionales, especialmente hacia ciertos candidatos, lo que sugiere que las opiniones polarizadas generan mayor interacción.
 	
@@ -1035,16 +1039,20 @@
 	
 	Sin embargo, el contexto de los debates presidenciales no es completamente representativo de la dinámica electoral en su conjunto. Es crucial explorar cómo las opiniones expresadas por el electorado evolucionaron durante el día de la elección, un evento crítico que concentra un alto volumen de interacción en redes sociales. Al analizar los comentarios realizados en intervalos de tiempo específicos a lo largo de este día, se identificaron patrones clave que reflejan el impacto inmediato del proceso de votación en la percepción pública.
 	
+	\vspace{3mm}
+	\textbf{Dia de la Elección}
+	
+	
 	\begin{figure}[h!] % 'h!' posiciona la imagen cerca del texto relacionado
 		\centering
-		\includegraphics[width=0.75\textwidth]{sA_intervalo_0812.pdf} % Ajusta el tamaño con width o height
+		\includegraphics[width=0.73\textwidth]{sA_intervalo_0812.pdf} % Ajusta el tamaño con width o height
 		\caption{Distribución de sentimientos en el horario 08:00 a 12:00} % Texto del caption
 		\label{fig:sA_08a12} % Etiqueta para referenciar la imagen
 	\end{figure}
 	
 	\begin{figure}[h!] % 'h!' posiciona la imagen cerca del texto relacionado
 		\centering
-		\includegraphics[width=0.75\textwidth]{sA_intervalo_1217.pdf} % Ajusta el tamaño con width o height
+		\includegraphics[width=0.73\textwidth]{sA_intervalo_1217.pdf} % Ajusta el tamaño con width o height
 		\caption{Distribución de sentimientos en el horario 17:00 a 23:00} % Texto del caption
 		\label{fig:sA_12a17} % Etiqueta para referenciar la imagen
 	\end{figure}
@@ -1067,17 +1075,300 @@
 	
 	El día de la elección no solo reflejó las emociones de los votantes, sino también la intensidad de su conexión con los candidatos. Mientras Claudia Sheinbaum logró mantener una narrativa positiva y consistente, Xóchitl Gálvez navegó entre los extremos del apoyo y la crítica. Por otro lado, Jorge Álvarez Maynez quedó como el espectador silencioso de una conversación que nunca terminó de involucrarlo. Este análisis captura no solo los números, sino también la historia que contaron las audiencias en tiempo real, marcando un contraste fascinante con los debates presidenciales.
 	
-	\subsubsection{Comparación de audiencias}
-	Al comparar las audiencias de YouTube y X durante este proceso electoral, observamos diferencias en la expresión de los sentimientos. En YouTube, los comentarios tendieron a ser más polarizados, con una mayor proporción de sentimientos positivos y negativos hacia los candidatos, particularmente en los debates presidenciales. En contraste, las publicaciones en X reflejaron un tono más neutral, especialmente en el caso de Jorge Álvarez Maynez, donde predominó la indiferencia o el equilibrio emocional. Esto sugiere que YouTube, como plataforma, amplifica la intensidad de las emociones al estar más centrada en el consumo de video y la interacción con eventos específicos, mientras que X parece actuar como un espacio de discusión más reflexivo y moderado en tiempo real.
 	
-	\section{Análisis de Temas}
+	\subsubsection{Comparación de Sentimientos entre los Debates y el Día de la Elección}
 	
+	El análisis de sentimientos a lo largo del proceso electoral permitió identificar cambios significativos en las emociones expresadas por los usuarios, marcando diferencias claras entre los debates presidenciales y el día de la elección.
+	
+	Durante los debates, las emociones estuvieron marcadas por una mayor polarización. Claudia Sheinbaum destacó con una proporción consistente de comentarios positivos, reflejando una percepción equilibrada que mejoró progresivamente a lo largo de los tres debates. Esta tendencia sugiere que su desempeño logró conectar con una parte significativa del electorado, generando confianza. Por otro lado, Xóchitl Gálvez enfrentó una alta proporción de comentarios negativos desde el primer debate, consolidando una percepción polarizada y crítica hacia su figura. A pesar de pequeñas variaciones, los comentarios negativos se mantuvieron constantes a lo largo de los debates, reflejando las dificultades que tuvo para mejorar su imagen entre los usuarios. Jorge Álvarez Maynez, en cambio, se posicionó como el candidato menos polarizante, con una abrumadora mayoría de comentarios neutrales. Este patrón indica que, si bien no generó controversia, tampoco logró captar suficiente atención o impacto entre la audiencia.
+	
+	El día de la elección marcó un cambio en el tono emocional de las conversaciones. Claudia Sheinbaum continuó dominando con comentarios mayoritariamente positivos, lo que refleja una consolidación de confianza y apoyo por parte de sus simpatizantes. Las emociones hacia Xóchitl Gálvez, aunque todavía polarizadas, mostraron un ligero aumento en la proporción de comentarios positivos durante las primeras horas del día, posiblemente impulsado por sus seguidores más activos. Sin embargo, los comentarios negativos hacia ella continuaron siendo significativos, reforzando la percepción crítica predominante. En cuanto a Jorge Álvarez Maynez, la neutralidad siguió siendo la emoción predominante, manteniéndose como un candidato que generó poca discusión o controversia en comparación con sus contrincantes.
+	
+	La principal diferencia entre los debates y el día de la elección radica en la intensidad y la dirección de las emociones. Durante los debates, el análisis reflejó un electorado crítico y atento, con emociones más divididas y opiniones formadas sobre los candidatos. En contraste, el día de la elección mostró un tono más emocional y optimista, con un enfoque en la experiencia de votar y en los resultados preliminares. Esto evidencia cómo el contexto y la naturaleza de cada evento influyen en las emociones expresadas por los usuarios en redes sociales, marcando una evolución en las percepciones a medida que avanzó el proceso electoral.
+	
+	
+	
+	\section{Análisis de Tópicos}
+	
+	El análisis de tópicos es una técnica del procesamiento de lenguaje natural que busca identificar temas subyacentes en grandes volúmenes de datos textuales. Este enfoque parte de la premisa de que los textos que comparten palabras o conceptos similares suelen estar relacionados semánticamente. Mediante técnicas de clusterización, es posible agrupar comentarios o publicaciones que tienen patrones lingüísticos comunes, lo que permite inferir temas principales a partir de cada grupo.
+	
+	La clusterización resulta eficaz porque organiza los datos textuales en conjuntos o \textit{clusters} que representan similitudes en su contenido. Cada cluster se interpreta como un conjunto de textos que gira en torno a un mismo tema, y al analizar las palabras más frecuentes o características de cada grupo, se pueden identificar las ideas centrales que lo definen. Por ejemplo, si un cluster contiene palabras como \textit{cambio}, \textit{progreso} y \textit{política}, es probable que el tema subyacente esté relacionado con propuestas de mejora o debates políticos.
+	
+	En este estudio, se utilizó el modelo BERTopic, una herramienta que combina tres componentes clave:
+	\begin{itemize}
+		\item \textbf{Embeddings semánticos:} Representan el significado de los textos en un espacio vectorial, donde textos similares están más cercanos.
+		\item \textbf{Reducción de dimensionalidad:} Simplifica los datos para facilitar la visualización y el procesamiento sin perder relaciones importantes entre textos.
+		\item \textbf{Clustering de alta densidad:} Agrupa los textos en clusters basados en la densidad de los puntos en el espacio reducido, lo que ayuda a identificar patrones semánticos consistentes.
+	\end{itemize}
+	
+	El resultado es un conjunto de tópicos que representan los temas más discutidos dentro del corpus analizado. Este enfoque permite no solo identificar los temas principales, sino también cuantificar la cantidad de textos asociados a cada uno, proporcionando una visión clara de las dinámicas y preferencias expresadas en redes sociales.
+	
+	El proceso de análisis de tópicos se llevó a cabo en las siguientes etapas:
+	
+	
+	\subsection{Preprocesamiento}
+	Antes de generar los embeddings y proceder con el análisis de tópicos, se llevó a cabo un proceso de preprocesamiento de los comentarios recopilados de YouTube y X. Este paso es fundamental para garantizar que los datos textuales estén en un formato limpio y uniforme, facilitando así la extracción de características relevantes. El preprocesamiento incluyó las siguientes tareas:
+	
+	\begin{itemize}
+		\item \textbf{Conversión a texto:} Todos los comentarios fueron convertidos a cadenas de texto para evitar problemas con valores nulos o datos de tipo incorrecto.
+		\item \textbf{Eliminación de palabras vacías (\textit{stopwords}):} Se utilizó una función personalizada para remover palabras comunes del idioma español que no aportan significado semántico (como \textit{el, la, de}, etc.). Esto permitió enfocar el análisis en términos más relevantes para los datos.
+		\item \textbf{Limpieza de texto:} Se eliminaron caracteres especiales, espacios en blanco excesivos y elementos irrelevantes para el análisis, dejando únicamente el contenido textual procesado.
+	\end{itemize}
+	
+	
+	\subsection{BETO Embeddings}
+	Para capturar las características semánticas de los datos textuales, se utilizaron embeddings generados con el modelo BETO, un modelo de lenguaje basado en Transformer optimizado para el idioma español. Estos embeddings representan cada texto en un espacio vectorial de alta dimensionalidad, preservando relaciones semánticas entre las palabras y frases, dicho vector de características resultante de este modelo comparte las mismas propiedades que el detallado en la sección Análisis de Sentimientos.
+
+	\subsection{Reducción de Dimensionalidad}
+	Dado que trabajar con datos en alta dimensionalidad puede ser computacionalmente costoso, se aplicó la técnica UMAP (\textit{Uniform Manifold Approximation and Projection}) para reducir la dimensionalidad de los embeddings. Este método preserva tanto la estructura local como la global de los datos. Los hiperparámetros clave utilizados fueron:
+	
+	\begin{itemize}
+		\item \textbf{n\_neighbors = 15:} Define el número de vecinos locales considerados para construir la estructura de los datos. Este valor logra un equilibrio entre capturar estructuras locales y globales.
+		\item \textbf{n\_components = 2:} Reduce los datos a dos dimensiones, facilitando la visualización y el agrupamiento.
+		\item \textbf{metric = 'cosine':} Utiliza la distancia coseno, una métrica adecuada para datos textuales, ya que mide la similitud angular entre vectores.
+		\item \textbf{random\_state = 42:} Asegura la reproducibilidad de los resultados al fijar una semilla para la generación aleatoria.
+	\end{itemize}
+
+	
+	\subsection{Clusterización}
+	Despues, para identificar agrupamientos en el espacio reducido, se empleó el algoritmo HDBSCAN (\textit{Hierarchical Density-Based Spatial Clustering of Applications with Noise}). Este método es una extensión de DBSCAN y se caracteriza por:
+	
+	\begin{itemize}
+		\item \textbf{Adaptabilidad a densidades variables:} A diferencia de DBSCAN, HDBSCAN detecta clusters en datos con densidades desiguales.
+		\item \textbf{Tolerancia al ruido:} Etiqueta puntos con baja densidad como ruido, lo que mejora la calidad de los clusters.
+	\end{itemize}
+	
+	Los hiperparámetros predeterminados utilizados fueron:
+	\begin{itemize}
+		\item \textbf{min\_cluster\_size = 5:} Número mínimo de documentos requeridos para formar un cluster.
+		\item \textbf{min\_samples:} Calculado automáticamente como \(1.5 \times\) \textit{min\_cluster\_size}, controla la clasificación de puntos como ruido.
+		\item \textbf{metric = 'euclidean':} Métrica de distancia utilizada por defecto.
+		\item \textbf{cluster\_selection\_epsilon = 0.0:} Define la tolerancia para formar clusters, con un valor estricto predeterminado.
+	\end{itemize}
+
+	Se calculó el coeficiente de silueta para evaluar la cohesión interna y separación de los clusters formados. Este coeficiente varía entre -1 y 1, donde valores cercanos a 1 indican una buena formación del cluster. Los resultados se representaron mediante un gráfico de siluetas y una visualización en 2D de los clusters generados.
+	
+	Los temas identificados se almacenaron en un archivo \texttt{topics.csv} con las siguientes columnas:
+	\begin{itemize}
+		\item \textbf{evento:} Identifica el evento al que corresponde (debate 1, debate 2, debate 3 o día de la elección).
+		\item \textbf{fecha:} Fecha del evento.
+		\item \textbf{Topic:} Palabra clave principal asignada al cluster.
+		\item \textbf{Count:} Número de comentarios asociados al cluster.
+		\item \textbf{Name:} Identificador del cluster.
+		\item \textbf{silhouette\_promedio:} Promedio del coeficiente de silueta del cluster.
+	\end{itemize}
+	
+	Posteriormente, se generó un archivo filtrado \texttt{selected\_topics.csv}, que contiene únicamente los clusters con mayor número de comentarios (\texttt{Count}) y un coeficiente de silueta mayor a 0.5, considerado como un umbral que garantiza una buena cohesión y evidencia suficiente de formación del cluster.
+
+	Los resultados del análisis de tópicos se presentan en dos formas:
+	\begin{itemize}
+		\item \textbf{Gráfico de Clusters en 2D:} Una representación visual de los clusters generados en el espacio reducido.
+		\item \textbf{Gráfico de Siluetas:} Evalúa la cohesión y separación de cada cluster, permitiendo interpretar la calidad de los agrupamientos.
+	\end{itemize}
+	
+	Estas visualizaciones proporcionan una perspectiva clara de las relaciones entre los temas identificados y la calidad de los agrupamientos obtenidos. En la siguiente sección, se presentan estas gráficas junto con el análisis de los resultados filtrados.
+	
+	\subsection{Resultados del Modelado de Tópicos}
+	
+	El análisis de los resultados obtenidos mediante BERTopic se centra en evaluar la calidad de los clusters generados y su relevancia para identificar los temas principales de los debates y el día de la elección presidencial. A través de las gráficas de silueta, se evalúa la cohesión interna y separación de cada cluster, lo que permite determinar su consistencia. Estas gráficas muestran cómo se distribuyen los coeficientes de silueta para los documentos dentro de cada cluster, donde valores más altos (cercanos a 1) indican mayor cohesión dentro del cluster y mejor separación respecto a otros clusters.
+	
+	A continuación, se presenta el análisis individual de las gráficas de silueta para cada evento, comenzando con la representación visual de cada gráfica.
+	
+	\subsubsection{Debate 1}
+	\begin{figure}[h!]
+		\centering
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{silhouette_debate1.pdf} 
+			\caption{Gráfica de Silueta para el primer debate}
+			\label{fig:silDeb1}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{clusters_debate1.pdf}
+			\caption{Grafica de clusters del primer debate}
+			\label{fig:clustDeb1}
+		\end{minipage}
+	\end{figure}
+	
+	En la gráfica correspondiente a la figura \ref{fig:silDeb1}, se observa una gran cantidad de clusters con coeficientes de silueta positivos, lo que indica que la mayoría de los clusters tienen buena cohesión interna. Sin embargo, también hay varios clusters con valores de silueta cercanos a cero o negativos, lo que refleja una posible superposición de temas o documentos ambiguos. Los clusters más grandes tienden a tener mejores valores de cohesión, lo que podría deberse a que capturan temas centrales con una gran cantidad de comentarios relacionados.
+	
+	\subsubsection{Debate 2}
+
+	\begin{figure}[h!]
+		\centering
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{silhouette_debate2.pdf} 
+			\caption{Gráfica de Silueta para el segundo debate}
+			\label{fig:silDeb2}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{clusters_debate2.pdf}
+			\caption{Grafica de clusters del segundo debate}
+			\label{fig:clustDeb2}
+		\end{minipage}
+	\end{figure}
+	
+	En la figura \ref{fig:silDeb2}, los resultados muestran menos clusters con coeficientes de silueta negativos en comparación con el Debate 1, lo que sugiere una mejor separación de los temas. Algunos clusters presentan valores significativamente altos, lo que implica la existencia de temas bien definidos y con alta cohesión. No obstante, hay una menor cantidad de clusters grandes en comparación con el Debate 1, lo que puede indicar una mayor fragmentación de los temas discutidos durante este evento.
+	
+	\subsubsection{Debate 3}
+
+	\begin{figure}[h!]
+		\centering
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{silhouette_debate2.pdf} 
+			\caption{Gráfica de Silueta para el tercer debate}
+			\label{fig:silDeb3}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{clusters_debate2.pdf}
+			\caption{Grafica de clusters del tercer debate}
+			\label{fig:clustDeb3}
+		\end{minipage}
+	\end{figure}
+	
+	La gráfica de silueta de la figura \ref{fig:silDeb3} muestra un patrón intermedio entre los dos debates anteriores. Se observa una mayor dispersión en los coeficientes de silueta, con algunos clusters bien definidos (valores altos) y otros con valores cercanos a cero o negativos. Esto sugiere que, aunque hubo temas centrales, también existieron comentarios que no pudieron ser agrupados de manera eficiente, posiblemente debido a una mayor variedad en los tópicos discutidos.
+	
+	\subsubsection{Día de la Elección}
+
+	\begin{figure}[h!]
+		\centering
+		\begin{minipage}{0.49\textwidth} % Mitad del ancho de la página
+			\includegraphics[width=\linewidth]{silhouette_diaEleccion.pdf} 
+			\caption{Gráfica de Silueta para el Dia de la Elección}
+			\label{fig:silDiaEleccion}
+		\end{minipage}
+		\hfill % Espacio flexible entre las dos imágenes
+		\begin{minipage}{0.49\textwidth}
+			\includegraphics[width=\linewidth]{clusters_diaElección.pdf}
+			\caption{Grafica de clusters el Dia de la Elección}
+			\label{fig:clustDiaEleccion}
+		\end{minipage}
+	\end{figure}
+	
+	En el Día de la Elección, la gráfica de silueta revela una menor cantidad de clusters con coeficientes negativos, lo que indica una mejor cohesión general en comparación con los debates. Esto podría deberse a que los temas discutidos durante este evento fueron más claros y específicos, como resultados, participación ciudadana y reacciones inmediatas. Además, los clusters grandes tienen valores de silueta significativamente altos, lo que sugiere que capturan temas centrales con alta claridad.
+	
+	En general, las gráficas de silueta indican que los clusters generados tienen una calidad aceptable, especialmente aquellos con valores de silueta superiores a 0.5. Las diferencias entre los eventos reflejan variaciones en la claridad y cohesión de los temas discutidos, siendo el Día de la Elección el evento con mejores resultados en términos de cohesión de clusters.
+	
+	\subsection{Selección de Tópicos Más Populares}
+	
+	El coeficiente de silueta ha sido una métrica clave en este estudio, no solo para evaluar la calidad de los clusters generados, sino también para garantizar que los tópicos seleccionados sean representativos de los temas principales discutidos durante el periodo electoral. Este coeficiente mide tanto la cohesión interna de los clusters como su separación respecto a otros. Valores bajos de silueta indicarían clusters dispersos y poco definidos, mientras que valores altos sugieren temas bien delimitados y con alta coherencia.
+	
+	Es crucial destacar que si hubiéramos seleccionado temas basándonos únicamente en la cantidad de comentarios asociados, sin considerar el coeficiente de silueta, podríamos haber incluido clusters que, aunque populares, carecen de una estructura bien definida. Dichos clusters podrían reflejar ruido en los datos o discusiones ambiguas, sin un tema central claro. Por el contrario, al aplicar un filtro basado en coeficientes de silueta promedio superiores a 0.5, aseguramos que los temas seleccionados sean tanto relevantes como claramente definidos.
+	
+	Este enfoque permitió seleccionar tópicos que no solo tienen una alta frecuencia de menciones, sino que también presentan evidencia sólida de cohesión interna y separación de otros temas. Los temas seleccionados representan las discusiones más destacadas y organizadas en las redes sociales durante los debates y el día de la elección.
+	
+	Para visualizar esta información, se generó un diagrama de burbuja en el que cada burbuja representa un tópico. El tamaño de la burbuja corresponde al número de comentarios asociados al tema, mientras que su posición en el eje x refleja el coeficiente de silueta promedio.
+	
+	\begin{figure}[H]
+		\centering
+		\includegraphics[width=\textwidth]{diagrama_burbuja.pdf}
+		\caption{Diagrama de burbuja de los tópicos más populares}
+		\label{fig:diagrama_burbuja}
+	\end{figure}
+	
+	\begin{table}[H]
+		\centering
+		\begin{tabular}{|l|l|l|r|l|c|}
+			\hline
+			\textbf{Num} & \textbf{Evento} & \textbf{Fecha} & \textbf{Tópico} & \textbf{Cantidad} & \textbf{Silhouette Promedio} \\
+			\hline
+			1 & Debate 1 & 2024-04-07 & debate, voto, candidatos, votar & 389 & 0.637 \\
+			2 & Debate 1 & 2024-04-07 & preguntas, xochitl, mentiras, vergüenza & 158 & 0.528 \\
+			3 & Debate 1 & 2024-04-07 & educación, niños, escuelas, escuela & 123 & 0.706 \\
+			4 & Debate 1 & 2024-04-07 & tiempo, minuto, quitan, reloj & 121 & 0.992 \\
+			5 & Debate 1 & 2024-04-07 & presidenta, presidente, maynez, claudia & 120 & 0.552 \\
+			6 & Debate 2 & 2024-04-28 & méxico, mexicanos, mexico, presidente & 198 & 0.695 \\
+			7 & Debate 2 & 2024-04-28 & presidenta, presidente, claudia, sheinbaum & 149 & 0.589 \\
+			8 & Debate 2 & 2024-04-28 & gasolina, subio, unidos, precio & 77 & 0.855 \\
+			9 & Debate 2 & 2024-04-28 & jajaja, jajajaja, PAN, xochitl & 46 & 0.833 \\
+			10 & Debate 2 & 2024-04-28 & doctora, vamos, plan, c & 41 & 0.583 \\
+			11 & Debate 3 & 2024-05-19 & méxico, mexicanos, mexico, hacer & 196 & 0.687 \\
+			12 & Debate 3 & 2024-05-19 & voto, votar, candidata, xochitl & 183 & 0.589 \\
+			13 & Debate 3 & 2024-05-19 & presidenta, presidente, claudia, xochitl & 124 & 0.631 \\
+			14 & Debate 3 & 2024-05-19 & sheinbaum, claudia, maynez, viva & 97 & 0.575 \\
+			15 & Debate 3 & 2024-05-19 & debate, no, preguntas, propuestas & 78 & 0.707 \\
+			16 & Día Elección & 2024-06-02 & méxico, elecciones, claudia, presidenta & 1306 & 0.619 \\
+			17 & Día Elección & 2024-06-02 & siguiente, presidenta, claudia, méxico & 162 & 0.687 \\
+			18 & Día Elección & 2024-06-02 & voté, xochitl, representado, pri & 117 & 0.959 \\
+			19 & Día Elección & 2024-06-02 & urnas, vota, inundemos, votar & 95 & 0.616 \\
+			20 & Día Elección & 2024-06-02 & mexico, voté, xochitl, presidenta & 58 & 0.981 \\
+			\hline
+		\end{tabular}
+		\caption{Tópicos populares durante los debates y el día de la elección}
+		\label{tab:topicos_seleccionados}
+	\end{table}
+	
+	\subsubsection{Reconstrucción de la narrativa electoral}
+	
+	El análisis de los comentarios durante los debates y el día de la elección nos permite reconstruir la conversación pública en redes sociales. Cada evento destacó por las preocupaciones e intereses específicos de los usuarios, reflejando un panorama diverso de temas clave en la jornada electoral.
+
+	Durante el primer debate, los comentarios se centraron en temas relacionados con el proceso de votación y las propuestas de los candidatos. Los usuarios discutieron cómo las propuestas presentadas podrían influir en sus decisiones electorales, mostrando interés en las soluciones planteadas para el futuro del país. Además, hubo un enfoque considerable en la dinámica del debate, particularmente en cómo se manejó el tiempo asignado a cada participante, lo que generó opiniones divididas sobre la equidad del formato.
+	
+	Las intervenciones de Xóchitl Gálvez fueron otro foco importante de discusión. Las respuestas de la candidata causaron reacciones polarizadas, con algunos usuarios cuestionando la solidez de sus argumentos, mientras que otros destacaron puntos específicos de sus declaraciones. Temas como la educación también captaron la atención del público, con comentarios relacionados con el futuro de las escuelas y el impacto en los niños.
+	
+	El segundo debate se caracterizó por un enfoque más amplio en temas nacionales, con usuarios comentando sobre el futuro del país y los desafíos que enfrentan los mexicanos. Este evento también trajo a la conversación temas concretos, como el precio de la gasolina y el manejo de recursos, que reflejan preocupaciones directas sobre la economía diaria.
+	
+	Además, este debate generó reacciones humorísticas y críticas hacia algunos momentos específicos, destacando cómo ciertos eventos dentro del debate lograron captar la atención del público de maneras inesperadas. La mezcla de humor y seriedad mostró una audiencia activa y comprometida con el análisis de los candidatos.
+
+	El tercer debate ofreció una oportunidad para que los usuarios evaluaran de manera más clara las propuestas de los candidatos. Las conversaciones en redes sociales reflejaron un enfoque en cómo las propuestas presentadas podrían implementarse y cómo impactarían directamente a la ciudadanía. Sin embargo, también hubo críticas hacia la falta de profundidad en algunos temas, lo que generó cierta frustración entre los usuarios.
+	
+	La discusión sobre los candidatos continuó con menciones específicas a sus planes y posturas, mostrando un electorado interesado en evaluar los argumentos presentados y su viabilidad.
+	
+	El día de la elección marcó un cambio notable en el tono de las conversaciones. Los usuarios se enfocaron en los resultados preliminares, con un interés particular en los avances de Claudia Sheinbaum y sus posibilidades como presidenta. Este tema dominó la discusión, reflejando una audiencia ansiosa por conocer el desenlace electoral.
+	
+	Además, muchos usuarios compartieron sus experiencias personales de voto, describiendo sus razones para apoyar a ciertos candidatos y sus perspectivas sobre el proceso electoral. Este intercambio de experiencias individuales fortaleció el uso de las redes sociales como un espacio para la participación cívica.
+	
+	La narrativa de los tópicos a lo largo de la jornada electoral evidencia cómo las prioridades del electorado evolucionaron con el tiempo. Desde las expectativas iniciales y la evaluación de propuestas en los debates hasta el enfoque en los resultados y las experiencias personales el día de la elección, los comentarios en redes sociales reflejan un electorado activo, involucrado y crítico. Este análisis no solo captura los temas más relevantes, sino que también resalta cómo los ciudadanos utilizaron estos espacios para expresar sus opiniones y participar en el diálogo electoral.
+	
+	\subsection{Comparación de los Temas Discutidos}
+	
+	El análisis muestra claras diferencias entre los temas discutidos en los debates y el día de la elección, reflejando cómo cambia el interés ciudadano a lo largo del proceso electoral.
+
+	Durante los debates, las conversaciones se centraron en evaluar las propuestas de los candidatos y su desempeño. Los usuarios discutieron temas como educación, economía y recursos energéticos, mientras que aspectos como el manejo del tiempo y las declaraciones polémicas también generaron opiniones divididas. Este periodo fue más analítico, con un enfoque en las ideas presentadas y su posible impacto.
+	
+	En contraste, el día de la elección, las discusiones giraron principalmente en torno a los resultados preliminares y las experiencias de los votantes. Las menciones a Claudia Sheinbaum dominaron las conversaciones, mientras que muchos ciudadanos compartieron sus razones para votar y reflexionaron sobre el proceso electoral, destacando un tono más emocional y participativo.
+	
+	Mientras que los debates promovieron un análisis crítico de las propuestas, el día de la elección estuvo marcado por la reacción inmediata a los resultados y la experiencia personal de los votantes. Este cambio evidencia cómo las prioridades de los ciudadanos evolucionan desde lo conceptual hacia lo concreto a medida que avanza el proceso electoral.
+	
+		
 	\section{Conclusiones}
 	
+	El estudio de minería de textos llevado a cabo sobre los debates presidenciales y el día de la elección presidencial en México 2024 permite extraer conclusiones clave que combinan análisis de sentimientos y modelado de tópicos, arrojando una visión integral de cómo la percepción pública evolucionó durante el proceso electoral.
+	
+	\subsection{Dinámica de los Debates Presidenciales}
+	Los debates presidenciales evidenciaron las diferencias en cómo los candidatos fueron percibidos por la ciudadanía, con los tópicos discutidos marcando el tono de las emociones reflejadas en los comentarios:
+	\begin{itemize}
+		\item Claudia Sheinbaum se consolidó como una figura de balance entre emociones positivas y neutras. Los comentarios destacaban su perfil presidencial, respaldado por temas relacionados con su liderazgo, como \textit{México}, \textit{presidenta} y \textit{futuro}. Esto sugiere que su discurso conectó con las expectativas de los votantes, posicionándola como una candidata sólida y confiable.
+		\item La polarización de Xóchitl Gálvez, quien continuó enfrentando críticas siendo etiquetada en tópicos como \textit{mentirosa} y \textit{sin vergüenza}. Además, los comentarios humorísticos y descalificaciones fueron recurrentes, como se reflejó en tópicos que incluían términos como \textit{mentiras}, \textit{vergüenza} y expresiones de burla (\textit{jajaja}). Esto muestra cómo ciertos segmentos del electorado percibieron su desempeño como polarizador y poco convincente.
+		\item Jorge Álvarez Maynez mantuvo una neutralidad abrumadora, reflejada en su falta de mención en temas destacados. Esto sugiere que, si bien no polarizó opiniones, tampoco logró generar un impacto significativo en la audiencia, quedando al margen de las conversaciones clave del proceso.
+	\end{itemize}
+	En general, los debates presidenciales se caracterizaron por un electorado crítico y atento, evaluando tanto los argumentos de los candidatos como su desempeño en tiempo real.
+	
+	\subsection{El Día de la Elección: Resultados y Participación Ciudadana}
+	El día de la elección marcó un cambio de enfoque, donde las emociones y los tópicos discutidos se centraron en los resultados y las experiencias de los votantes. Esto se reflejó en:
+	\begin{itemize}
+		\item Claudia Sheinbaum emergió como el centro de las conversaciones, con términos recurrentes como \textit{elecciones}, \textit{Claudia} y \textit{presidenta}, lo que sugiere que muchos usuarios ya la visualizaban como la ganadora. Este cambio hacia un tono predominantemente positivo refuerza la percepción de que su figura generó confianza en gran parte del electorado.
+		\item Xóchitl Gálvez continuó enfrentando críticas, aunque sus simpatizantes también expresaron apoyo en términos como \textit{voté por Xóchitl} y \textit{siguiente presidenta}. Sin embargo, la polarización siguió siendo evidente, con una mezcla de comentarios que cuestionaban su autenticidad y otros que celebraban su candidatura.
+		\item Jorge Álvarez Maynez se mantuvo en un segundo plano, con menciones mínimas en los tópicos relacionados con la votación. Este patrón refuerza la idea de que su campaña no logró conectar con la audiencia de manera significativa durante el proceso electoral.
+	\end{itemize}
+	
+	Además, los usuarios utilizaron las redes sociales como un espacio para compartir sus experiencias personales de votación, lo que evidencia el papel de estas plataformas como un canal de participación y reflexión ciudadana.
+		
+	
+	\subsection{Implicaciones Generales}
+	
+	La combinación de análisis de sentimientos y análisis de tópicos permitió capturar no solo los temas más discutidos, sino también las emociones que estos generaron. Este enfoque reveló cómo los ciudadanos reaccionaron de manera diferente en cada etapa del proceso electoral, proporcionando una visión integral de la percepción pública.
+	
+	Este estudio demuestra cómo las redes sociales actúan como un barómetro del sentir ciudadano en tiempo real, reflejando tanto las emociones como los temas clave del proceso electoral. Los resultados sugieren que los candidatos no solo deben considerar las propuestas que presentan, sino también cómo estas se discuten y perciben en el ámbito digital.
+	
+	En última instancia, la combinación de análisis de sentimientos y tópicos proporciona una herramienta poderosa para entender las dinámicas de percepción pública, ayudando a identificar los factores que influyen en la narrativa electoral y, potencialmente, en los resultados finales de una elección.
 	
 	
 	
 	
+	\newpage
 	\printbibliography
 	
 	
