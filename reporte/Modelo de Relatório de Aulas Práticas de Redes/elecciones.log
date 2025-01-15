@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  29 DEC 2024 23:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2024.3.18)  15 JAN 2025 17:26
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -1887,7 +1887,7 @@ Package logreq Info: Writing requests to 'elecciones.run.xml'.
 Here is how much of TeX's memory you used:
  25710 strings out of 478287
  455517 string characters out of 5849289
- 1350199 words of memory out of 5000000
+ 1349924 words of memory out of 5000000
  43367 multiletter control sequences out of 15000+600000
  527217 words of font info for 62 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1904,7 +1904,7 @@ hare/texmf/fonts/type1/public/lm/lmssbo10.pfb></usr/share/texmf/fonts/type1/pub
 lic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsso10.pfb></usr/s
 hare/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmtt10.pfb>
-Output written on elecciones.pdf (37 pages, 3925589 bytes).
+Output written on elecciones.pdf (37 pages, 3923325 bytes).
 PDF statistics:
  2370 PDF objects out of 2487 (max. 8388607)
  932 compressed objects within 10 object streams
